@@ -381,9 +381,19 @@ h6 - Praise author associations (FRANKLIN)
 
 				<h3>CONTACT US</h3>
 
-				<form>
+				<form name="comment_form" class="comment_form" method="post" action="confirm.html">
 
-					FORM HERE<BR>FORM HERE<BR>FORM HERE<BR>FORM HERE<BR>FORM HERE<BR>
+					<section class="form_wrapper clearfix">
+
+						<input type="text" name="name" class="name txt_input" placeholder="Your name" autocomplete="off" tabindex="1" >
+
+						<input type="email" name="email" class="email txt_input" placeholder="Your e-mail address" autocomplete="off" tabindex="2" >
+
+						<input type="tel" name="telephone" class="telephone txt_input" placeholder="Phone number?(optional)" tabindex="3" >
+
+						<textarea name="message" class="message txt_block" placeholder="Enter a cool message..." tabindex="4"></textarea>
+
+					</section>  <!-- CLOSE FORM_WRAPPER -->
 
 				</form>
 
