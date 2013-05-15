@@ -93,44 +93,46 @@ h3 {
   font-size: 22px;
   font-family: "Intro Bold", sans-serif;
   font-weight: normal;
+  letter-spacing: 1px;
 }
 
-/* line 101, ../sass/dpstyles.scss */
+/* line 102, ../sass/dpstyles.scss */
 h4 {
   font-size: 18px;
   font-family: "ITC Franklin Gothic Std";
   font-weight: normal;
 }
 
-/* line 107, ../sass/dpstyles.scss */
+/* line 108, ../sass/dpstyles.scss */
 h5 {
   font-size: 16px;
   font-family: "ITC Franklin Gothic Std";
   font-weight: normal;
 }
 
-/* line 113, ../sass/dpstyles.scss */
+/* line 114, ../sass/dpstyles.scss */
 h6 {
   font-size: 16px;
   font-family: "Intro Bold", sans-serif;
   font-weight: normal;
 }
 
-/* line 119, ../sass/dpstyles.scss */
+/* line 120, ../sass/dpstyles.scss */
 .bodycopy {
   font-size: 22px;
   font-family: "Intro Bold", sans-serif;
   font-weight: normal;
+  letter-spacing: 1px;
 }
 
-/* line 125, ../sass/dpstyles.scss */
+/* line 127, ../sass/dpstyles.scss */
 .subcopy {
   font-size: 16px;
   font-family: "Intro Light", sans-serif;
   font-weight: normal;
 }
 
-/* line 131, ../sass/dpstyles.scss */
+/* line 133, ../sass/dpstyles.scss */
 .formcopy {
   font-size: 14px;
   font-family: "Intro Light", sans-serif;
@@ -138,44 +140,54 @@ h6 {
 }
 
 /* SPECIFIC STYLES */
-/* line 139, ../sass/dpstyles.scss */
+/* line 141, ../sass/dpstyles.scss */
+.container {
+  margin: 0 auto;
+}
+
+/* line 146, ../sass/dpstyles.scss */
 .introduction {
   background: #e31f2d;
   color: white;
 }
 
-/* line 144, ../sass/dpstyles.scss */
+/* line 151, ../sass/dpstyles.scss */
 .marketFlavors {
   background: #dedede;
   color: #58595b;
 }
 
-/* line 149, ../sass/dpstyles.scss */
+/* line 156, ../sass/dpstyles.scss */
 .about {
   background: #41c3be;
   color: white;
 }
 
-/* line 154, ../sass/dpstyles.scss */
+/* line 161, ../sass/dpstyles.scss */
 .news {
   background: #a3c750;
   color: white;
 }
 
-/* line 159, ../sass/dpstyles.scss */
+/* line 166, ../sass/dpstyles.scss */
 .reviews {
   background: #8fb43a;
   color: white;
 }
 
-/* line 164, ../sass/dpstyles.scss */
+/* line 171, ../sass/dpstyles.scss */
 .farmersMarket {
   background: #dedede;
   color: #58595b;
 }
 
-/* line 169, ../sass/dpstyles.scss */
+/* line 176, ../sass/dpstyles.scss */
 .contact {
   background: #304a94;
   color: white;
+}
+
+/* line 181, ../sass/dpstyles.scss */
+.box {
+  padding: 80px 0;
 }
