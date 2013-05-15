@@ -1,0 +1,174 @@
+/* RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	height: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* SASS VARIABLES */
+
+$red: rgb(227,31,45);
+$darkred: adjust-lightness($red,-8);
+$lightgrey: rgb(222,222,222);
+$darkgrey: rgb(88,89,91);
+$aqua: rgb(65,195,190);
+$darkaqua: adjust-lightness($aqua,-8);
+$lightgreen: rgb(163,199,80);
+$green: adjust-lightness($lightgreen,-8);
+$darkgreen: adjust-lightness($green,-8);
+$pink: rgb(236,0,140);
+$lightblue: rgb(48,74,148);
+$blue: adjust-lightness($lightblue,-8);
+$darkblue: adjust-lightness($blue,-8);
+
+/* GENERAL STYLES */
+
+a{
+	text-decoration: none;
+	outline: none;
+}
+
+h1{
+	font-size: 55px;
+	font-family: "Intro Bold", sans-serif;
+	font-weight: normal;
+	margin: 0 0 30px 0;
+	color: white;
+
+	-moz-text-shadow:3px 3px 0 grey;
+    -webkit-text-shadow:3px 3px 0 grey;
+    text-shadow:3px 3px 0 grey;
+}
+
+h2{
+	font-size: 55px;
+	font-family: "Intro Light", sans-serif;
+	font-weight: normal;
+}
+
+
+h3{
+	font-size: 22px;
+	font-family: "Intro Bold", sans-serif;
+	font-weight: normal;
+}
+
+
+h4{
+	font-size: 18px;
+	font-family: "ITC Franklin Gothic Std";
+	font-weight: normal;
+}
+
+h5{
+	font-size: 16px;
+	font-family: "ITC Franklin Gothic Std";
+	font-weight: normal;
+}
+
+h6{
+	font-size: 16px;
+	font-family: "Intro Bold", sans-serif;
+	font-weight: normal;
+}
+
+.bodycopy{
+	font-size: 22px;
+	font-family: "Intro Bold", sans-serif;
+	font-weight: normal;
+}
+
+.subcopy{
+	font-size: 16px;
+	font-family: "Intro Light", sans-serif;
+	font-weight: normal;
+}
+
+.formcopy{
+	font-size: 14px;
+	font-family: "Intro Light", sans-serif;
+	font-weight: normal;
+}
+
+/* SPECIFIC STYLES */
+
+.introduction{
+	background: $red;
+	color: white;
+}
+
+.marketFlavors{
+	background: $lightgrey;
+	color: $darkgrey;
+}
+
+.about{
+	background: $aqua;
+	color: white;
+}
+
+.news{
+	background: $lightgreen;
+	color: white;
+}
+
+.reviews{
+	background: $green;
+	color: white;
+}
+
+.farmersMarket{
+	background: $lightgrey;
+	color: $darkgrey;
+}
+
+.contact{
+	background: $lightblue;
+	color: white;
+}
+
+

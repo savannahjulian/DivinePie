@@ -15,7 +15,7 @@
 	</style>
 
 	<link rel="shortcut icon" href="favicon.ico" />
-	<link rel="Stylesheet" href="css/dpstyle.css" type="text/css" media="all" />
+	<link rel="Stylesheet" href="css/dpstyles.css" type="text/css" media="all" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 	 <!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -33,12 +33,14 @@ Possible HEADERS & CLASSES
 
 These can be altered!!!
 
-h1 - DIVINE PIE (indented -100% so only bg image (LOGOMARK) is visible)
+h1 - slideshow taglines
 h2 - Main Section Headers (INTRO)
 h3 - Sub-headers, About module headers
-h4 - Flavors in stores, Newsfeed headers, Praise author names (INTRO)
+h4 - Flavors in stores (FRANKLIN)
 h5 - Flavors at farmers market (FRANKLIN)
-h6 - Praise author associations (FRANKLIN)
+h6 - Newsfeed titles (INTRO)
+
+
 
 .flavor_module = individual modules of FLAVOR section
 .quotes = colored quotes in PRAISE quotes (used in SPAN tags)
@@ -54,14 +56,14 @@ h6 - Praise author associations (FRANKLIN)
 
 		<header>
 
-			<h1>Divine Pie</h1>
+			<div>Divine Pie</div>
 
 			<nav>
 				<ul>
-					<li><a href="#">FLAVORS</a></li>
-					<li><a href="#">ABOUT</a></li>
-					<li><a href="#">NEWS</a></li>
-					<li><a href="#">FIND US</a></li>
+					<li><h6><a href="#">FLAVORS</a></h6></li>
+					<li><h6><a href="#">ABOUT</a></h6></li>
+					<li><h6><a href="#">NEWS</a></h6></li>
+					<li><h6><a href="#">FIND US</a></h6></li>
 				</ul>
 			</nav>
 
@@ -75,10 +77,10 @@ h6 - Praise author associations (FRANKLIN)
 
 				<ul>
 
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
+					<li>THIS PIE IS DELICIOUS</li>
+					<li>RAW, VEGAN, GLUTEN-FREE</li>
+					<li>2013 TRIUMPH DINING BEST OF GLUTEN-FREE NOMINEE</li>
+					<li>A PURE INDULGENCE</li>
 
 				</ul>
 
@@ -89,16 +91,16 @@ h6 - Praise author associations (FRANKLIN)
 
 	<!-- BRIEF DESCRIPTION -->
 
-		<section>
+		<section class="introduction">
 
 			<h2>Dessert lovers rejoice!<br>This pie is delicious <i>and</i> healthy.</h2>
-			<p>...</p>
+			<div class="bodycopy">Our pie crusts are gluten-free, made with a light and tasty blend of nuts, dates, and coconut flakes; while the pie fillings are raw, dairy and sugar free, supremely creamy, and rich with bold flavors. Divine pies can be enjoyed by people with a variety of food allergies, sensitivities, and preferences.</div>
 
 		</section>
 
 	<!-- FLAVORS SECTION -->
 
-		<section>
+		<section class="wholesaleFlavors">
 
 			<div class="flavor_module">
 				<h3>THESE FLAVORS ARE CURRENTLY AVAILABLE AT YOUR LOCAL VENDOR!</h3>
@@ -107,29 +109,31 @@ h6 - Praise author associations (FRANKLIN)
 
 			<div class="flavor_module">
 				<h4>PASSIONFRUIT CHEESECAKE</h4>
-				<p>...</p>
+				<p>A little taste of Hawaii goes a long way for those of us trapped in Portland’s rainy season. This cheesecake is rich with fresh passionfruit flavor.</p>
 			</div>
 
 			<div class="flavor_module">
 				<h4>KEYLIME PIE</h4>
-				<p>...</p>
+				<p>Fresh, hand-squeezed lime juice gives our Key Lime a perfect balance of refreshing tartness. Ripe, creamy avocado makes for a sweet, creamy pie.</p>
 			</div>
 
 			<div class="flavor_module">
 				<h4>CHOCOLATE HAZELNUT CREAM PIE</h4>
-				<p>...</p>
+				<p>We use local hazelnuts from Freddy Guys Farms in our delicate pie crusts and fresh hazelnut milk in the filling. Raw cacao is rich and nourishing.</p>
 			</div>
 
 			<div class="flavor_module">
 				<h4>COCONUT CREAM PIE</h4>
-				<p>...</p>
+				<p>This delightful favorite could be one of the healthiest desserts on the market. fresh young coconut meat creates an indulgently creamy pie, made without any refined sugars!</p>
 			</div>
 
 			<div class="flavor_module">
 				<h4>OREGON BERRY CHEESECAKE</h4>
-				<p>...</p>
+				<p>Raw cashew cream makes for the dense creamy texture of cheesecake, but without dairy. The flavors change subtly throughout the season.</p>
 			</div>
+		</section>
 
+		<section class="marketFlavors">
 			<div class="flavor_module">
 				<h3>MORE UNIQUE AND SEASONAL FLAVORS ARE AVAILABLE AT OUR FARMERS MARKET BOOTH!</h3>
 			</div>
@@ -160,14 +164,16 @@ h6 - Praise author associations (FRANKLIN)
 
 	<!-- ABOUT SECTION -->
 
-		<section>
+		<section class="about">
 
 			<h2>What we're all about!</h2>
 
 			<section>
 
 				<h3>OUR STORY</h3>
-				<p>MANY YEARS AGO</p>
+				<p>Many years ago, the proPIEter of Divine Pie- Alissa Martucci – got hooked on making pies during a raw food cleanse. Desperate for something decadent that fit those strict alkalizing rules, she began experimenting with different nuts and dates and fruits, trying to satisfy her sweet tooth with a dessert that was simultaneously rich, creamy and raw..not an easy task! After many gooey crusts, floppy fillings, inadequate blenders and broken food processors, she finally achieved the perfect pie:: the one that could convert even the staunchest gluten and dairy and sugar-loving foodies into raw pie enthusiasts.
+
+The pies got their first exposure to the public taste bud when they were sold at small food carts and events around town.  After countless special orders and requests, Alissa decided to try the pies out at the Portland Farmers market, and sold out on the first day! Within 6 months of their debut, the pies were featured on the Food Network’s popular show “Unique Sweets” . Since then, the pies have continued to grown in popularity and availability, with new flavors being dreamed up on a regular basis!</p>
 
 			</section>
 
@@ -189,7 +195,7 @@ h6 - Praise author associations (FRANKLIN)
 
 	<!-- NEWS SECTION -->
 
-		<section>
+		<section class="news">
 
 			<h2>Big things are happening for us!<br>To stay updated on the latest news, LIKE US on <a href="https://www.facebook.com/pages/Divine-Pie/216484055084120">facebook!</a></h2>
 
@@ -229,7 +235,7 @@ h6 - Praise author associations (FRANKLIN)
 
 	<!-- PRAISE SECTION -->
 
-		<section>
+		<section class="reviews">
 
 			<h2>They Love Us!</h2>
 
@@ -346,7 +352,7 @@ h6 - Praise author associations (FRANKLIN)
 
 			</section>
 
-			<section>
+			<section class="farmersMarket">
 
 				<h3>VISIT US AT THE FARMERS MARKET!</h3>
 				<p>Come try our delicious...</p>
@@ -358,7 +364,7 @@ h6 - Praise author associations (FRANKLIN)
 
 	<!-- CONTACT SECTION -->
 
-		<section>
+		<section class="contact">
 
 			<!-- CONTACT INFO COLUMN LEFT -->
 

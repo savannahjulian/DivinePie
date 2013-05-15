@@ -1,0 +1,181 @@
+/* RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 19, ../sass/dpstyles.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 29, ../sass/dpstyles.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 32, ../sass/dpstyles.scss */
+body {
+  line-height: 1;
+  height: 100%;
+}
+
+/* line 36, ../sass/dpstyles.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 39, ../sass/dpstyles.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 43, ../sass/dpstyles.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 47, ../sass/dpstyles.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* SASS VARIABLES */
+/* GENERAL STYLES */
+/* line 70, ../sass/dpstyles.scss */
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 75, ../sass/dpstyles.scss */
+h1 {
+  font-size: 55px;
+  font-family: "Intro Bold", sans-serif;
+  font-weight: normal;
+  margin: 0 0 30px 0;
+  color: white;
+  -moz-text-shadow: 3px 3px 0 grey;
+  -webkit-text-shadow: 3px 3px 0 grey;
+  text-shadow: 3px 3px 0 grey;
+}
+
+/* line 87, ../sass/dpstyles.scss */
+h2 {
+  font-size: 55px;
+  font-family: "Intro Light", sans-serif;
+  font-weight: normal;
+}
+
+/* line 94, ../sass/dpstyles.scss */
+h3 {
+  font-size: 22px;
+  font-family: "Intro Bold", sans-serif;
+  font-weight: normal;
+}
+
+/* line 101, ../sass/dpstyles.scss */
+h4 {
+  font-size: 18px;
+  font-family: "ITC Franklin Gothic Std";
+  font-weight: normal;
+}
+
+/* line 107, ../sass/dpstyles.scss */
+h5 {
+  font-size: 16px;
+  font-family: "ITC Franklin Gothic Std";
+  font-weight: normal;
+}
+
+/* line 113, ../sass/dpstyles.scss */
+h6 {
+  font-size: 16px;
+  font-family: "Intro Bold", sans-serif;
+  font-weight: normal;
+}
+
+/* line 119, ../sass/dpstyles.scss */
+.bodycopy {
+  font-size: 22px;
+  font-family: "Intro Bold", sans-serif;
+  font-weight: normal;
+}
+
+/* line 125, ../sass/dpstyles.scss */
+.subcopy {
+  font-size: 16px;
+  font-family: "Intro Light", sans-serif;
+  font-weight: normal;
+}
+
+/* line 131, ../sass/dpstyles.scss */
+.formcopy {
+  font-size: 14px;
+  font-family: "Intro Light", sans-serif;
+  font-weight: normal;
+}
+
+/* SPECIFIC STYLES */
+/* line 139, ../sass/dpstyles.scss */
+.introduction {
+  background: #e31f2d;
+  color: white;
+}
+
+/* line 144, ../sass/dpstyles.scss */
+.marketFlavors {
+  background: #dedede;
+  color: #58595b;
+}
+
+/* line 149, ../sass/dpstyles.scss */
+.about {
+  background: #41c3be;
+  color: white;
+}
+
+/* line 154, ../sass/dpstyles.scss */
+.news {
+  background: #a3c750;
+  color: white;
+}
+
+/* line 159, ../sass/dpstyles.scss */
+.reviews {
+  background: #8fb43a;
+  color: white;
+}
+
+/* line 164, ../sass/dpstyles.scss */
+.farmersMarket {
+  background: #dedede;
+  color: #58595b;
+}
+
+/* line 169, ../sass/dpstyles.scss */
+.contact {
+  background: #304a94;
+  color: white;
+}
