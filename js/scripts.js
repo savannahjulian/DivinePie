@@ -2,7 +2,7 @@
 /*
 	Watch for browser size change:
 */
-window.addEventListener( 'scroll' , stickyMe );
+/*window.addEventListener( 'scroll' , stickyMe );
 
 window.addEventListener( 'resize' , slideAdjust );
 
@@ -37,4 +37,4 @@ $(document).ready(function() {
 		prev: '#prev',
 		next: '#next'
 	});
-});
+}); */

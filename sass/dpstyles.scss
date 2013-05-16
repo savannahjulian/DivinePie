@@ -128,9 +128,10 @@ h6{
 
 .subcopy{
 	font-size: 16px;
-	font-family: "Intro Light", sans-serif;
+	font-family: Verdana, sans-serif; 
 	font-weight: normal;
 	line-height: 20px;
+	margin-bottom: 1.5em;
 }
 
 .formcopy{
@@ -198,6 +199,20 @@ nav{
 	color: white;
 }
 
+.about h2{
+	text-align:center;
+	margin-bottom: 50px;
+}
+
+.whiteBox{
+	background: white;
+	padding: 20px;
+}
+
+.whiteBox .subcopy{
+	color: $darkgrey;
+}
+
 .news{
 	background: $lightgreen;
 	color: white;
@@ -229,15 +244,15 @@ nav{
 }
 
 .contact{
-	background: $lightblue;
+	background: $red;
 	color: white;
 }
 
 .txt_input,.txt_block{
-	background: $darkblue;
+	background: $darkred;
 	color: white;
 	padding: 5px;
-	border: solid 1px $darkblue;
+	border: solid 1px $darkred;
 	margin-bottom: 10px;
 }
 
