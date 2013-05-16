@@ -17,12 +17,15 @@
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="Stylesheet" href="css/dpstyles.css" type="text/css" media="all" />
 	<link rel="Stylesheet" href="css/12cols.css" type="text/css" media="all" />
+
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle.all.latest.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
 	 <!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAqGKrodpdEs6flaj3xFw-gevNcTZCR8F0&sensor=true"></script>
-	<script type="text/javascript" src="js/google_map.js"></script>
+	<!--<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAqGKrodpdEs6flaj3xFw-gevNcTZCR8F0&sensor=true"></script>-->
+	<!--<script type="text/javascript" src="js/google_map.js"></script>-->
 
 </head>
 
@@ -55,6 +58,34 @@ h6 - Newsfeed titles (INTRO)
 
 	<div class="container">
 
+	<!-- SLIDESHOW -->
+
+		<section>
+
+			<div id="slideshow">
+			
+				<div class="hero-image" style="background-image:url('images/slide_1.jpg')">+THIS PIE IS DELICIOUS</div>
+				<div class="hero-image" style="background-image:url('images/slide_2.jpg')">+RAW, VEGAN, GLUTEN-FREE</div>
+				<div class="hero-image" style="background-image:url('images/slide_3.jpg')">+2013 TRIUMPH DINING BEST OF GLUTEN-FREE NOMINEE</div>
+				<div class="hero-image" style="background-image:url('images/slide_4.jpg')">+A PURE INDULGENCE</div>
+
+			</div>
+
+				<!--<ul>
+
+					<li>THIS PIE IS DELICIOUS</li>
+					<li>RAW, VEGAN, GLUTEN-FREE</li>
+					<li>2013 TRIUMPH DINING BEST OF GLUTEN-FREE NOMINEE</li>
+					<li>A PURE INDULGENCE</li>
+
+				</ul>-->
+
+			
+
+		</section>  <!-- CLOSE SLIDESHOW -->
+
+		<!-- NAVIGATION -->
+
 		<header>
 
 			<div>Divine Pie</div>
@@ -68,26 +99,7 @@ h6 - Newsfeed titles (INTRO)
 				</ul>
 			</nav>
 
-		</header>
-
-	<!-- SLIDESHOW -->
-
-		<section>
-
-			<div>
-
-				<ul>
-
-					<li>THIS PIE IS DELICIOUS</li>
-					<li>RAW, VEGAN, GLUTEN-FREE</li>
-					<li>2013 TRIUMPH DINING BEST OF GLUTEN-FREE NOMINEE</li>
-					<li>A PURE INDULGENCE</li>
-
-				</ul>
-
-			</div>
-
-		</section>  <!-- CLOSE SLIDESHOW -->
+		</header>	<!-- CLOSE NAVIGATION -->
 
 
 	<!-- BRIEF DESCRIPTION -->
@@ -366,74 +378,95 @@ h6 - Newsfeed titles (INTRO)
 					<div id="map-canvas"></div>
 				</section>
 
-				THIS GOES IN CSS:  html { height: 100% }
+				<!--THIS GOES IN CSS:  html { height: 100% }
   body { height: 100%; margin: 0; padding: 0 }
-  #map-canvas { height: 100% }
+  #map-canvas { height: 100% }-->
 
 
-				<section>VENDOR LOGOS<br>VENDOR LOGOS<br>VENDOR LOGOS<br>VENDOR LOGOS<br>VENDOR LOGOS<br></section>
+				<section class="logoLinks">
+					<div class="section group">
+						<a href="#"><img class="logo" src="images/ashlandFoodCoop.png" alt="" title="" /></a>
+						<a href="#"><img class="logo" src="images/albertaCoop.png" alt="" title="" /></a>
+						<a href="#"><img class="logo" src="images/chucksProduce.png" alt="" title="" /></a>
+						<a href="#"><img class="logo" src="images/newSeasons.png" alt="" title="" /></a>
+						<a href="#"><img class="logo" src="images/peoplesCoop.png" alt="" title="" /></a>
+						<a href="#"><img class="logo" src="images/wholeFoods.png" alt="" title="" /></a>
+					</div>
+				</section>
 
 			</section>
 
 			<section class="farmersMarket box">
+				<div class="section group">
 
-				<h3>VISIT US AT THE FARMERS MARKET!</h3>
-				<p>Come try our delicious...</p>
-				<p>The Portland Farmers Market is located at...</p>
-				<p>For more info visit their <a href="http://www.portlandfarmersmarket.org/markets/psu/">website</a></p>
+					<div class="col span_6_of_12">
+						<div class="marketPhoto">
+						</div>
+					</div>
+
+					<div class="col span_6_of_12">
+						<h3>VISIT US AT THE FARMERS MARKET!</h3>
+						<div class="subcopy">Come try our delicious pies every Saturday from March 16th to December 21st on the park blocks at Portland State University.</div>
+
+						<div class="subcopy">The Portland Farmers Market is located at Portland State University in the South Park Blocks between SW Hall & SW Montgomery. A close street address to this market is 1717 SW Park Avenue. </div>
+
+						<div class="subcopy">For more info visit their
+						<a href="http://www.portlandfarmersmarket.org/markets/psu/">website</a>.</div>
+					</div>
+				</div>
 			</section>
 
 		</section>  <!-- CLOSE FIND US SECTION -->
 
 	<!-- CONTACT SECTION -->
 
-		<section class="contact box section group">
+		<section class="contact box">
 
 			<!-- CONTACT INFO COLUMN LEFT -->
+			<div class="section group">
+				<section class="col span_6_of_12">
 
-			<section class="col span_4_of_12">
+					<h3>WHOLESALE ORDERING DETAIL</h3>
 
-				<h3>WHOLESALE ORDERING DETAIL</h3>
+					<div class="subcopy">Divine Pie does local, direct delivery for all customers in the Portland area. We are always ready to fill your orders and stock your shelves.</div>
 
-				<p>Divine Pie does local, direct delivery for all customers in the Portland area. We are always ready to fill your orders and stock your shelves. 
+					<div class="subcopy">We provide two size options for restaurants, bakeries, cafes, grocery and retail outlets:</div>
 
-				<p>We provide two size options for restaurants, bakeries, cafes, grocery and retail outlets:</p>
+					<div class="subcopy">+ Cases (12/case) of frozen, 5” mini pies (4.5 oz each)</div>
+					<div class="subcopy">+ 10” whole pies (10 slices per pie)</div>
 
-				<div>+ Cases (12/case) of frozen, 5” mini pies (4.5 oz each)</div>
-				<div>+ 10” whole pies (10 slices per pie)</div>
+					<h3>PHONE</h3>
+					<h3>503-515-4088</h3>
+					<br>
+					<h3>EMAIL</h3>
+					<h3>divinepiepdx@yahoo.com</h3>
 
-				<h3>PHONE</h3>
-				<h3>503-515-4088</h3>
-				<br>
-				<h3>EMAIL</h3>
-				<h3>divinepiepdx@yahoo.com</h3>
-
-			</section>  <!-- CLOSE INFO COLUMN LEFT -->
+				</section>  <!-- CLOSE INFO COLUMN LEFT -->
 
 		<!-- FORM COLUMN RIGHT -->
 
-			<section class="col span_4_of_12">
+				<section class="col span_6_of_12">
 
-				<h3>CONTACT US</h3>
+					<h3>CONTACT US</h3>
 
-				<form name="comment_form" class="comment_form" method="post" action="confirm.html">
+					<form name="comment_form" class="comment_form" method="post" action="confirm.html">
 
-					<section class="form_wrapper clearfix">
+						<section class="form_wrapper clearfix">
 
-						<input type="text" name="name" class="name txt_input subcopy" placeholder="Name" autocomplete="off" tabindex="1" >
+							<input type="text" name="name" class="name txt_input subcopy" placeholder="Name" autocomplete="off" tabindex="1" >
 
-						<input type="email" name="email" class="email txt_input subcopy" placeholder="E-mail" autocomplete="off" tabindex="2" >
+							<input type="email" name="email" class="email txt_input subcopy" placeholder="E-mail" autocomplete="off" tabindex="2" >
 
-						<input type="tel" name="telephone" class="telephone txt_input subcopy" placeholder="Phone Number (optional)" tabindex="3" >
+							<input type="tel" name="telephone" class="telephone txt_input subcopy" placeholder="Phone Number (optional)" tabindex="3" >
 
-						<textarea name="message" class="message txt_block subcopy" placeholder="Your Message" tabindex="4"></textarea>
+							<textarea name="message" class="message txt_block subcopy" placeholder="Your Message" tabindex="4"></textarea>
 
-					</section>  <!-- CLOSE FORM_WRAPPER -->
+						</section>  <!-- CLOSE FORM_WRAPPER -->
 
-				</form>
+					</form>
 
-			</section>  <!-- CLOSE FORM COLUMN RIGHT -->
-
+				</section>  <!-- CLOSE FORM COLUMN RIGHT -->
+			</div>
 		</section>  <!-- CLOSE CONTACT SECTION -->
 
 		<footer>

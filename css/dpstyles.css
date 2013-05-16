@@ -159,17 +159,32 @@ nav {
 }
 
 /* line 156, ../sass/dpstyles.scss */
+#slideshow {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 162, ../sass/dpstyles.scss */
+#slideshow > div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 170, ../sass/dpstyles.scss */
 .introduction {
   background: #e31f2d;
   color: white;
 }
 
-/* line 161, ../sass/dpstyles.scss */
+/* line 175, ../sass/dpstyles.scss */
 .wholesaleDetails {
   color: #e31f2d;
 }
 
-/* line 165, ../sass/dpstyles.scss */
+/* line 179, ../sass/dpstyles.scss */
 .pieIcon {
   width: 93px;
   height: 93px;
@@ -177,48 +192,62 @@ nav {
   display: block;
 }
 
-/* line 173, ../sass/dpstyles.scss */
+/* line 187, ../sass/dpstyles.scss */
 .flavor_module {
   text-align: center;
 }
 
-/* line 177, ../sass/dpstyles.scss */
+/* line 191, ../sass/dpstyles.scss */
 .marketFlavors {
   background: #dedede;
   color: #58595b;
 }
 
-/* line 182, ../sass/dpstyles.scss */
+/* line 196, ../sass/dpstyles.scss */
 .about {
   background: #41c3be;
   color: white;
 }
 
-/* line 187, ../sass/dpstyles.scss */
+/* line 201, ../sass/dpstyles.scss */
 .news {
   background: #a3c750;
   color: white;
 }
 
-/* line 192, ../sass/dpstyles.scss */
+/* line 206, ../sass/dpstyles.scss */
 .reviews {
   background: #8fb43a;
   color: white;
 }
 
-/* line 197, ../sass/dpstyles.scss */
+/* line 214, ../sass/dpstyles.scss */
+.logo {
+  float: left;
+  height: 60px;
+  margin-right: 39px;
+}
+
+/* line 220, ../sass/dpstyles.scss */
 .farmersMarket {
   background: #dedede;
   color: #58595b;
 }
 
-/* line 202, ../sass/dpstyles.scss */
+/* line 225, ../sass/dpstyles.scss */
+.marketPhoto {
+  background: url("../images/market_1.jpg") no-repeat 0 0;
+  width: 460px;
+  height: 423px;
+}
+
+/* line 231, ../sass/dpstyles.scss */
 .contact {
   background: #304a94;
   color: white;
 }
 
-/* line 207, ../sass/dpstyles.scss */
+/* line 236, ../sass/dpstyles.scss */
 .txt_input, .txt_block {
   background: #1c2b56;
   color: white;
@@ -227,14 +256,14 @@ nav {
   margin-bottom: 10px;
 }
 
-/* line 215, ../sass/dpstyles.scss */
+/* line 244, ../sass/dpstyles.scss */
 .box {
   padding: 80px 0;
 }
 
 /* GRID SYSTEM STYLES */
 /*  SECTIONS  */
-/* line 222, ../sass/dpstyles.scss */
+/* line 251, ../sass/dpstyles.scss */
 .section {
   clear: both;
   padding: 0px;
@@ -243,27 +272,27 @@ nav {
 }
 
 /*  COLUMN SETUP  */
-/* line 230, ../sass/dpstyles.scss */
+/* line 259, ../sass/dpstyles.scss */
 .col {
   display: block;
   float: left;
   margin: 1% 0 1% 1.6%;
 }
 
-/* line 235, ../sass/dpstyles.scss */
+/* line 264, ../sass/dpstyles.scss */
 .col:first-child {
   margin-left: 0;
 }
 
 /*  GROUPING  */
-/* line 239, ../sass/dpstyles.scss */
+/* line 268, ../sass/dpstyles.scss */
 .group:before,
 .group:after {
   content: "";
   display: table;
 }
 
-/* line 243, ../sass/dpstyles.scss */
+/* line 272, ../sass/dpstyles.scss */
 .group:after {
   clear: both;
 }

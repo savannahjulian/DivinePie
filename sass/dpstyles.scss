@@ -153,6 +153,20 @@ nav{
 	color: $red;
 }
 
+#slideshow{
+  	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+#slideshow > div{
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+
 .introduction{
 	background: $red;
 	color: white;
@@ -194,9 +208,24 @@ nav{
 	color: white;
 }
 
+.logoLinks{
+}
+
+.logo{
+	float: left;
+	height: 60px;
+	margin-right: 39px;
+}
+
 .farmersMarket{
 	background: $lightgrey;
 	color: $darkgrey;
+}
+
+.marketPhoto{
+	background: url('../images/market_1.jpg') no-repeat 0 0;
+	width: 460px;
+	height: 423px;
 }
 
 .contact{
