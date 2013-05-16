@@ -158,43 +158,48 @@ h6 {
 }
 
 /* line 156, ../sass/dpstyles.scss */
+.flavor_module {
+  text-align: center;
+}
+
+/* line 161, ../sass/dpstyles.scss */
 .about {
   background: #41c3be;
   color: white;
 }
 
-/* line 161, ../sass/dpstyles.scss */
+/* line 166, ../sass/dpstyles.scss */
 .news {
   background: #a3c750;
   color: white;
 }
 
-/* line 166, ../sass/dpstyles.scss */
+/* line 171, ../sass/dpstyles.scss */
 .reviews {
   background: #8fb43a;
   color: white;
 }
 
-/* line 171, ../sass/dpstyles.scss */
+/* line 176, ../sass/dpstyles.scss */
 .farmersMarket {
   background: #dedede;
   color: #58595b;
 }
 
-/* line 176, ../sass/dpstyles.scss */
+/* line 181, ../sass/dpstyles.scss */
 .contact {
   background: #304a94;
   color: white;
 }
 
-/* line 181, ../sass/dpstyles.scss */
+/* line 186, ../sass/dpstyles.scss */
 .box {
   padding: 80px 0;
 }
 
 /* GRID SYSTEM STYLES */
 /*  SECTIONS  */
-/* line 188, ../sass/dpstyles.scss */
+/* line 193, ../sass/dpstyles.scss */
 .section {
   clear: both;
   padding: 0px;
@@ -202,27 +207,27 @@ h6 {
 }
 
 /*  COLUMN SETUP  */
-/* line 195, ../sass/dpstyles.scss */
+/* line 200, ../sass/dpstyles.scss */
 .col {
   display: block;
   float: left;
   margin: 1% 0 1% 1.6%;
 }
 
-/* line 200, ../sass/dpstyles.scss */
+/* line 205, ../sass/dpstyles.scss */
 .col:first-child {
   margin-left: 0;
 }
 
 /*  GROUPING  */
-/* line 204, ../sass/dpstyles.scss */
+/* line 209, ../sass/dpstyles.scss */
 .group:before,
 .group:after {
   content: "";
   display: table;
 }
 
-/* line 208, ../sass/dpstyles.scss */
+/* line 213, ../sass/dpstyles.scss */
 .group:after {
   clear: both;
 }
