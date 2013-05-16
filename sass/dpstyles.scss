@@ -148,6 +148,10 @@ h6{
 	color: white;
 }
 
+.wholesaleDetails{
+	color: $red;
+}
+
 .marketFlavors{
 	background: $lightgrey;
 	color: $darkgrey;
@@ -181,6 +185,14 @@ h6{
 .contact{
 	background: $lightblue;
 	color: white;
+}
+
+.txt_input,.txt_block{
+	background: $darkblue;
+	color: white;
+	padding: 5px;
+	border: solid 1px $darkblue;
+	margin-bottom: 10px;
 }
 
 .box{

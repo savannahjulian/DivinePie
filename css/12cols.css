@@ -34,10 +34,12 @@
 
 .span_4_of_12 {
 	width: 32.24%; 
+	max-width: 320px;
 }
 
 .span_3_of_12 {
 	width: 23.78%;
+
 }
 
 .span_2_of_12 {

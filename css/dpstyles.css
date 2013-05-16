@@ -152,54 +152,68 @@ h6 {
 }
 
 /* line 151, ../sass/dpstyles.scss */
+.wholesaleDetails {
+  color: #e31f2d;
+}
+
+/* line 155, ../sass/dpstyles.scss */
 .marketFlavors {
   background: #dedede;
   color: #58595b;
 }
 
-/* line 156, ../sass/dpstyles.scss */
+/* line 160, ../sass/dpstyles.scss */
 .flavor_module {
   text-align: center;
 }
 
-/* line 161, ../sass/dpstyles.scss */
+/* line 165, ../sass/dpstyles.scss */
 .about {
   background: #41c3be;
   color: white;
 }
 
-/* line 166, ../sass/dpstyles.scss */
+/* line 170, ../sass/dpstyles.scss */
 .news {
   background: #a3c750;
   color: white;
 }
 
-/* line 171, ../sass/dpstyles.scss */
+/* line 175, ../sass/dpstyles.scss */
 .reviews {
   background: #8fb43a;
   color: white;
 }
 
-/* line 176, ../sass/dpstyles.scss */
+/* line 180, ../sass/dpstyles.scss */
 .farmersMarket {
   background: #dedede;
   color: #58595b;
 }
 
-/* line 181, ../sass/dpstyles.scss */
+/* line 185, ../sass/dpstyles.scss */
 .contact {
   background: #304a94;
   color: white;
 }
 
-/* line 186, ../sass/dpstyles.scss */
+/* line 190, ../sass/dpstyles.scss */
+.txt_input, .txt_block {
+  background: #1c2b56;
+  color: white;
+  padding: 5px;
+  border: solid 1px #1c2b56;
+  margin-bottom: 10px;
+}
+
+/* line 198, ../sass/dpstyles.scss */
 .box {
   padding: 80px 0;
 }
 
 /* GRID SYSTEM STYLES */
 /*  SECTIONS  */
-/* line 193, ../sass/dpstyles.scss */
+/* line 205, ../sass/dpstyles.scss */
 .section {
   clear: both;
   padding: 0px;
@@ -207,27 +221,27 @@ h6 {
 }
 
 /*  COLUMN SETUP  */
-/* line 200, ../sass/dpstyles.scss */
+/* line 212, ../sass/dpstyles.scss */
 .col {
   display: block;
   float: left;
   margin: 1% 0 1% 1.6%;
 }
 
-/* line 205, ../sass/dpstyles.scss */
+/* line 217, ../sass/dpstyles.scss */
 .col:first-child {
   margin-left: 0;
 }
 
 /*  GROUPING  */
-/* line 209, ../sass/dpstyles.scss */
+/* line 221, ../sass/dpstyles.scss */
 .group:before,
 .group:after {
   content: "";
   display: table;
 }
 
-/* line 213, ../sass/dpstyles.scss */
+/* line 225, ../sass/dpstyles.scss */
 .group:after {
   clear: both;
 }
