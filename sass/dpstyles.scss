@@ -140,6 +140,13 @@ h6{
 	font-weight: normal;
 }
 
+/* large color section styles */
+
+.box{
+	padding: 80px 0;
+}
+
+
 /* SPECIFIC STYLES */
 
 body{
@@ -150,9 +157,13 @@ body{
 	margin: 0 auto;
 }
 
+/* navigation styles */
+
 nav{
 	color: $red;
 }
+
+/* slideshow styles */
 
 #slideshow{
   	height: 100%;
@@ -167,11 +178,14 @@ nav{
 	width: 100%;
 }
 
+/* introduction section styles */
 
 .introduction{
 	background: $red;
 	color: white;
 }
+
+/* wholesale flavors section styles */
 
 .wholesaleDetails{
 	color: $red;
@@ -189,10 +203,14 @@ nav{
 	text-align: center;
 }
 
+/* farmers market flavors section styles */
+
 .marketFlavors{
 	background: $lightgrey;
 	color: $darkgrey;
 }
+
+/* about section styles */
 
 .about{
 	background: $aqua;
@@ -213,15 +231,25 @@ nav{
 	color: $darkgrey;
 }
 
+/* news section styles */
+
 .news{
 	background: $lightgreen;
 	color: white;
 }
 
+/* reviews/praise section styles */
+
 .reviews{
 	background: $green;
 	color: white;
 }
+
+/* find us section styles */
+
+/* map styles */
+
+/* vendor logo links section styles */
 
 .logoLinks{
 }
@@ -231,6 +259,8 @@ nav{
 	height: 60px;
 	margin-right: 39px;
 }
+
+/* farmers market information section styles */
 
 .farmersMarket{
 	background: $lightgrey;
@@ -243,10 +273,14 @@ nav{
 	height: 423px;
 }
 
+/* contact information section styles */
+
 .contact{
 	background: $red;
 	color: white;
 }
+
+/* form styles */
 
 .txt_input,.txt_block{
 	background: $darkred;
@@ -256,13 +290,10 @@ nav{
 	margin-bottom: 10px;
 }
 
-.box{
-	padding: 80px 0;
-}
 
 /* GRID SYSTEM STYLES */
 
-/*  SECTIONS  */
+/*  sections  */
 .section {
 	clear: both;
 	padding: 0px;
@@ -270,7 +301,7 @@ nav{
 	max-width: 960px;
 }
 
-/*  COLUMN SETUP  */
+/*  column setup  */
 .col {
 	display: block;
 	float:left;
@@ -278,7 +309,7 @@ nav{
 }
 .col:first-child { margin-left: 0; }
 
-/*  GROUPING  */
+/*  grouping  */
 .group:before,
 .group:after {
 	content:"";
