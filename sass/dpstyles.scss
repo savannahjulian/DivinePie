@@ -119,8 +119,8 @@ h6{
 }
 
 .bodycopy{
-	font-size: 22px;
-	font-family: "Intro Bold", sans-serif;
+	font-size: 20px;
+	font-family: "Intro Light", sans-serif;
 	font-weight: normal;
 	letter-spacing: 1px;
 	line-height: 30px;
@@ -140,6 +140,10 @@ h6{
 }
 
 /* SPECIFIC STYLES */
+
+body{
+	background: url('../images/debut_light.png') repeat 0 0;
+}
 
 .container{
 	margin: 0 auto;
@@ -218,7 +222,8 @@ nav{
 .section {
 	clear: both;
 	padding: 0px;
-	margin: 0px;
+	margin: 0 auto;
+	max-width: 960px;
 }
 
 /*  COLUMN SETUP  */

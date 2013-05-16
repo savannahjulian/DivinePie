@@ -34,7 +34,6 @@
 
 .span_4_of_12 {
 	width: 32.24%; 
-	max-width: 320px;
 }
 
 .span_3_of_12 {
@@ -89,5 +88,9 @@
 	}
 	.span_1_of_12 {
 		width: 100%; 
+	}
+
+	.section{
+		margin: 0 1em;
 	}
 }
