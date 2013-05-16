@@ -94,45 +94,48 @@ h3 {
   font-family: "Intro Bold", sans-serif;
   font-weight: normal;
   letter-spacing: 1px;
+  line-height: 30px;
 }
 
-/* line 102, ../sass/dpstyles.scss */
+/* line 103, ../sass/dpstyles.scss */
 h4 {
   font-size: 18px;
   font-family: "ITC Franklin Gothic Std";
   font-weight: normal;
 }
 
-/* line 108, ../sass/dpstyles.scss */
+/* line 109, ../sass/dpstyles.scss */
 h5 {
   font-size: 16px;
   font-family: "ITC Franklin Gothic Std";
   font-weight: normal;
 }
 
-/* line 114, ../sass/dpstyles.scss */
+/* line 115, ../sass/dpstyles.scss */
 h6 {
   font-size: 16px;
   font-family: "Intro Bold", sans-serif;
   font-weight: normal;
 }
 
-/* line 120, ../sass/dpstyles.scss */
+/* line 121, ../sass/dpstyles.scss */
 .bodycopy {
   font-size: 22px;
   font-family: "Intro Bold", sans-serif;
   font-weight: normal;
   letter-spacing: 1px;
+  line-height: 30px;
 }
 
-/* line 127, ../sass/dpstyles.scss */
+/* line 129, ../sass/dpstyles.scss */
 .subcopy {
   font-size: 16px;
   font-family: "Intro Light", sans-serif;
   font-weight: normal;
+  line-height: 20px;
 }
 
-/* line 133, ../sass/dpstyles.scss */
+/* line 136, ../sass/dpstyles.scss */
 .formcopy {
   font-size: 14px;
   font-family: "Intro Light", sans-serif;
@@ -140,64 +143,77 @@ h6 {
 }
 
 /* SPECIFIC STYLES */
-/* line 141, ../sass/dpstyles.scss */
+/* line 144, ../sass/dpstyles.scss */
 .container {
   margin: 0 auto;
 }
 
-/* line 146, ../sass/dpstyles.scss */
+/* line 148, ../sass/dpstyles.scss */
+nav {
+  color: #e31f2d;
+}
+
+/* line 152, ../sass/dpstyles.scss */
 .introduction {
   background: #e31f2d;
   color: white;
 }
 
-/* line 151, ../sass/dpstyles.scss */
+/* line 157, ../sass/dpstyles.scss */
 .wholesaleDetails {
   color: #e31f2d;
 }
 
-/* line 155, ../sass/dpstyles.scss */
+/* line 161, ../sass/dpstyles.scss */
+.pieIcon {
+  width: 93px;
+  height: 93px;
+  margin: 0 auto 30px;
+  display: block;
+}
+
+/* line 169, ../sass/dpstyles.scss */
+.flavor_module {
+  text-align: center;
+}
+
+/* line 173, ../sass/dpstyles.scss */
 .marketFlavors {
   background: #dedede;
   color: #58595b;
 }
 
-/* line 160, ../sass/dpstyles.scss */
-.flavor_module {
-  text-align: center;
-}
-
-/* line 165, ../sass/dpstyles.scss */
+/* line 178, ../sass/dpstyles.scss */
 .about {
   background: #41c3be;
   color: white;
 }
 
-/* line 170, ../sass/dpstyles.scss */
+/* line 183, ../sass/dpstyles.scss */
 .news {
   background: #a3c750;
   color: white;
 }
 
-/* line 175, ../sass/dpstyles.scss */
+/* line 188, ../sass/dpstyles.scss */
 .reviews {
   background: #8fb43a;
   color: white;
 }
 
-/* line 180, ../sass/dpstyles.scss */
+/* line 193, ../sass/dpstyles.scss */
 .farmersMarket {
   background: #dedede;
   color: #58595b;
 }
 
-/* line 185, ../sass/dpstyles.scss */
+/* line 198, ../sass/dpstyles.scss */
 .contact {
   background: #304a94;
   color: white;
 }
 
-/* line 190, ../sass/dpstyles.scss */
+/* line 203, ../sass/dpstyles.scss */
 .txt_input, .txt_block {
   background: #1c2b56;
   color: white;
@@ -206,14 +222,14 @@ h6 {
   margin-bottom: 10px;
 }
 
-/* line 198, ../sass/dpstyles.scss */
+/* line 211, ../sass/dpstyles.scss */
 .box {
   padding: 80px 0;
 }
 
 /* GRID SYSTEM STYLES */
 /*  SECTIONS  */
-/* line 205, ../sass/dpstyles.scss */
+/* line 218, ../sass/dpstyles.scss */
 .section {
   clear: both;
   padding: 0px;
@@ -221,27 +237,27 @@ h6 {
 }
 
 /*  COLUMN SETUP  */
-/* line 212, ../sass/dpstyles.scss */
+/* line 225, ../sass/dpstyles.scss */
 .col {
   display: block;
   float: left;
   margin: 1% 0 1% 1.6%;
 }
 
-/* line 217, ../sass/dpstyles.scss */
+/* line 230, ../sass/dpstyles.scss */
 .col:first-child {
   margin-left: 0;
 }
 
 /*  GROUPING  */
-/* line 221, ../sass/dpstyles.scss */
+/* line 234, ../sass/dpstyles.scss */
 .group:before,
 .group:after {
   content: "";
   display: table;
 }
 
-/* line 225, ../sass/dpstyles.scss */
+/* line 238, ../sass/dpstyles.scss */
 .group:after {
   clear: both;
 }

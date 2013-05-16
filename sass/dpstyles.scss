@@ -96,6 +96,7 @@ h3{
 	font-family: "Intro Bold", sans-serif;
 	font-weight: normal;
 	letter-spacing: 1px;
+	line-height: 30px;
 }
 
 
@@ -122,12 +123,14 @@ h6{
 	font-family: "Intro Bold", sans-serif;
 	font-weight: normal;
 	letter-spacing: 1px;
+	line-height: 30px;
 }
 
 .subcopy{
 	font-size: 16px;
 	font-family: "Intro Light", sans-serif;
 	font-weight: normal;
+	line-height: 20px;
 }
 
 .formcopy{
@@ -142,6 +145,9 @@ h6{
 	margin: 0 auto;
 }
 
+nav{
+	color: $red;
+}
 
 .introduction{
 	background: $red;
@@ -152,15 +158,22 @@ h6{
 	color: $red;
 }
 
-.marketFlavors{
-	background: $lightgrey;
-	color: $darkgrey;
+.pieIcon{
+ 	width: 93px;
+ 	height: 93px;
+ 	margin: 0 auto 30px;
+ 	display: block;
 }
+
 
 .flavor_module{
 	text-align: center;
 }
 
+.marketFlavors{
+	background: $lightgrey;
+	color: $darkgrey;
+}
 
 .about{
 	background: $aqua;
