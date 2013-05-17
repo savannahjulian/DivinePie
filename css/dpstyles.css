@@ -129,7 +129,7 @@ h6 {
 
 /* line 129, ../sass/dpstyles.scss */
 .subcopy {
-  font-size: 16px;
+  font-size: 15px;
   font-family: Verdana, sans-serif;
   font-weight: normal;
   line-height: 20px;
@@ -137,6 +137,11 @@ h6 {
 }
 
 /* line 137, ../sass/dpstyles.scss */
+.subcopy:last-of-type {
+  margin-bottom: 0px;
+}
+
+/* line 141, ../sass/dpstyles.scss */
 .formcopy {
   font-size: 14px;
   font-family: "Intro Light", sans-serif;
@@ -144,37 +149,37 @@ h6 {
 }
 
 /* large color section styles */
-/* line 145, ../sass/dpstyles.scss */
+/* line 149, ../sass/dpstyles.scss */
 .box {
   padding: 80px 0;
 }
 
 /* SPECIFIC STYLES */
-/* line 152, ../sass/dpstyles.scss */
+/* line 156, ../sass/dpstyles.scss */
 body {
   background: url("../images/debut_light.png") repeat 0 0;
 }
 
-/* line 156, ../sass/dpstyles.scss */
+/* line 160, ../sass/dpstyles.scss */
 .container {
   margin: 0 auto;
 }
 
 /* navigation styles */
-/* line 162, ../sass/dpstyles.scss */
+/* line 166, ../sass/dpstyles.scss */
 nav {
   color: #e31f2d;
 }
 
 /* slideshow styles */
-/* line 168, ../sass/dpstyles.scss */
+/* line 172, ../sass/dpstyles.scss */
 #slideshow {
   height: 100%;
   width: 100%;
   overflow: hidden;
 }
 
-/* line 174, ../sass/dpstyles.scss */
+/* line 178, ../sass/dpstyles.scss */
 #slideshow > div {
   background-repeat: no-repeat;
   background-size: cover;
@@ -183,19 +188,19 @@ nav {
 }
 
 /* introduction section styles */
-/* line 183, ../sass/dpstyles.scss */
+/* line 187, ../sass/dpstyles.scss */
 .introduction {
   background: #e31f2d;
   color: white;
 }
 
 /* wholesale flavors section styles */
-/* line 190, ../sass/dpstyles.scss */
+/* line 194, ../sass/dpstyles.scss */
 .wholesaleDetails {
   color: #e31f2d;
 }
 
-/* line 194, ../sass/dpstyles.scss */
+/* line 198, ../sass/dpstyles.scss */
 .pieIcon {
   width: 93px;
   height: 93px;
@@ -203,51 +208,59 @@ nav {
   display: block;
 }
 
-/* line 202, ../sass/dpstyles.scss */
+/* line 206, ../sass/dpstyles.scss */
 .flavor_module {
   text-align: center;
 }
 
 /* farmers market flavors section styles */
-/* line 208, ../sass/dpstyles.scss */
+/* line 212, ../sass/dpstyles.scss */
 .marketFlavors {
   background: #dedede;
   color: #58595b;
 }
 
 /* about section styles */
-/* line 215, ../sass/dpstyles.scss */
+/* line 219, ../sass/dpstyles.scss */
 .about {
   background: #41c3be;
   color: white;
 }
 
-/* line 220, ../sass/dpstyles.scss */
+/* line 224, ../sass/dpstyles.scss */
 .about h2 {
   text-align: center;
   margin-bottom: 50px;
 }
 
-/* line 225, ../sass/dpstyles.scss */
+/* line 229, ../sass/dpstyles.scss */
+.icon {
+  display: block;
+  background: red;
+  width: 50px;
+  height: 50px;
+}
+
+/* line 236, ../sass/dpstyles.scss */
 .whiteBox {
   background: white;
   padding: 20px;
 }
 
-/* line 230, ../sass/dpstyles.scss */
+/* line 241, ../sass/dpstyles.scss */
 .whiteBox .subcopy {
   color: #58595b;
 }
 
 /* news section styles */
-/* line 236, ../sass/dpstyles.scss */
+/* line 247, ../sass/dpstyles.scss */
 .news {
   background: #a3c750;
   color: white;
 }
 
 /* reviews/praise section styles */
-/* line 243, ../sass/dpstyles.scss */
+/* line 254, ../sass/dpstyles.scss */
 .reviews {
   background: #8fb43a;
   color: white;
@@ -256,7 +269,7 @@ nav {
 /* find us section styles */
 /* map styles */
 /* vendor logo links section styles */
-/* line 257, ../sass/dpstyles.scss */
+/* line 268, ../sass/dpstyles.scss */
 .logo {
   float: left;
   height: 60px;
@@ -264,13 +277,13 @@ nav {
 }
 
 /* farmers market information section styles */
-/* line 265, ../sass/dpstyles.scss */
+/* line 276, ../sass/dpstyles.scss */
 .farmersMarket {
   background: #dedede;
   color: #58595b;
 }
 
-/* line 270, ../sass/dpstyles.scss */
+/* line 281, ../sass/dpstyles.scss */
 .marketPhoto {
   background: url("../images/market_1.jpg") no-repeat 0 0;
   width: 460px;
@@ -278,14 +291,14 @@ nav {
 }
 
 /* contact information section styles */
-/* line 278, ../sass/dpstyles.scss */
+/* line 289, ../sass/dpstyles.scss */
 .contact {
   background: #e31f2d;
   color: white;
 }
 
 /* form styles */
-/* line 285, ../sass/dpstyles.scss */
+/* line 296, ../sass/dpstyles.scss */
 .txt_input, .txt_block {
   background: #c11824;
   color: white;
@@ -296,7 +309,7 @@ nav {
 
 /* GRID SYSTEM STYLES */
 /*  sections  */
-/* line 297, ../sass/dpstyles.scss */
+/* line 308, ../sass/dpstyles.scss */
 .section {
   clear: both;
   padding: 0px;
@@ -305,27 +318,27 @@ nav {
 }
 
 /*  column setup  */
-/* line 305, ../sass/dpstyles.scss */
+/* line 316, ../sass/dpstyles.scss */
 .col {
   display: block;
   float: left;
   margin: 1% 0 1% 1.6%;
 }
 
-/* line 310, ../sass/dpstyles.scss */
+/* line 321, ../sass/dpstyles.scss */
 .col:first-child {
   margin-left: 0;
 }
 
 /*  grouping  */
-/* line 314, ../sass/dpstyles.scss */
+/* line 325, ../sass/dpstyles.scss */
 .group:before,
 .group:after {
   content: "";
   display: table;
 }
 
-/* line 318, ../sass/dpstyles.scss */
+/* line 329, ../sass/dpstyles.scss */
 .group:after {
   clear: both;
 }
