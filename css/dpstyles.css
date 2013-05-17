@@ -215,6 +215,18 @@ nav {
 }
 
 /* line 212, ../sass/dpstyles.scss */
+.wholesaleButton {
+  width: 180px;
+  hight: 40px;
+  display: block;
+  background: #dedede;
+  text-align: center;
+  padding: 15px 10px 10px 10px;
+  color: white;
+  margin: 50px auto 0 auto;
+}
+
+/* line 223, ../sass/dpstyles.scss */
 .pieIcon {
   width: 93px;
   height: 93px;
@@ -222,31 +234,31 @@ nav {
   display: block;
 }
 
-/* line 220, ../sass/dpstyles.scss */
+/* line 231, ../sass/dpstyles.scss */
 .flavor_module {
   text-align: center;
 }
 
 /* farmers market flavors section styles */
-/* line 226, ../sass/dpstyles.scss */
+/* line 237, ../sass/dpstyles.scss */
 .marketFlavors {
   background: #dedede;
   color: #58595b;
 }
 
 /* about section styles */
-/* line 233, ../sass/dpstyles.scss */
+/* line 244, ../sass/dpstyles.scss */
 .about {
   background: #41c3be;
   color: white;
 }
 
-/* line 238, ../sass/dpstyles.scss */
+/* line 249, ../sass/dpstyles.scss */
 .about h2 {
   text-align: center;
 }
 
-/* line 242, ../sass/dpstyles.scss */
+/* line 253, ../sass/dpstyles.scss */
 .icon {
   display: block;
   width: 70px;
@@ -255,55 +267,55 @@ nav {
 }
 
 /* news section styles */
-/* line 252, ../sass/dpstyles.scss */
+/* line 263, ../sass/dpstyles.scss */
 .news {
   background: #a3c750;
   color: white;
 }
 
-/* line 257, ../sass/dpstyles.scss */
+/* line 268, ../sass/dpstyles.scss */
 .news a {
   color: white;
   text-decoration: underline;
 }
 
 /* reviews/praise section styles */
-/* line 264, ../sass/dpstyles.scss */
+/* line 275, ../sass/dpstyles.scss */
 .reviews {
   background: #8fb43a;
   color: white;
 }
 
-/* line 269, ../sass/dpstyles.scss */
+/* line 280, ../sass/dpstyles.scss */
 .reviews h2 {
   text-align: center;
 }
 
-/* line 273, ../sass/dpstyles.scss */
+/* line 284, ../sass/dpstyles.scss */
 .reviews .whiteBox {
   margin-right: 10px;
 }
 
-/* line 277, ../sass/dpstyles.scss */
+/* line 288, ../sass/dpstyles.scss */
 .reviews .whiteBox:last-of-type {
   margin-right: 0px;
 }
 
 /* find us section styles */
-/* line 284, ../sass/dpstyles.scss */
+/* line 295, ../sass/dpstyles.scss */
 .findUs h2 {
   text-align: center;
   margin-bottom: 0px;
 }
 
-/* line 289, ../sass/dpstyles.scss */
+/* line 300, ../sass/dpstyles.scss */
 .findUs h5 {
   text-align: center;
 }
 
 /* map styles */
 /* vendor logo links section styles */
-/* line 301, ../sass/dpstyles.scss */
+/* line 312, ../sass/dpstyles.scss */
 .logo {
   float: left;
   height: 60px;
@@ -311,13 +323,13 @@ nav {
 }
 
 /* farmers market information section styles */
-/* line 309, ../sass/dpstyles.scss */
+/* line 320, ../sass/dpstyles.scss */
 .farmersMarket {
   background: #dedede;
   color: #58595b;
 }
 
-/* line 314, ../sass/dpstyles.scss */
+/* line 325, ../sass/dpstyles.scss */
 .marketPhoto {
   background: url("../images/market_1.jpg") no-repeat 0 0;
   width: 100%;
@@ -325,14 +337,14 @@ nav {
 }
 
 /* contact information section styles */
-/* line 322, ../sass/dpstyles.scss */
+/* line 333, ../sass/dpstyles.scss */
 .contact {
   background: #e31f2d;
   color: white;
 }
 
 /* form styles */
-/* line 329, ../sass/dpstyles.scss */
+/* line 340, ../sass/dpstyles.scss */
 .txt_input, .txt_block {
   background: #c11824;
   color: white;
@@ -343,7 +355,7 @@ nav {
 
 /* GRID SYSTEM STYLES */
 /*  sections  */
-/* line 341, ../sass/dpstyles.scss */
+/* line 352, ../sass/dpstyles.scss */
 .section {
   clear: both;
   padding: 0px;
@@ -352,7 +364,7 @@ nav {
 }
 
 /*  column setup  */
-/* line 349, ../sass/dpstyles.scss */
+/* line 360, ../sass/dpstyles.scss */
 .col {
   display: block;
   float: left;
@@ -360,20 +372,20 @@ nav {
   /*margin: 1% 0 1% 1.6%;*/
 }
 
-/* line 355, ../sass/dpstyles.scss */
+/* line 366, ../sass/dpstyles.scss */
 .col:first-child {
   margin-left: 0;
 }
 
 /*  grouping  */
-/* line 359, ../sass/dpstyles.scss */
+/* line 370, ../sass/dpstyles.scss */
 .group:before,
 .group:after {
   content: "";
   display: table;
 }
 
-/* line 363, ../sass/dpstyles.scss */
+/* line 374, ../sass/dpstyles.scss */
 .group:after {
   clear: both;
 }
