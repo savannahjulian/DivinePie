@@ -88,6 +88,8 @@ h2{
 	font-size: 55px;
 	font-family: "Intro Light", sans-serif;
 	font-weight: normal;
+	line-height: 70px;
+	margin-bottom: 50px;
 }
 
 
@@ -197,6 +199,10 @@ nav{
 	color: white;
 }
 
+.introduction h2{
+	margin-bottom: 20px;
+}
+
 /* wholesale flavors section styles */
 
 .wholesaleDetails{
@@ -231,7 +237,6 @@ nav{
 
 .about h2{
 	text-align:center;
-	margin-bottom: 50px;
 }
 
 .icon{
@@ -247,6 +252,11 @@ nav{
 .news{
 	background: $lightgreen;
 	color: white;
+}
+
+.news a{
+	color: white;
+	text-decoration: underline;
 }
 
 /* reviews/praise section styles */
@@ -273,6 +283,7 @@ nav{
 
 .findUs h2{
 	text-align: center;
+	margin-bottom: 0px;
 }
 
 .findUs h5{
