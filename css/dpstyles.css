@@ -236,31 +236,31 @@ nav {
 /* line 229, ../sass/dpstyles.scss */
 .icon {
   display: block;
-  background: red;
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
 }
 
-/* line 236, ../sass/dpstyles.scss */
+/* line 238, ../sass/dpstyles.scss */
 .whiteBox {
   background: white;
   padding: 20px;
 }
 
-/* line 241, ../sass/dpstyles.scss */
+/* line 243, ../sass/dpstyles.scss */
 .whiteBox .subcopy {
   color: #58595b;
 }
 
 /* news section styles */
-/* line 247, ../sass/dpstyles.scss */
+/* line 249, ../sass/dpstyles.scss */
 .news {
   background: #a3c750;
   color: white;
 }
 
 /* reviews/praise section styles */
-/* line 254, ../sass/dpstyles.scss */
+/* line 256, ../sass/dpstyles.scss */
 .reviews {
   background: #8fb43a;
   color: white;
@@ -269,7 +269,7 @@ nav {
 /* find us section styles */
 /* map styles */
 /* vendor logo links section styles */
-/* line 268, ../sass/dpstyles.scss */
+/* line 270, ../sass/dpstyles.scss */
 .logo {
   float: left;
   height: 60px;
@@ -277,13 +277,13 @@ nav {
 }
 
 /* farmers market information section styles */
-/* line 276, ../sass/dpstyles.scss */
+/* line 278, ../sass/dpstyles.scss */
 .farmersMarket {
   background: #dedede;
   color: #58595b;
 }
 
-/* line 281, ../sass/dpstyles.scss */
+/* line 283, ../sass/dpstyles.scss */
 .marketPhoto {
   background: url("../images/market_1.jpg") no-repeat 0 0;
   width: 460px;
@@ -291,14 +291,14 @@ nav {
 }
 
 /* contact information section styles */
-/* line 289, ../sass/dpstyles.scss */
+/* line 291, ../sass/dpstyles.scss */
 .contact {
   background: #e31f2d;
   color: white;
 }
 
 /* form styles */
-/* line 296, ../sass/dpstyles.scss */
+/* line 298, ../sass/dpstyles.scss */
 .txt_input, .txt_block {
   background: #c11824;
   color: white;
@@ -309,7 +309,7 @@ nav {
 
 /* GRID SYSTEM STYLES */
 /*  sections  */
-/* line 308, ../sass/dpstyles.scss */
+/* line 310, ../sass/dpstyles.scss */
 .section {
   clear: both;
   padding: 0px;
@@ -318,27 +318,28 @@ nav {
 }
 
 /*  column setup  */
-/* line 316, ../sass/dpstyles.scss */
+/* line 318, ../sass/dpstyles.scss */
 .col {
   display: block;
   float: left;
   margin: 1% 0 1% 1.6%;
+  /*margin: 1% 0 1% 1.6%;*/
 }
 
-/* line 321, ../sass/dpstyles.scss */
+/* line 324, ../sass/dpstyles.scss */
 .col:first-child {
   margin-left: 0;
 }
 
 /*  grouping  */
-/* line 325, ../sass/dpstyles.scss */
+/* line 328, ../sass/dpstyles.scss */
 .group:before,
 .group:after {
   content: "";
   display: table;
 }
 
-/* line 329, ../sass/dpstyles.scss */
+/* line 332, ../sass/dpstyles.scss */
 .group:after {
   clear: both;
 }
