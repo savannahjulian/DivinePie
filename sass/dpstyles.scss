@@ -331,7 +331,6 @@ nav{
 .farmersMarket{
 	background: $lightgrey;
 	color: $darkgrey;
-	margin: 0px;
 }
 
 .farmersMarket a{
@@ -341,9 +340,14 @@ nav{
 }
 
 .marketPhoto{
-	background: url('../images/market_1.jpg') no-repeat 0 0;
+	background: url('../images/market_2.jpg') no-repeat 0 0;
 	width: 100%;
 	height: 423px;
+	float: left;
+}
+
+.marketRight{
+	float: left;
 }
 
 /* contact information section styles */
@@ -351,6 +355,7 @@ nav{
 .contact{
 	background: $red;
 	color: white;
+	clear: both;
 }
 
 /* form styles */
