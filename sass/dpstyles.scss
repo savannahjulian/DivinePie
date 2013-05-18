@@ -355,14 +355,43 @@ nav{
 
 /* form styles */
 
-.txt_input,.txt_block{
-	background: $darkred;
-	color: white;
-	padding: 5px;
-	border: solid 1px $darkred;
-	margin-bottom: 10px;
+.contact form *{
+	margin-top: 16px;
 }
 
+.contact form input{
+	background: $darkred;
+	border: 1px solid $darkred;
+	padding: 5px;
+	width: 200px;
+	font-family: Verdana, sans-serif;
+	font-size: 13px;
+	color: white;
+	margin-right: 10px;
+}
+
+.contact form textarea{
+	background: $darkred;
+	border: 1px solid $darkred;
+	padding: 5px;
+	width: 425px;
+	min-height: 200px;
+	max-width: 425px;
+	font-family: Verdana, sans-serif;
+	font-size: 13px;
+	color: white;
+}
+
+.contact form input[type=submit] , #contact form input[type=reset]
+{
+	width: 88px;
+	margin-right: 13px;
+}
+
+.contact form input[type=submit]:active , .contact form input[type=reset]:active {
+	background: $lightgrey;
+	color: $darkgrey;
+}
 
 /* footer styles */
 

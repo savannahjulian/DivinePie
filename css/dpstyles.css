@@ -352,16 +352,49 @@ nav {
 
 /* form styles */
 /* line 358, ../sass/dpstyles.scss */
-.txt_input, .txt_block {
+.contact form * {
+  margin-top: 16px;
+}
+
+/* line 362, ../sass/dpstyles.scss */
+.contact form input {
   background: #c11824;
-  color: white;
+  border: 1px solid #c11824;
   padding: 5px;
-  border: solid 1px #c11824;
-  margin-bottom: 10px;
+  width: 200px;
+  font-family: Verdana, sans-serif;
+  font-size: 13px;
+  color: white;
+  margin-right: 10px;
+}
+
+/* line 373, ../sass/dpstyles.scss */
+.contact form textarea {
+  background: #c11824;
+  border: 1px solid #c11824;
+  padding: 5px;
+  width: 425px;
+  min-height: 200px;
+  max-width: 425px;
+  font-family: Verdana, sans-serif;
+  font-size: 13px;
+  color: white;
+}
+
+/* line 386, ../sass/dpstyles.scss */
+.contact form input[type=submit], #contact form input[type=reset] {
+  width: 88px;
+  margin-right: 13px;
+}
+
+/* line 391, ../sass/dpstyles.scss */
+.contact form input[type=submit]:active, .contact form input[type=reset]:active {
+  background: #dedede;
+  color: #58595b;
 }
 
 /* footer styles */
-/* line 369, ../sass/dpstyles.scss */
+/* line 398, ../sass/dpstyles.scss */
 .footer {
   text-align: center;
   padding: 80px 0 20px 0;
@@ -375,14 +408,14 @@ nav {
   color: #58595b;
 }
 
-/* line 382, ../sass/dpstyles.scss */
+/* line 411, ../sass/dpstyles.scss */
 .footer a {
   color: #58595b;
 }
 
 /* GRID SYSTEM STYLES */
 /*  sections  */
-/* line 390, ../sass/dpstyles.scss */
+/* line 419, ../sass/dpstyles.scss */
 .section {
   clear: both;
   padding: 0px;
@@ -391,7 +424,7 @@ nav {
 }
 
 /*  column setup  */
-/* line 398, ../sass/dpstyles.scss */
+/* line 427, ../sass/dpstyles.scss */
 .col {
   display: block;
   float: left;
@@ -399,20 +432,20 @@ nav {
   /*margin: 1% 0 1% 1.6%;*/
 }
 
-/* line 404, ../sass/dpstyles.scss */
+/* line 433, ../sass/dpstyles.scss */
 .col:first-child {
   margin-left: 0;
 }
 
 /*  grouping  */
-/* line 408, ../sass/dpstyles.scss */
+/* line 437, ../sass/dpstyles.scss */
 .group:before,
 .group:after {
   content: "";
   display: table;
 }
 
-/* line 412, ../sass/dpstyles.scss */
+/* line 441, ../sass/dpstyles.scss */
 .group:after {
   clear: both;
 }
