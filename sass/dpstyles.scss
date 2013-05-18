@@ -176,6 +176,8 @@ body{
 	background: white;
 	padding: 20px;
 	color: $darkgrey;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
 }
 
 
@@ -289,7 +291,6 @@ nav{
 }
 
 .reviews .whiteBox{
-	margin-right: 10px;
 }
 
 .reviews .whiteBox:last-of-type{
@@ -330,6 +331,7 @@ nav{
 .farmersMarket{
 	background: $lightgrey;
 	color: $darkgrey;
+	margin: 0px;
 }
 
 .farmersMarket a{
