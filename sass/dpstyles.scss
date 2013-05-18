@@ -157,11 +157,19 @@ h6{
 /* SPECIFIC STYLES */
 
 body{
-	background: url('../images/debut_light.png') repeat 0 0;
 }
 
 .container{
 	margin: 0 auto;
+}
+
+/* z-index container for revealing footer */
+
+.zindexContainer{
+	background: url('../images/debut_light.png') repeat 0 0;
+	margin-bottom: 80px;
+    position: relative;
+    z-index: 3;
 }
 
 .whiteBox{
@@ -353,18 +361,24 @@ nav{
 	margin-bottom: 10px;
 }
 
+
 /* footer styles */
 
 .footer{
 	text-align: center;
-	padding: 20px 0;
-	
+	padding: 80px 0 20px 0;
+	background: url('../images/debut_light.png') repeat 0 0;
 	position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     height: 30px;
     z-index: 1;
+    color: $darkgrey;
+}
+
+.footer a{
+	color: $darkgrey;
 }
 
 
