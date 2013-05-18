@@ -103,4 +103,8 @@
 	.section{
 		margin: 0 1em;
 	}
+
+	.col{
+		margin-left: 0px;
+	}
 }
