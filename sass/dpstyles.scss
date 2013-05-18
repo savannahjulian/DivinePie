@@ -1,5 +1,5 @@
 /* RESET */
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -13,8 +13,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -25,7 +25,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -47,6 +47,19 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+/* CLEARFIX */
+
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
 }
 
 /* SASS VARIABLES */
@@ -76,13 +89,15 @@ h1{
 	font-size: 55px;
 	font-family: "Intro Bold", sans-serif;
 	font-weight: normal;
-	margin: 0 0 30px 0;
 	color: white;
-
-	-moz-text-shadow:3px 3px 0 grey;
-    -webkit-text-shadow:3px 3px 0 grey;
-    text-shadow:3px 3px 0 grey;
 }
+
+h1.tagline{
+		margin: 0 0 30px 0;
+		-moz-text-shadow: 3px 3px 0 grey;
+		-webkit-text-shadow: 3px 3px 0 grey;
+		text-shadow: 3px 3px 0 grey;
+	}
 
 h2{
 	font-size: 55px;
@@ -130,7 +145,7 @@ h6{
 
 .subcopy{
 	font-size: 15px;
-	font-family: Verdana, sans-serif; 
+	font-family: Verdana, sans-serif;
 	font-weight: normal;
 	line-height: 20px;
 	margin-bottom: 1.5em;
@@ -180,18 +195,11 @@ body{
 	-moz-box-sizing:border-box;
 }
 
-
-
-/* navigation styles */
-
-nav{
-	color: $red;
-}
-
 /* slideshow styles */
 
 #slideshow{
-  	height: 100%;
+	position: relative;
+  	height: 600px; /* arbritary height to give form!!!! */
 	width: 100%;
 	overflow: hidden;
 }
@@ -201,6 +209,51 @@ nav{
 	background-size: cover;
 	height: 100%;
 	width: 100%;
+}
+
+/* navigation styles */
+
+header{
+	position: relative;
+	background-color: white;
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+nav{
+	position: relative;
+	width: 100%;
+	background-color: white;
+
+	h1.dp_logo{
+		display: inline;
+		padding: 0 0 0 40px;
+		color: #BBB;
+/*		REMOVE COLOR WHEN BG IMAGE IS IMPLEMENTED!!!... WILL DEFAULT TO WHITE
+		background-image:
+		text-indent: -100%;
+		overflow: hidden;
+*/
+	}
+	ul{
+		float: right;
+		padding: 1.25em 40px 0 0;
+		li {
+			display: inline-block;
+		}
+
+		a {
+			padding: 1em;
+			color: $red;
+		}
+	}
+}
+
+.stuck{
+	position: fixed;
+	left: 0;
+	top: 0;
 }
 
 /* introduction section styles */

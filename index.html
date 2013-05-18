@@ -20,12 +20,13 @@
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.cycle.all.latest.js"></script>
-	<script src="/path/to/waypoints-sticky.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/waypoints-sticky.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
 	 <!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAqGKrodpdEs6flaj3xFw-gevNcTZCR8F0&sensor=true"></script>
+	<!-- <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAqGKrodpdEs6flaj3xFw-gevNcTZCR8F0&sensor=true"></script> -->
 	<script type="text/javascript" src="js/google_map.js"></script>
 
 </head>
@@ -64,11 +65,19 @@ h6 - Newsfeed titles (INTRO)
 			<section>
 
 				<div id="slideshow">
-				
-					<div class="hero-image" style="background-image:url('images/slide_1.jpg')">+THIS PIE IS DELICIOUS</div>
-					<div class="hero-image" style="background-image:url('images/slide_2.jpg')">+RAW, VEGAN, GLUTEN-FREE</div>
-					<div class="hero-image" style="background-image:url('images/slide_3.jpg')">+2013 TRIUMPH DINING BEST OF GLUTEN-FREE NOMINEE</div>
-					<div class="hero-image" style="background-image:url('images/slide_4.jpg')">+A PURE INDULGENCE</div>
+
+					<div class="hero-image" style="background-image:url('images/slide_1.jpg')">
+						<h1 class="tagline">+THIS PIE IS DELICIOUS</h1>
+					</div>
+					<div class="hero-image" style="background-image:url('images/slide_2.jpg')">
+						<h1 class="tagline">+RAW, VEGAN, GLUTEN-FREE</h1>
+					</div>
+					<div class="hero-image" style="background-image:url('images/slide_3.jpg')">
+						<h1 class="tagline">+2013 TRIUMPH DINING BEST OF GLUTEN-FREE NOMINEE</h1>
+					</div>
+					<div class="hero-image" style="background-image:url('images/slide_4.jpg')">
+						<h1 class="tagline">+A PURE INDULGENCE</h1>
+					</div>
 
 				</div>
 
@@ -81,7 +90,7 @@ h6 - Newsfeed titles (INTRO)
 
 					</ul>-->
 
-				
+
 
 			</section>  <!-- CLOSE SLIDESHOW -->
 
@@ -89,16 +98,18 @@ h6 - Newsfeed titles (INTRO)
 
 			<header>
 
-				<div>Divine Pie</div>
+					<nav>
 
-				<nav>
-					<ul>
-						<li><h6><a href="#">FLAVORS</a></h6></li>
-						<li><h6><a href="#">ABOUT</a></h6></li>
-						<li><h6><a href="#">NEWS</a></h6></li>
-						<li><h6><a href="#">FIND US</a></h6></li>
-					</ul>
-				</nav>
+						<h1 class="dp_logo">Divine Pie</h1> <!-- Turned h1 for SEO purposes. Use bg image for logo. Text will be hidden. -->
+
+						<ul class="clearfix">
+							<li><h6><a href="#">FLAVORS</a></h6></li>
+							<li><h6><a href="#">ABOUT</a></h6></li>
+							<li><h6><a href="#">NEWS</a></h6></li>
+							<li><h6><a href="#">FIND US</a></h6></li>
+						</ul>
+
+					</nav>
 
 			</header>	<!-- CLOSE NAVIGATION -->
 
@@ -121,7 +132,7 @@ h6 - Newsfeed titles (INTRO)
 				<div class="section group">
 					<div class="flavor_module col span_4_of_12">
 						<h3 class="wholesaleDetails">THESE FLAVORS ARE CURRENTLY AVAILABLE AT YOUR LOCAL VENDOR!</h3>
-						
+
 						<div>
 							<h3><a href="#" class="wholesaleButton">WHOLESALE</a></h3>
 						</div>
@@ -163,7 +174,7 @@ h6 - Newsfeed titles (INTRO)
 			</section>
 
 			<section class="marketFlavors box">
-				
+
 				<div class="section group">
 					<div class="col span_4_of_12">
 						<h3>MORE UNIQUE AND SEASONAL FLAVORS ARE AVAILABLE AT OUR FARMERS MARKET BOOTH!</h3>
@@ -260,7 +271,7 @@ h6 - Newsfeed titles (INTRO)
 			</section>  <!-- CLOSE ABOUT SECTION -->
 
 		<!-- NEWS SECTION -->
-			
+
 			<section class="news box">
 				<div class="section group">
 					<div class="col span_12_of_12">
@@ -277,7 +288,7 @@ h6 - Newsfeed titles (INTRO)
 
 							<h3>DIVINE PIE ON THE COOKING CHANNEL!</h3>
 							<div class="subcopy">Divine Pie is being featured in the Cooking Channel’s popular prime time show- Unique Sweets!! As a small local business, it is an honor to be so well represented and to get such incredible national recognition.</div>
-							
+
 						</div>
 					</section>  <!-- CLOSE VIDEO COLUMN LEFT -->
 
@@ -357,7 +368,7 @@ h6 - Newsfeed titles (INTRO)
 							<h5>MISSIONARY CHOCOLATES</h5>  <!-- COMPANY OR CITY/LOCATION (UPPERCASE) -->
 
 						</section>
-						
+
 					</article>
 				</div>
 
@@ -404,7 +415,7 @@ h6 - Newsfeed titles (INTRO)
 
 					</section>
 
-				</article> */</script> 
+				</article> */</script>
 
 			</section>   <!-- CLOSE PRAISE SECTION -->
 
@@ -455,7 +466,7 @@ h6 - Newsfeed titles (INTRO)
 					<div class="subcopy">For more info visit their
 					<a href="http://www.portlandfarmersmarket.org/markets/psu/">website</a>.</div>
 				</div>
-					
+
 			</section>  <!-- CLOSE FIND US SECTION -->
 
 		<!-- CONTACT SECTION -->
@@ -475,7 +486,7 @@ h6 - Newsfeed titles (INTRO)
 
 							<input type="text" name="cf_name" placeholder="Name">
 
-							
+
 
 							<input type="text" name="cf_email" placeholder="E-mail">
 
@@ -514,7 +525,7 @@ h6 - Newsfeed titles (INTRO)
 
 					</section>  <!-- CLOSE INFO COLUMN LEFT -->
 
-			
+
 
 				</div>
 			</section>  <!-- CLOSE CONTACT SECTION -->

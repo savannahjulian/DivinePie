@@ -1,4 +1,12 @@
 $(document).ready(function() {
+
+
+/*  STICKY HEADER/NAV CODE  */
+
+	$('header').waypoint('sticky');
+
+/* ABOUT SECTION */
+
 	$('.aboutTwo').hide();
 	$('.aboutThree').hide();
 
@@ -57,9 +65,9 @@ $(document).ready(function() {
 	$('#slideshow').height(window.innerHeight);
 
 	$('#slideshow').cycle({
-	
-		fx: 'fade', 
-		speed: 1000, 
+
+		fx: 'fade',
+		speed: 1000,
 		before: slideAdjust,
 		after: slideAdjust,
 		timeout: 5000,
