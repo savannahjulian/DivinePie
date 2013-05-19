@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+/* MAIN SLIDESHOW */
+ 	$('.flexslider').flexslider({
+    	animation: "slide"
+    });
 
 /*  STICKY HEADER/NAV CODE  */
 
