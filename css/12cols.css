@@ -52,7 +52,7 @@
 
 /* margin for less than 960px */
 
-@media only screen and (max-width: 960px){
+@media only screen and (max-width: 1000px){
 	.section{
 		margin: 0 1em;
 	}

@@ -123,12 +123,13 @@ h5 {
 	font-size: 1em;
 	font-family: "ITC Franklin Gothic Std";
 	font-weight: normal; 
-	line-height: 1.25em; }
+	line-height: 1.5em; }
 
 h6 {
 	font-size: 1em;
 	font-family: "Intro Bold", sans-serif;
-	font-weight: normal; }
+	font-weight: normal;
+	line-height: 1.5em; }
 
 .bodycopy{
 	font-size: 1.25em;
@@ -292,6 +293,7 @@ nav{
 
 .flavor_module{
 	text-align: center;
+	color: $darkgrey;
 }
 
 /* farmers market flavors section styles */
@@ -322,14 +324,34 @@ nav{
 
 /* news section styles */
 
+.video{
+	margin-bottom: 20px;
+}
+
 .news{
 	background: $lightgreen;
 	color: white;
 }
 
-.news a{
+.news h2 a{
 	color: white;
 	text-decoration: underline;
+}
+
+.news article{
+	color: $darkgrey;
+	margin: 0px 0px 20px 20px;
+}
+
+.news h6{
+	text-transform: uppercase;
+	color: $green;
+}
+
+.news .subcopy a{
+	text-transform: uppercase;
+	text-decoration: underline;
+	color: $darkgrey;
 }
 
 /* reviews/praise section styles */
@@ -343,11 +365,18 @@ nav{
 	text-align: center;
 }
 
-.reviews .whiteBox{
+.reviews span{
+	color: $green;
+	font-family: "Intro Bold", sans-serif;
+	font-size: 1.5em;
 }
 
-.reviews .whiteBox:last-of-type{
-	margin-right: 0px;
+.reviews .subcopy{
+	margin-bottom: 1.5em;
+}
+
+.author{
+	color: $green;
 }
 
 
@@ -423,29 +452,34 @@ nav{
 form {
 	font-size: .8125em;
 	max-width: 425px;
-	border: 1px solid $darkred;
 
 
 	.form-top {
 		position: relative;
-		margin: 16px 0;}
+		margin: 7px 0 16px 0;}
 
 	input{
 		background-color: $darkred;
 		padding: 5px;
 		width: 49%;
 		font-family: Verdana, sans-serif;
+		border: 1px solid $darkred;
+		font-size: .9375em;
 		}
 	textarea{
 		background-color: $darkred;
 		width: 100%;
 		margin-top: 1px;
 		min-height: 200px;
-		font-family: Verdana, sans-serif;}
+		font-family: Verdana, sans-serif;
+		border: 1px solid $darkred;
+		font-size: .9375em;
+		padding: 5px;
+		}
 
 	input[type=submit] , #contact form input[type=reset]{
 		width: 88px;
-		margin-right: 13px;}
+		margin-top: 16px;}
 
 	input[type=submit]:active , .contact form input[type=reset]:active {
 		background: $lightgrey;

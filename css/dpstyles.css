@@ -135,7 +135,7 @@ h5 {
   font-size: 1em;
   font-family: "ITC Franklin Gothic Std";
   font-weight: normal;
-  line-height: 1.25em;
+  line-height: 1.5em;
 }
 
 /* line 128, ../sass/dpstyles.scss */
@@ -143,9 +143,10 @@ h6 {
   font-size: 1em;
   font-family: "Intro Bold", sans-serif;
   font-weight: normal;
+  line-height: 1.5em;
 }
 
-/* line 133, ../sass/dpstyles.scss */
+/* line 134, ../sass/dpstyles.scss */
 .bodycopy {
   font-size: 1.25em;
   font-family: "Intro Light", sans-serif;
@@ -154,7 +155,7 @@ h6 {
   line-height: 1.875em;
 }
 
-/* line 141, ../sass/dpstyles.scss */
+/* line 142, ../sass/dpstyles.scss */
 .subcopy {
   font-size: .9375em;
   font-family: Verdana, sans-serif;
@@ -163,37 +164,37 @@ h6 {
   margin-bottom: 1.5em;
 }
 
-/* line 148, ../sass/dpstyles.scss */
+/* line 149, ../sass/dpstyles.scss */
 .subcopy:last-of-type {
   margin-bottom: 0px;
 }
 
-/* line 152, ../sass/dpstyles.scss */
+/* line 153, ../sass/dpstyles.scss */
 .formcopy {
   font-size: .875em;
   font-family: "Intro Light", sans-serif;
   font-weight: normal;
 }
 
-/* line 157, ../sass/dpstyles.scss */
+/* line 158, ../sass/dpstyles.scss */
 .right {
   float: right;
 }
 
 /* large color section styles */
-/* line 163, ../sass/dpstyles.scss */
+/* line 164, ../sass/dpstyles.scss */
 .box {
   padding: 80px 0;
 }
 
 /* SPECIFIC STYLES */
-/* line 173, ../sass/dpstyles.scss */
+/* line 174, ../sass/dpstyles.scss */
 .container {
   margin: 0 auto;
 }
 
 /* z-index container for revealing footer */
-/* line 179, ../sass/dpstyles.scss */
+/* line 180, ../sass/dpstyles.scss */
 .zindexContainer {
   background: url("../images/debut_light.png") repeat 0 0;
   margin-bottom: 80px;
@@ -201,7 +202,7 @@ h6 {
   z-index: 3;
 }
 
-/* line 186, ../sass/dpstyles.scss */
+/* line 187, ../sass/dpstyles.scss */
 .whiteBox {
   background: white;
   padding: 20px;
@@ -215,7 +216,7 @@ h6 {
 }
 
 /* slideshow styles */
-/* line 197, ../sass/dpstyles.scss */
+/* line 198, ../sass/dpstyles.scss */
 #slideshow {
   position: relative;
   height: 600px;
@@ -224,7 +225,7 @@ h6 {
   overflow: hidden;
 }
 
-/* line 204, ../sass/dpstyles.scss */
+/* line 205, ../sass/dpstyles.scss */
 #slideshow > div {
   background-repeat: no-repeat;
   background-size: cover;
@@ -233,7 +234,7 @@ h6 {
 }
 
 /* navigation styles */
-/* line 213, ../sass/dpstyles.scss */
+/* line 214, ../sass/dpstyles.scss */
 header {
   position: relative;
   height: 30px;
@@ -248,13 +249,13 @@ header {
   /* Opera/IE 8+ */
 }
 
-/* line 224, ../sass/dpstyles.scss */
+/* line 225, ../sass/dpstyles.scss */
 nav {
   position: relative;
   width: 100%;
   background-color: white;
 }
-/* line 229, ../sass/dpstyles.scss */
+/* line 230, ../sass/dpstyles.scss */
 nav h1.dp_logo {
   display: inline;
   padding: 0 0 0 40px;
@@ -265,22 +266,22 @@ nav h1.dp_logo {
   		overflow: hidden;
   */
 }
-/* line 239, ../sass/dpstyles.scss */
+/* line 240, ../sass/dpstyles.scss */
 nav ul {
   float: right;
   padding: 1.25em 40px 0 0;
 }
-/* line 242, ../sass/dpstyles.scss */
+/* line 243, ../sass/dpstyles.scss */
 nav ul li {
   display: inline-block;
 }
-/* line 246, ../sass/dpstyles.scss */
+/* line 247, ../sass/dpstyles.scss */
 nav ul a {
   padding: 1em;
   color: #e31f2d;
 }
 
-/* line 253, ../sass/dpstyles.scss */
+/* line 254, ../sass/dpstyles.scss */
 .stuck {
   position: fixed;
   left: 0;
@@ -288,24 +289,24 @@ nav ul a {
 }
 
 /* introduction section styles */
-/* line 261, ../sass/dpstyles.scss */
+/* line 262, ../sass/dpstyles.scss */
 .introduction {
   background: #e31f2d;
   color: white;
 }
 
-/* line 266, ../sass/dpstyles.scss */
+/* line 267, ../sass/dpstyles.scss */
 .introduction h2 {
   margin-bottom: 20px;
 }
 
 /* wholesale flavors section styles */
-/* line 272, ../sass/dpstyles.scss */
+/* line 273, ../sass/dpstyles.scss */
 .wholesaleDetails {
   color: #e31f2d;
 }
 
-/* line 276, ../sass/dpstyles.scss */
+/* line 277, ../sass/dpstyles.scss */
 .wholesaleButton {
   display: block;
   background: #dedede;
@@ -315,7 +316,7 @@ nav ul a {
   margin: 40px auto 30px auto;
 }
 
-/* line 285, ../sass/dpstyles.scss */
+/* line 286, ../sass/dpstyles.scss */
 .pieIcon {
   width: 93px;
   height: 93px;
@@ -323,31 +324,32 @@ nav ul a {
   display: block;
 }
 
-/* line 293, ../sass/dpstyles.scss */
+/* line 294, ../sass/dpstyles.scss */
 .flavor_module {
   text-align: center;
+  color: #58595b;
 }
 
 /* farmers market flavors section styles */
-/* line 299, ../sass/dpstyles.scss */
+/* line 301, ../sass/dpstyles.scss */
 .marketFlavors {
   background: #dedede;
   color: #58595b;
 }
 
 /* about section styles */
-/* line 306, ../sass/dpstyles.scss */
+/* line 308, ../sass/dpstyles.scss */
 .about {
   background: #41c3be;
   color: white;
 }
 
-/* line 311, ../sass/dpstyles.scss */
+/* line 313, ../sass/dpstyles.scss */
 .about h2 {
   text-align: center;
 }
 
-/* line 315, ../sass/dpstyles.scss */
+/* line 317, ../sass/dpstyles.scss */
 .icon {
   display: block;
   width: 70px;
@@ -356,51 +358,87 @@ nav ul a {
 }
 
 /* news section styles */
-/* line 325, ../sass/dpstyles.scss */
+/* line 327, ../sass/dpstyles.scss */
+.video {
+  margin-bottom: 20px;
+}
+
+/* line 331, ../sass/dpstyles.scss */
 .news {
   background: #a3c750;
   color: white;
 }
 
-/* line 330, ../sass/dpstyles.scss */
-.news a {
+/* line 336, ../sass/dpstyles.scss */
+.news h2 a {
   color: white;
   text-decoration: underline;
 }
 
+/* line 341, ../sass/dpstyles.scss */
+.news article {
+  color: #58595b;
+  margin: 0px 0px 20px 20px;
+}
+
+/* line 346, ../sass/dpstyles.scss */
+.news h6 {
+  text-transform: uppercase;
+  color: #8fb43a;
+}
+
+/* line 351, ../sass/dpstyles.scss */
+.news .subcopy a {
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #58595b;
+}
+
 /* reviews/praise section styles */
-/* line 337, ../sass/dpstyles.scss */
+/* line 359, ../sass/dpstyles.scss */
 .reviews {
   background: #8fb43a;
   color: white;
 }
 
-/* line 342, ../sass/dpstyles.scss */
+/* line 364, ../sass/dpstyles.scss */
 .reviews h2 {
   text-align: center;
 }
 
-/* line 349, ../sass/dpstyles.scss */
-.reviews .whiteBox:last-of-type {
-  margin-right: 0px;
+/* line 368, ../sass/dpstyles.scss */
+.reviews span {
+  color: #8fb43a;
+  font-family: "Intro Bold", sans-serif;
+  font-size: 1.5em;
+}
+
+/* line 374, ../sass/dpstyles.scss */
+.reviews .subcopy {
+  margin-bottom: 1.5em;
+}
+
+/* line 378, ../sass/dpstyles.scss */
+.author {
+  color: #8fb43a;
 }
 
 /* find us section styles */
-/* line 356, ../sass/dpstyles.scss */
+/* line 385, ../sass/dpstyles.scss */
 .findUs h2 {
   text-align: center;
   margin-bottom: 0px;
   color: #ec008c;
 }
 
-/* line 362, ../sass/dpstyles.scss */
+/* line 391, ../sass/dpstyles.scss */
 .findUs h5 {
   text-align: center;
 }
 
 /* map styles */
 /* vendor logo links section styles */
-/* line 376, ../sass/dpstyles.scss */
+/* line 405, ../sass/dpstyles.scss */
 .logo {
   float: left;
   height: 60px;
@@ -408,19 +446,19 @@ nav ul a {
 }
 
 /* farmers market information section styles */
-/* line 384, ../sass/dpstyles.scss */
+/* line 413, ../sass/dpstyles.scss */
 .farmersMarket {
   background: #dedede;
   color: #58595b;
 }
 
-/* line 389, ../sass/dpstyles.scss */
+/* line 418, ../sass/dpstyles.scss */
 .farmersMarket a {
   text-decoration: underline;
   color: #58595b;
 }
 
-/* line 395, ../sass/dpstyles.scss */
+/* line 424, ../sass/dpstyles.scss */
 .marketPhoto {
   background: url("../images/market_2.jpg") no-repeat 0 0;
   width: 100%;
@@ -428,13 +466,13 @@ nav ul a {
   float: left;
 }
 
-/* line 402, ../sass/dpstyles.scss */
+/* line 431, ../sass/dpstyles.scss */
 .marketRight {
   float: left;
 }
 
 /* contact information section styles */
-/* line 408, ../sass/dpstyles.scss */
+/* line 437, ../sass/dpstyles.scss */
 .contact {
   background: #e31f2d;
   color: white;
@@ -442,7 +480,7 @@ nav ul a {
 }
 
 /* form styles */
-/* line 416, ../sass/dpstyles.scss */
+/* line 445, ../sass/dpstyles.scss */
 .contact form * {
   color: white;
   -webkit-box-sizing: border-box;
@@ -453,45 +491,49 @@ nav ul a {
   /* Opera/IE 8+ */
 }
 
-/* line 423, ../sass/dpstyles.scss */
+/* line 452, ../sass/dpstyles.scss */
 form {
   font-size: .8125em;
   max-width: 425px;
-  border: 1px solid #c11824;
 }
-/* line 429, ../sass/dpstyles.scss */
+/* line 457, ../sass/dpstyles.scss */
 form .form-top {
   position: relative;
-  margin: 16px 0;
+  margin: 7px 0 16px 0;
 }
-/* line 433, ../sass/dpstyles.scss */
+/* line 461, ../sass/dpstyles.scss */
 form input {
   background-color: #c11824;
   padding: 5px;
   width: 49%;
   font-family: Verdana, sans-serif;
+  border: 1px solid #c11824;
+  font-size: .9375em;
 }
-/* line 439, ../sass/dpstyles.scss */
+/* line 469, ../sass/dpstyles.scss */
 form textarea {
   background-color: #c11824;
   width: 100%;
   margin-top: 1px;
   min-height: 200px;
   font-family: Verdana, sans-serif;
+  border: 1px solid #c11824;
+  font-size: .9375em;
+  padding: 5px;
 }
-/* line 446, ../sass/dpstyles.scss */
+/* line 480, ../sass/dpstyles.scss */
 form input[type=submit], form #contact form input[type=reset] {
   width: 88px;
-  margin-right: 13px;
+  margin-top: 16px;
 }
-/* line 450, ../sass/dpstyles.scss */
+/* line 484, ../sass/dpstyles.scss */
 form input[type=submit]:active, form .contact form input[type=reset]:active {
   background: #dedede;
   color: #58595b;
 }
 
 /* footer styles */
-/* line 457, ../sass/dpstyles.scss */
+/* line 491, ../sass/dpstyles.scss */
 .footer {
   text-align: center;
   padding: 80px 0 20px 0;
@@ -505,14 +547,14 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
   color: #58595b;
 }
 
-/* line 470, ../sass/dpstyles.scss */
+/* line 504, ../sass/dpstyles.scss */
 .footer a {
   color: #58595b;
 }
 
 /* GRID SYSTEM STYLES */
 /*  sections  */
-/* line 478, ../sass/dpstyles.scss */
+/* line 512, ../sass/dpstyles.scss */
 .section {
   clear: both;
   padding: 0px;
@@ -521,7 +563,7 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
 }
 
 /*  column setup  */
-/* line 486, ../sass/dpstyles.scss */
+/* line 520, ../sass/dpstyles.scss */
 .col {
   display: block;
   float: left;
@@ -529,20 +571,20 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
   /*margin: 1% 0 1% 1.6%;*/
 }
 
-/* line 492, ../sass/dpstyles.scss */
+/* line 526, ../sass/dpstyles.scss */
 .col:first-child {
   margin-left: 0;
 }
 
 /*  grouping  */
-/* line 496, ../sass/dpstyles.scss */
+/* line 530, ../sass/dpstyles.scss */
 .group:before,
 .group:after {
   content: "";
   display: table;
 }
 
-/* line 500, ../sass/dpstyles.scss */
+/* line 534, ../sass/dpstyles.scss */
 .group:after {
   clear: both;
 }
