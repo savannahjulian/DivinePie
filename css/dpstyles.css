@@ -72,9 +72,9 @@ h1 {
 
 h1.tagline {
   margin: 0 0 30px 0;
-  -moz-text-shadow: .1875em .1875em 0 grey;
-  -webkit-text-shadow: .1875em .1875em 0 grey;
-  text-shadow: .1875em .1875em 0 grey; }
+  -moz-text-shadow: 3px 3px 0 grey;
+  -webkit-text-shadow: 3px 3px 0 grey;
+  text-shadow: 3px 3px 0 grey; }
 
 h2 {
   font-size: 3.4375em;
