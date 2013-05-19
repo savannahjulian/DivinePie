@@ -209,6 +209,12 @@ body{
 	width: 100%;
 }
 
+.flexslider .slides > li{
+	background-size: cover;
+	background-position: center center;
+	height: 100%;
+}
+
 /* navigation styles */
 
 header{

@@ -7,6 +7,9 @@ $(document).ready(function() {
 
 /*  STICKY HEADER/NAV CODE  */
 
+	slideshowSetup();
+	window.addEventListener('resize',slideshowSetup);
+
 	$('header').waypoint('sticky');
 
 /* ABOUT SECTION */
@@ -34,7 +37,9 @@ $(document).ready(function() {
    	});
 });
 
-
+function slideshowSetup(){
+	$('.slides').height( $(window).height() - $('.navBar').height());
+}
 
 
 
