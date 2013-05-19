@@ -3,6 +3,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+/* line 19, ../sass/dpstyles.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,55 +22,79 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 /* HTML5 display-role reset for older browsers */
+/* line 29, ../sass/dpstyles.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block; }
+  display: block;
+}
 
+/* line 32, ../sass/dpstyles.scss */
 body {
   line-height: 1;
-  height: 100%; }
+  height: 100%;
+}
 
+/* line 36, ../sass/dpstyles.scss */
 ol, ul {
-  list-style: none; }
+  list-style: none;
+}
 
+/* line 39, ../sass/dpstyles.scss */
 blockquote, q {
-  quotes: none; }
+  quotes: none;
+}
 
+/* line 43, ../sass/dpstyles.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
-  content: none; }
+  content: none;
+}
 
+/* line 47, ../sass/dpstyles.scss */
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 /* CLEARFIX */
+/* line 54, ../sass/dpstyles.scss */
 .clearfix:before, .clearfix:after {
   content: "";
-  display: table; }
+  display: table;
+}
 
+/* line 58, ../sass/dpstyles.scss */
 .clearfix:after {
-  clear: both; }
+  clear: both;
+}
 
+/* line 61, ../sass/dpstyles.scss */
 .clearfix {
-  *zoom: 1; }
+  *zoom: 1;
+}
 
 /* SASS VARIABLES */
 /* GENERAL STYLES */
+/* line 83, ../sass/dpstyles.scss */
 a {
   text-decoration: none;
-  outline: none; }
+  outline: none;
+}
 
+/* line 88, ../sass/dpstyles.scss */
 h1 {
   font-size: 3.4375em;
   font-family: "Intro Bold", sans-serif;
   font-weight: normal;
-  color: white; }
+  color: white;
+}
 
+/* line 95, ../sass/dpstyles.scss */
 h1.tagline {
   position: absolute;
   top: 50%;
@@ -77,77 +102,123 @@ h1.tagline {
   text-align: center;
   -moz-text-shadow: 3px 3px 0 grey;
   -webkit-text-shadow: 3px 3px 0 grey;
-  text-shadow: 3px 3px 0 grey; }
+  text-shadow: 3px 3px 0 grey;
+}
 
+/* line 102, ../sass/dpstyles.scss */
 h2 {
   font-size: 3.4375em;
   font-family: "Intro Light", sans-serif;
   font-weight: normal;
+<<<<<<< HEAD
   line-height: 4.375em;
   margin-bottom: 50px; }
+=======
+  line-height: 70px;
+  margin-bottom: 50px;
+}
+>>>>>>> nothing much
 
+/* line 111, ../sass/dpstyles.scss */
 h3 {
   font-size: 1.375em;
   font-family: "Intro Bold", sans-serif;
   font-weight: normal;
+<<<<<<< HEAD
   letter-spacing: .0625em;
   line-height: 1.875em; }
+=======
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+>>>>>>> nothing much
 
+/* line 120, ../sass/dpstyles.scss */
 h4 {
   font-size: 1.125em;
   font-family: "ITC Franklin Gothic Std";
-  font-weight: normal; }
+  font-weight: normal;
+}
 
+/* line 126, ../sass/dpstyles.scss */
 h5 {
   font-size: 1em;
   font-family: "ITC Franklin Gothic Std";
-  font-weight: normal; }
+  font-weight: normal;
+}
 
+/* line 132, ../sass/dpstyles.scss */
 h6 {
   font-size: 1em;
   font-family: "Intro Bold", sans-serif;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
+/* line 138, ../sass/dpstyles.scss */
 .bodycopy {
   font-size: 1.25em;
   font-family: "Intro Light", sans-serif;
   font-weight: normal;
+<<<<<<< HEAD
   letter-spacing: .0625em;
   line-height: 1.875em; }
+=======
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+>>>>>>> nothing much
 
+/* line 146, ../sass/dpstyles.scss */
 .subcopy {
   font-size: .9375em;
   font-family: Verdana, sans-serif;
   font-weight: normal;
+<<<<<<< HEAD
   line-height: 1.25em;
   margin-bottom: 1.5em; }
+=======
+  line-height: 20px;
+  margin-bottom: 1.5em;
+}
+>>>>>>> nothing much
 
+/* line 154, ../sass/dpstyles.scss */
 .subcopy:last-of-type {
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+}
 
+/* line 158, ../sass/dpstyles.scss */
 .formcopy {
   font-size: .875em;
   font-family: "Intro Light", sans-serif;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
 .right {
   float: right; }
 
 /* large color section styles */
+/* line 167, ../sass/dpstyles.scss */
 .box {
-  padding: 80px 0; }
+  padding: 80px 0;
+}
 
 /* SPECIFIC STYLES */
+/* line 177, ../sass/dpstyles.scss */
 .container {
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 /* z-index container for revealing footer */
+/* line 183, ../sass/dpstyles.scss */
 .zindexContainer {
   background: url("../images/debut_light.png") repeat 0 0;
   margin-bottom: 80px;
   position: relative;
-  z-index: 3; }
+  z-index: 3;
+}
 
+/* line 190, ../sass/dpstyles.scss */
 .whiteBox {
   background: white;
   padding: 20px;
@@ -157,28 +228,39 @@ h6 {
   -moz-box-sizing: border-box;
   /* Firefox, other Gecko */
   box-sizing: border-box;
+<<<<<<< HEAD
   /* Opera/IE 8+ */ }
+=======
+  -moz-box-sizing: border-box;
+}
+>>>>>>> nothing much
 
 /* slideshow styles */
+/* line 200, ../sass/dpstyles.scss */
 #slideshow {
   position: relative;
   height: 600px;
   /* arbritary height to give form!!!! */
   width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
+/* line 207, ../sass/dpstyles.scss */
 #slideshow > div {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-  width: 100%; }
+  width: 100%;
+}
 
 /* navigation styles */
+/* line 216, ../sass/dpstyles.scss */
 header {
   position: relative;
   height: 30px;
   background-color: white;
   width: 100%;
+<<<<<<< HEAD
   z-index: 100;
   -webkit-box-sizing: border-box;
   /* Safari/Chrome, other WebKit */
@@ -186,144 +268,209 @@ header {
   /* Firefox, other Gecko */
   box-sizing: border-box;
   /* Opera/IE 8+ */ }
+=======
+  padding: 20px;
+  box-sizing: border-box;
+}
+>>>>>>> nothing much
 
+/* line 224, ../sass/dpstyles.scss */
 nav {
   position: relative;
   width: 100%;
-  background-color: white; }
-  nav h1.dp_logo {
-    display: inline;
-    padding: 0 0 0 40px;
-    color: #BBB;
-    /*		REMOVE COLOR WHEN BG IMAGE IS IMPLEMENTED!!!... WILL DEFAULT TO WHITE
-    		background-image:
-    		text-indent: -100%;
-    		overflow: hidden;
-    */ }
-  nav ul {
-    float: right;
-    padding: 1.25em 40px 0 0; }
-    nav ul li {
-      display: inline-block; }
-    nav ul a {
-      padding: 1em;
-      color: #e31f2d; }
+  background-color: white;
+}
+/* line 229, ../sass/dpstyles.scss */
+nav h1.dp_logo {
+  display: inline;
+  padding: 0 0 0 40px;
+  color: #BBB;
+  /*		REMOVE COLOR WHEN BG IMAGE IS IMPLEMENTED!!!... WILL DEFAULT TO WHITE
+  		background-image:
+  		text-indent: -100%;
+  		overflow: hidden;
+  */
+}
+/* line 239, ../sass/dpstyles.scss */
+nav ul {
+  float: right;
+  padding: 1.25em 40px 0 0;
+}
+/* line 242, ../sass/dpstyles.scss */
+nav ul li {
+  display: inline-block;
+}
+/* line 246, ../sass/dpstyles.scss */
+nav ul a {
+  padding: 1em;
+  color: #e31f2d;
+}
 
+/* line 253, ../sass/dpstyles.scss */
 .stuck {
   position: fixed;
   left: 0;
-  top: 0; }
+  top: 0;
+}
 
 /* introduction section styles */
+/* line 261, ../sass/dpstyles.scss */
 .introduction {
   background: #e31f2d;
-  color: white; }
+  color: white;
+}
 
+/* line 266, ../sass/dpstyles.scss */
 .introduction h2 {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 /* wholesale flavors section styles */
+/* line 272, ../sass/dpstyles.scss */
 .wholesaleDetails {
-  color: #e31f2d; }
+  color: #e31f2d;
+}
 
+/* line 276, ../sass/dpstyles.scss */
 .wholesaleButton {
   display: block;
   background: #dedede;
   text-align: center;
   padding: 15px 10px 10px 10px;
   color: white;
-  margin: 40px auto 30px auto; }
+  margin: 40px auto 30px auto;
+}
 
+/* line 285, ../sass/dpstyles.scss */
 .pieIcon {
   width: 93px;
   height: 93px;
   margin: 0 auto 30px;
-  display: block; }
+  display: block;
+}
 
+/* line 293, ../sass/dpstyles.scss */
 .flavor_module {
-  text-align: center; }
+  text-align: center;
+}
 
 /* farmers market flavors section styles */
+/* line 299, ../sass/dpstyles.scss */
 .marketFlavors {
   background: #dedede;
-  color: #58595b; }
+  color: #58595b;
+}
 
 /* about section styles */
+/* line 306, ../sass/dpstyles.scss */
 .about {
   background: #41c3be;
-  color: white; }
+  color: white;
+}
 
+/* line 311, ../sass/dpstyles.scss */
 .about h2 {
-  text-align: center; }
+  text-align: center;
+}
 
+/* line 315, ../sass/dpstyles.scss */
 .icon {
   display: block;
   width: 70px;
   height: 70px;
-  text-align: center; }
+  text-align: center;
+}
 
 /* news section styles */
+/* line 325, ../sass/dpstyles.scss */
 .news {
   background: #a3c750;
-  color: white; }
+  color: white;
+}
 
+/* line 330, ../sass/dpstyles.scss */
 .news a {
   color: white;
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
 /* reviews/praise section styles */
+/* line 337, ../sass/dpstyles.scss */
 .reviews {
-  background: adjust-lightness(#a3c750, -8);
-  color: white; }
+  background: #8fb43a;
+  color: white;
+}
 
+/* line 342, ../sass/dpstyles.scss */
 .reviews h2 {
-  text-align: center; }
+  text-align: center;
+}
 
+/* line 349, ../sass/dpstyles.scss */
 .reviews .whiteBox:last-of-type {
-  margin-right: 0px; }
+  margin-right: 0px;
+}
 
 /* find us section styles */
+/* line 356, ../sass/dpstyles.scss */
 .findUs h2 {
   text-align: center;
   margin-bottom: 0px;
-  color: #ec008c; }
+  color: #ec008c;
+}
 
+/* line 362, ../sass/dpstyles.scss */
 .findUs h5 {
-  text-align: center; }
+  text-align: center;
+}
 
 /* map styles */
 /* vendor logo links section styles */
+/* line 376, ../sass/dpstyles.scss */
 .logo {
   float: left;
   height: 60px;
-  margin-right: 39px; }
+  margin-right: 39px;
+}
 
 /* farmers market information section styles */
+/* line 384, ../sass/dpstyles.scss */
 .farmersMarket {
   background: #dedede;
-  color: #58595b; }
+  color: #58595b;
+}
 
+/* line 389, ../sass/dpstyles.scss */
 .farmersMarket a {
   text-decoration: underline;
-  color: #58595b; }
+  color: #58595b;
+}
 
+/* line 395, ../sass/dpstyles.scss */
 .marketPhoto {
   background: url("../images/market_2.jpg") no-repeat 0 0;
   width: 100%;
   height: 423px;
-  float: left; }
+  float: left;
+}
 
+/* line 402, ../sass/dpstyles.scss */
 .marketRight {
-  float: left; }
+  float: left;
+}
 
 /* contact information section styles */
+/* line 408, ../sass/dpstyles.scss */
 .contact {
   background: #e31f2d;
   color: white;
-  clear: both; }
+  clear: both;
+}
 
 /* form styles */
+/* line 416, ../sass/dpstyles.scss */
 .contact form * {
+<<<<<<< HEAD
   color: white;
   -webkit-box-sizing: border-box;
   /* Safari/Chrome, other WebKit */
@@ -356,8 +503,50 @@ form {
   form input[type=submit]:active, form .contact form input[type=reset]:active {
     background: #dedede;
     color: #58595b; }
+=======
+  margin-top: 16px;
+}
+
+/* line 420, ../sass/dpstyles.scss */
+.contact form input {
+  background: #c11824;
+  border: 1px solid #c11824;
+  padding: 5px;
+  width: 200px;
+  font-family: Verdana, sans-serif;
+  font-size: 13px;
+  color: white;
+  margin-right: 10px;
+}
+
+/* line 431, ../sass/dpstyles.scss */
+.contact form textarea {
+  background: #c11824;
+  border: 1px solid #c11824;
+  padding: 5px;
+  width: 425px;
+  min-height: 200px;
+  max-width: 425px;
+  font-family: Verdana, sans-serif;
+  font-size: 13px;
+  color: white;
+}
+
+/* line 444, ../sass/dpstyles.scss */
+.contact form input[type=submit], #contact form input[type=reset] {
+  width: 88px;
+  margin-right: 13px;
+}
+
+/* line 449, ../sass/dpstyles.scss */
+.contact form input[type=submit]:active, .contact form input[type=reset]:active {
+  background: #dedede;
+  color: #58595b;
+}
+>>>>>>> nothing much
 
 /* footer styles */
+/* line 456, ../sass/dpstyles.scss */
 .footer {
   text-align: center;
   padding: 80px 0 20px 0;
@@ -368,34 +557,47 @@ form {
   right: 0;
   height: 30px;
   z-index: 1;
-  color: #58595b; }
+  color: #58595b;
+}
 
+/* line 469, ../sass/dpstyles.scss */
 .footer a {
-  color: #58595b; }
+  color: #58595b;
+}
 
 /* GRID SYSTEM STYLES */
 /*  sections  */
+/* line 477, ../sass/dpstyles.scss */
 .section {
   clear: both;
   padding: 0px;
   margin: 0 auto;
-  max-width: 960px; }
+  max-width: 960px;
+}
 
 /*  column setup  */
+/* line 485, ../sass/dpstyles.scss */
 .col {
   display: block;
   float: left;
   margin: 1% 0 1% 1.6%;
-  /*margin: 1% 0 1% 1.6%;*/ }
+  /*margin: 1% 0 1% 1.6%;*/
+}
 
+/* line 491, ../sass/dpstyles.scss */
 .col:first-child {
-  margin-left: 0; }
+  margin-left: 0;
+}
 
 /*  grouping  */
+/* line 495, ../sass/dpstyles.scss */
 .group:before,
 .group:after {
   content: "";
-  display: table; }
+  display: table;
+}
 
+/* line 499, ../sass/dpstyles.scss */
 .group:after {
-  clear: both; }
+  clear: both;
+}
