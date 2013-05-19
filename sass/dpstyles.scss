@@ -213,7 +213,6 @@ body{
 
 header{
 	position: relative;
-	height: 30px;
 	background-color: white;
 	width: 100%;
 	z-index: 100;
@@ -227,19 +226,21 @@ nav{
 	width: 100%;
 	background-color: white;
 
+
 	h1.dp_logo{
-		display: inline;
-		padding: 0 0 0 40px;
-		color: #BBB;
+		text-indent: -9999px;
+		margin: 5px 0;
+		background: url('../images/logo.png') 0 0 no-repeat;
+		float: left;
+		height: 50px;
+		width: 236px;
 /*		REMOVE COLOR WHEN BG IMAGE IS IMPLEMENTED!!!... WILL DEFAULT TO WHITE
-		background-image:
-		text-indent: -100%;
-		overflow: hidden;
+		
 */
 	}
 	ul{
 		float: right;
-		padding: 1.25em 40px 0 0;
+		padding: 1.25em 0 0 0;
 		li {
 			display: inline-block;
 		}
@@ -256,6 +257,7 @@ nav{
 	left: 0;
 	top: 0;
 }
+
 
 /* introduction section styles */
 
@@ -280,7 +282,8 @@ nav{
 	text-align: center;
 	padding: 15px 10px 10px 10px;
 	color: white;
-	margin: 40px auto 30px auto;
+	margin: 70px auto 50px auto;
+	width: 80%;
 }
 
 .pieIcon{
@@ -319,6 +322,7 @@ nav{
 	width: 70px;
 	height: 70px;
 	text-align: center;
+	cursor: pointer;
 }
 
 
