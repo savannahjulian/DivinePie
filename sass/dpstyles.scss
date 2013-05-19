@@ -85,82 +85,74 @@ a{
 	outline: none;
 }
 
-h1{
-	font-size: 55px;
+h1 {
+	font-size: 3.4375em;
 	font-family: "Intro Bold", sans-serif;
 	font-weight: normal;
-	color: white;
-}
+	color: white; }
 
-h1.tagline{
-		margin: 0 0 30px 0;
-		-moz-text-shadow: 3px 3px 0 grey;
-		-webkit-text-shadow: 3px 3px 0 grey;
-		text-shadow: 3px 3px 0 grey;
-	}
+h1.tagline {
+	margin: 0 0 30px 0;
+	-moz-text-shadow: .1875em .1875em 0 grey;
+	-webkit-text-shadow: .1875em .1875em 0 grey;
+	text-shadow: .1875em .1875em 0 grey; }
 
-h2{
-	font-size: 55px;
+h2 {
+	font-size: 3.4375em;
 	font-family: "Intro Light", sans-serif;
 	font-weight: normal;
-	line-height: 70px;
-	margin-bottom: 50px;
-}
+	line-height: 4.375em;
+	margin-bottom: 50px; }
 
-
-h3{
-	font-size: 22px;
+h3 {
+	font-size: 1.375em;
 	font-family: "Intro Bold", sans-serif;
 	font-weight: normal;
-	letter-spacing: 1px;
-	line-height: 30px;
-}
+	letter-spacing: .0625em;
+	line-height: 1.875em; }
 
-
-h4{
-	font-size: 18px;
+h4 {
+	font-size: 1.125em;
 	font-family: "ITC Franklin Gothic Std";
-	font-weight: normal;
-}
+	font-weight: normal; }
 
-h5{
-	font-size: 16px;
+h5 {
+	font-size: 1em;
 	font-family: "ITC Franklin Gothic Std";
-	font-weight: normal;
-}
+	font-weight: normal; }
 
-h6{
-	font-size: 16px;
+h6 {
+	font-size: 1em;
 	font-family: "Intro Bold", sans-serif;
-	font-weight: normal;
-}
+	font-weight: normal; }
 
 .bodycopy{
-	font-size: 20px;
+	font-size: 1.25em;
 	font-family: "Intro Light", sans-serif;
 	font-weight: normal;
-	letter-spacing: 1px;
-	line-height: 30px;
+	letter-spacing: .0625em;
+	line-height: 1.875em;
 }
 
-.subcopy{
-	font-size: 15px;
+.subcopy {
+	font-size: .9375em;
 	font-family: Verdana, sans-serif;
 	font-weight: normal;
-	line-height: 20px;
-	margin-bottom: 1.5em;
-}
+	line-height: 1.25em;
+	margin-bottom: 1.5em; }
 
 .subcopy:last-of-type{
 	margin-bottom: 0px;
 }
 
-.formcopy{
-	font-size: 14px;
+.formcopy {
+	font-size: .875em;
 	font-family: "Intro Light", sans-serif;
-	font-weight: normal;
-}
+	font-weight: normal; }
 
+.right {
+	float: right;
+}
 
 /* large color section styles */
 
@@ -191,8 +183,9 @@ body{
 	background: white;
 	padding: 20px;
 	color: $darkgrey;
-	box-sizing:border-box;
-	-moz-box-sizing:border-box;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
 /* slideshow styles */
@@ -218,7 +211,9 @@ header{
 	background-color: white;
 	width: 100%;
 	padding: 20px;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
 nav{
@@ -414,41 +409,42 @@ nav{
 /* form styles */
 
 .contact form *{
-	margin-top: 16px;
-}
-
-.contact form input{
-	background: $darkred;
-	border: 1px solid $darkred;
-	padding: 5px;
-	width: 200px;
-	font-family: Verdana, sans-serif;
-	font-size: 13px;
 	color: white;
-	margin-right: 10px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-.contact form textarea{
-	background: $darkred;
-	border: 1px solid $darkred;
-	padding: 5px;
-	width: 425px;
-	min-height: 200px;
+form {
+	font-size: .8125em;
 	max-width: 425px;
-	font-family: Verdana, sans-serif;
-	font-size: 13px;
-	color: white;
-}
+	border: 1px solid $darkred;
 
-.contact form input[type=submit] , #contact form input[type=reset]
-{
-	width: 88px;
-	margin-right: 13px;
-}
 
-.contact form input[type=submit]:active , .contact form input[type=reset]:active {
-	background: $lightgrey;
-	color: $darkgrey;
+	.form-top {
+		position: relative;
+		margin: 16px 0;}
+
+	input{
+		background-color: $darkred;
+		padding: 5px;
+		width: 49%;
+		font-family: Verdana, sans-serif;
+		}
+	textarea{
+		background-color: $darkred;
+		width: 100%;
+		margin-top: 1px;
+		min-height: 200px;
+		font-family: Verdana, sans-serif;}
+
+	input[type=submit] , #contact form input[type=reset]{
+		width: 88px;
+		margin-right: 13px;}
+
+	input[type=submit]:active , .contact form input[type=reset]:active {
+		background: $lightgrey;
+		color: $darkgrey;}
 }
 
 /* footer styles */
@@ -499,5 +495,3 @@ nav{
 .group:after {
 	clear:both;
 }
-
-
