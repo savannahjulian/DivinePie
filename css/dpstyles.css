@@ -258,8 +258,8 @@ header {
 /* line 230, ../sass/dpstyles.scss */
 nav {
   position: relative;
-  width: 100%;
   background-color: white;
+  padding: .5em;
 }
 /* line 236, ../sass/dpstyles.scss */
 nav h1.dp_logo {
