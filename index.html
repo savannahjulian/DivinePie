@@ -24,12 +24,19 @@
 	<script src="js/jquery.flexslider-min.js"></script>
 	<script src="js/waypoints.min.js"></script>
 	<script src="js/waypoints-sticky.min.js"></script>
+	 <?php
+	 $cache_expire = 60*60*24*365;
+	 header("Pragma: public");
+	 header("Cache-Control: max-age=".$cache_expire);
+	 header('Expires: ' . gmdate('tue, 01 Jun 2015 19:45:00', time()+$cache_expire) . ' GMT');
+	 ?>
+	<script src="//connect.facebook.net/en_US/all.js"></script>
+	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCGiP64G592ZO11tUsUJDJ2UpqeV83VVCc&sensor=true"></script>
+	<script type="text/javascript" src="js/google_map.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
 	 <!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCGiP64G592ZO11tUsUJDJ2UpqeV83VVCc&sensor=true"></script>
-	<script type="text/javascript" src="js/google_map.js"></script>
 
 </head>
 
@@ -60,7 +67,27 @@ h6 - Newsfeed titles (INTRO)
 
 <body>
 
-	<div class="container">
+	<!-- FACEBOOK FEED SCRIPT -->
+	<div id="fb-root"></div>
+	<script>
+		window.fbAsyncInit = function() {
+	    // init the FB JS SDK
+	    FB.init({
+	      appId      : 'YOUR_APP_ID',                        // App ID from the app dashboard
+	      channelUrl : '//divinepieportland.com/channel.html', // Channel file for x-domain comms
+	      status     : true,                                 // Check Facebook Login status
+	      xfbml      : true                                  // Look for social plugins on the page
+	    });(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+
+
+		<div class="container">
 
 	<!-- SLIDESHOW -->
 		<div class="zindexContainer">
@@ -196,7 +223,7 @@ h6 - Newsfeed titles (INTRO)
 						<h6>KEYLIME PIE</h6>
 						<div class="subcopy">Fresh, hand-squeezed lime juice gives our Key Lime a perfect balance of refreshing tartness. Ripe, creamy avocado makes for a sweet, creamy pie.</div>
 					</div>
-				
+
 					<div class="flavor_module column col-4">
 						<img class="pieIcon" src="images/hazelnut.png" alt="" title="" />
 						<h6>CHOCOLATE HAZELNUT CREAM PIE</h6>
@@ -336,6 +363,9 @@ h6 - Newsfeed titles (INTRO)
 
 					<section>
 						<div class="column col-5">
+
+<div class="fb-like-box" data-href="https://www.facebook.com/pages/Divine-Pie/216484055084120" data-width="292" data-show-faces="true" data-stream="true" data-show-border="false" data-header="false"></div>
+
 							<article class="whiteBox">
 								<h6>yum! Brand New Flavor!</h6>
 								<div class="subcopy">
