@@ -33,6 +33,7 @@ body {
 	line-height: 1;
 	height: 100%;
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -93,12 +94,12 @@ h1 {
 
 h1.tagline {
 	position: absolute;
-	top: 50%;
+	top: 47%;
 	width: 100%;
 	text-align: center;
-	-moz-text-shadow: 3px 3px 0 grey;
-	-webkit-text-shadow: 3px 3px 0 grey;
-	text-shadow: 3px 3px 0 grey; }
+	letter-spacing: .0625em;
+	text-shadow: 0 4px 11px $darkgrey;
+}
 
 h2 {
 	font-size: 3.4375em;
@@ -365,7 +366,7 @@ nav{
 
 .news article{
 	color: $darkgrey;
-	margin: 20px 0;
+	margin-bottom: 20px;
 }
 
 .news h6{
@@ -422,9 +423,9 @@ nav{
 
 /* map styles */
 
-.map { height: 500px }
+	 
+#map-canvas { height: 100% }
 
- #map-canvas { height: 100% }
 
 /* vendor logo links section styles */
 
@@ -562,13 +563,58 @@ $gutterWidth:2%;
 .column {
 	margin: 0 ( $gutterWidth / 2 );
 	float: left;
-	@media screen and ( max-width: 480px ) {
+	/*@media screen and ( max-width: 480px ) {
 		clear: both;
 		width: auto;
 		float: none;
-		text-align: left;
-	}
+	}*/
+
 }
+
+@media screen and ( max-width: 600px ) {
+
+		.hide{
+			display: none !important;
+		}
+
+		h2{
+			text-align: left;
+			font-size: 1.7em;
+		}
+
+		h3{
+			text-align: left;
+			font-size: 1.2em;
+		}
+
+		h5{
+			font-size: .9em;
+		}
+
+		.bodycopy{
+			font-size: 1em;
+		}
+
+		.subcopy{
+			font-size: .85em;
+		}
+
+		.box{
+			padding: 50px 0;
+		}
+
+		.whiteBox{
+			background: none;
+			padding: 0;
+			color: white;
+		}
+
+		.logoLinks{
+			display: none;
+		}
+
+		
+	}
 
 .wrapper {
 	margin: 0 auto;
