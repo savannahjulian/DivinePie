@@ -360,7 +360,7 @@ nav{
 
 .news article{
 	color: $darkgrey;
-	margin: 0px 0px 20px 20px;
+	margin: 20px 0;
 }
 
 .news h6{
@@ -399,6 +399,10 @@ nav{
 	color: $green;
 }
 
+.reviews article{
+	margin: 20px 0;
+}
+
 
 /* find us section styles */
 
@@ -433,6 +437,7 @@ nav{
 .farmersMarket{
 	background: $lightgrey;
 	color: $darkgrey;
+	position: relative;
 }
 
 .farmersMarket a{
@@ -442,14 +447,16 @@ nav{
 }
 
 .marketPhoto{
-	background: url('../images/market_2.jpg') no-repeat 0 0;
-	width: 100%;
-	height: 423px;
-	float: left;
+	background: url('../images/market_2.jpg') no-repeat right 0;
+	width: 44%;
+	position: absolute;
+	left: 0;
+	height: 100%;
+	background-size: cover;
 }
 
 .marketRight{
-	float: left;
+	padding: 80px 0;
 }
 
 /* contact information section styles */
