@@ -444,27 +444,22 @@ nav ul a {
   color: #8fb43a;
 }
 
-/* line 402, ../sass/dpstyles.scss */
-.reviews article {
-  margin: 20px 0;
-}
-
 /* find us section styles */
-/* line 409, ../sass/dpstyles.scss */
+/* line 407, ../sass/dpstyles.scss */
 .findUs h2 {
   text-align: center;
   margin-bottom: 0px;
   color: #ec008c;
 }
 
-/* line 415, ../sass/dpstyles.scss */
+/* line 413, ../sass/dpstyles.scss */
 .findUs h5 {
   text-align: center;
 }
 
 /* map styles */
 /* vendor logo links section styles */
-/* line 429, ../sass/dpstyles.scss */
+/* line 427, ../sass/dpstyles.scss */
 .logo {
   float: left;
   height: 60px;
