@@ -746,86 +746,81 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
   }
 
   /* line 592, ../sass/dpstyles.scss */
+  .introduction h2 {
+    margin-bottom: .6em;
+  }
+
+  /* line 596, ../sass/dpstyles.scss */
   h3 {
     font-size: 1.2em;
   }
 
-  /* line 597, ../sass/dpstyles.scss */
+  /* line 601, ../sass/dpstyles.scss */
   h5 {
     font-size: .9em;
   }
 
-  /* line 601, ../sass/dpstyles.scss */
+  /* line 605, ../sass/dpstyles.scss */
   .bodycopy {
-    font-size: 1em;
+    font-size: .9em;
   }
 
-  /* line 605, ../sass/dpstyles.scss */
+  /* line 609, ../sass/dpstyles.scss */
   .subcopy {
     font-size: .85em;
   }
 
-  /* line 609, ../sass/dpstyles.scss */
+  /* line 613, ../sass/dpstyles.scss */
   .box {
     padding: 50px 0;
   }
 
-  /* line 613, ../sass/dpstyles.scss */
+  /* line 617, ../sass/dpstyles.scss */
   .pieIcon {
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
   }
 
-  /* line 619, ../sass/dpstyles.scss */
+  /* line 623, ../sass/dpstyles.scss */
   .flavor_module h6 {
     padding-top: 12px;
     text-align: left;
   }
 
-  /* line 624, ../sass/dpstyles.scss */
+  /* line 628, ../sass/dpstyles.scss */
   .flavor_module {
     min-height: 0px;
   }
 
-  /* line 629, ../sass/dpstyles.scss */
-  .reviews .quotes {
-    color: white;
-  }
-
-  /* line 633, ../sass/dpstyles.scss */
-  .reviews .author {
-    color: white;
-  }
-
-  /* line 637, ../sass/dpstyles.scss */
+  /* line 632, ../sass/dpstyles.scss */
   .wholesaleButton {
     width: 92%;
   }
 
-  /* line 641, ../sass/dpstyles.scss */
-  .whiteBox {
+  /* line 636, ../sass/dpstyles.scss */
+  .about .whiteBox {
     background: none;
     padding: 0;
     color: white;
   }
 
-  /* line 647, ../sass/dpstyles.scss */
+  /* line 642, ../sass/dpstyles.scss */
   .logoLinks {
     display: none;
   }
 
-  /* line 651, ../sass/dpstyles.scss */
+  /* line 646, ../sass/dpstyles.scss */
   .marketRight {
     padding: 50px 0;
   }
 
-  /* line 655, ../sass/dpstyles.scss */
+  /* line 650, ../sass/dpstyles.scss */
   .form {
     padding-bottom: 20px;
   }
 
-  /* line 659, ../sass/dpstyles.scss */
+  /* line 654, ../sass/dpstyles.scss */
   .show {
     display: block;
     margin: 0 auto;
@@ -833,19 +828,19 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
     padding: 20px 0;
   }
 
-  /* line 666, ../sass/dpstyles.scss */
+  /* line 661, ../sass/dpstyles.scss */
   .show img {
     width: 100%;
   }
 }
-/* line 673, ../sass/dpstyles.scss */
+/* line 668, ../sass/dpstyles.scss */
 .wrapper {
   margin: 0 auto;
   width: 80%;
   clear: both;
 }
 
-/* line 679, ../sass/dpstyles.scss */
+/* line 674, ../sass/dpstyles.scss */
 .clearfix:after {
   content: '';
   clear: both;

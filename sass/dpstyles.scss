@@ -589,6 +589,10 @@ $gutterWidth:2%;
 			font-size: 1.5em;
 		}
 
+		.introduction h2{
+			margin-bottom: .6em;
+		}
+
 		h3{
 	
 			font-size: 1.2em;
@@ -599,7 +603,7 @@ $gutterWidth:2%;
 		}
 
 		.bodycopy{
-			font-size: 1em;
+			font-size: .9em;
 		}
 
 		.subcopy{
@@ -625,20 +629,11 @@ $gutterWidth:2%;
 			min-height: 0px;
 		}
 
-
-		.reviews .quotes{
-			color: white;
-		}
-
-		.reviews .author{
-			color: white;
-		}
-
 		.wholesaleButton{
 			width: 92%;
 		}
 
-		.whiteBox{
+		.about .whiteBox{
 			background: none;
 			padding: 0;
 			color: white;
