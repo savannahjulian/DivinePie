@@ -566,15 +566,15 @@ $gutterWidth:2%;
 .column {
 	margin: 0 ( $gutterWidth / 2 );
 	float: left;
-	/*@media screen and ( max-width: 480px ) {
+	@media screen and ( max-width: 480px ) {
 		clear: both;
 		width: auto;
 		float: none;
-	}*/
+	}
 
 }
 
-@media screen and ( max-width: 600px ) {
+@media screen and ( max-width: 320px ) {
 
 		.hide{
 			display: none !important;
@@ -582,11 +582,11 @@ $gutterWidth:2%;
 
 		h2{
 			text-align: left;
-			font-size: 1.7em;
+			font-size: 1.5em;
 		}
 
 		h3{
-			text-align: left;
+	
 			font-size: 1.2em;
 		}
 
@@ -606,6 +606,34 @@ $gutterWidth:2%;
 			padding: 50px 0;
 		}
 
+		.pieIcon{
+			float:left;
+			margin-right: 20px;
+			margin-bottom: 20px;
+		}
+
+		.flavor_module h6{
+			padding-top: 12px;
+			text-align: left;
+		}
+
+		.flavor_module{
+			min-height: 0px;
+		}
+
+
+		.reviews .quotes{
+			color: white;
+		}
+
+		.reviews .author{
+			color: white;
+		}
+
+		.wholesaleButton{
+			width: 92%;
+		}
+
 		.whiteBox{
 			background: none;
 			padding: 0;
@@ -614,6 +642,14 @@ $gutterWidth:2%;
 
 		.logoLinks{
 			display: none;
+		}
+
+		.marketRight{
+			padding: 50px 0;
+		}
+
+		.form{
+			padding-bottom: 20px;
 		}
 
 		

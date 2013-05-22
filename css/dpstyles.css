@@ -718,14 +718,17 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
 .column {
   margin: 0 1%;
   float: left;
-  /*@media screen and ( max-width: 480px ) {
-  	clear: both;
-  	width: auto;
-  	float: none;
-  }*/
+}
+@media screen and (max-width: 480px) {
+  /* line 566, ../sass/dpstyles.scss */
+  .column {
+    clear: both;
+    width: auto;
+    float: none;
+  }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
   /* line 579, ../sass/dpstyles.scss */
   .hide {
     display: none !important;
@@ -734,12 +737,11 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
   /* line 583, ../sass/dpstyles.scss */
   h2 {
     text-align: left;
-    font-size: 1.7em;
+    font-size: 1.5em;
   }
 
   /* line 588, ../sass/dpstyles.scss */
   h3 {
-    text-align: left;
     font-size: 1.2em;
   }
 
@@ -764,25 +766,68 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
   }
 
   /* line 609, ../sass/dpstyles.scss */
+  .pieIcon {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* line 615, ../sass/dpstyles.scss */
+  .flavor_module h6 {
+    padding-top: 12px;
+    text-align: left;
+  }
+
+  /* line 620, ../sass/dpstyles.scss */
+  .flavor_module {
+    min-height: 0px;
+  }
+
+  /* line 625, ../sass/dpstyles.scss */
+  .reviews .quotes {
+    color: white;
+  }
+
+  /* line 629, ../sass/dpstyles.scss */
+  .reviews .author {
+    color: white;
+  }
+
+  /* line 633, ../sass/dpstyles.scss */
+  .wholesaleButton {
+    width: 92%;
+  }
+
+  /* line 637, ../sass/dpstyles.scss */
   .whiteBox {
     background: none;
     padding: 0;
     color: white;
   }
 
-  /* line 615, ../sass/dpstyles.scss */
+  /* line 643, ../sass/dpstyles.scss */
   .logoLinks {
     display: none;
   }
+
+  /* line 647, ../sass/dpstyles.scss */
+  .marketRight {
+    padding: 50px 0;
+  }
+
+  /* line 651, ../sass/dpstyles.scss */
+  .form {
+    padding-bottom: 20px;
+  }
 }
-/* line 622, ../sass/dpstyles.scss */
+/* line 658, ../sass/dpstyles.scss */
 .wrapper {
   margin: 0 auto;
   width: 80%;
   clear: both;
 }
 
-/* line 628, ../sass/dpstyles.scss */
+/* line 664, ../sass/dpstyles.scss */
 .clearfix:after {
   content: '';
   clear: both;
