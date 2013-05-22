@@ -194,6 +194,10 @@ body{
 	box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
+.show{
+	display: none;
+}
+
 /* slideshow styles */
 
 #slideshow{
@@ -650,6 +654,17 @@ $gutterWidth:2%;
 
 		.form{
 			padding-bottom: 20px;
+		}
+
+		.show{
+			display: block;
+			margin: 0 auto;
+			background: white;
+			padding: 20px 0;
+		}
+
+		.show img{
+			width: 100%;
 		}
 
 		
