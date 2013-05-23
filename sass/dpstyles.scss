@@ -78,6 +78,7 @@ $pink: rgb(236,0,140);
 $lightblue: rgb(48,74,148);
 $blue: adjust-lightness($lightblue,-8);
 $darkblue: adjust-lightness($blue,-8);
+$white: #FEFEFA;
 
 /* GENERAL STYLES */
 
@@ -90,7 +91,7 @@ h1 {
 	font-size: 3.4375em;
 	font-family: "Intro Bold", sans-serif;
 	font-weight: normal;
-	color: white; }
+	color: $white; }
 
 h1.tagline {
 	position: absolute;
@@ -99,6 +100,10 @@ h1.tagline {
 	text-align: center;
 	letter-spacing: .0625em;
 	text-shadow: 0 4px 11px $darkgrey;
+}
+
+h1 span{
+	color: $red;
 }
 
 h2 {
@@ -186,7 +191,7 @@ body{
 }
 
 .whiteBox{
-	background: white;
+	background: $white;
 	padding: 20px;
 	color: $darkgrey;
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -236,7 +241,7 @@ body{
 
 header{
 	position: relative;
-	background-color: white;
+	background-color: $white;
 	width: 100%;
 	z-index: 100;
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -246,13 +251,15 @@ header{
 
 nav{
 	position: relative;
-	background-color: white;
+	background-color: $white;
 	padding: .5em;
+	box-shadow: 0em 9px 5px 1px rgba(0,0,0,0.1);
+
 
 
 	h1.dp_logo{
 		text-indent: -9999px;
-		margin: 5px 0;
+		margin: 10px 0;
 		background: url('../images/logo.png') 0 0 no-repeat;
 		float: left;
 		height: 50px;
@@ -263,7 +270,7 @@ nav{
 	}
 	ul{
 		float: right;
-		padding: 1.25em 0 0 0;
+		padding: 1.6em 0 0 0;
 		li {
 			display: inline-block;
 		}
@@ -286,7 +293,7 @@ nav{
 
 .introduction{
 	background: $red;
-	color: white;
+	color: $white;
 }
 
 .introduction h2{
@@ -305,7 +312,7 @@ nav{
 	background: $lightgrey;
 	text-align: center;
 	padding: 15px 10px 10px 10px;
-	color: white;
+	color: $white;
 	margin: 30px auto;
 	width: 80%;
 }
@@ -339,7 +346,7 @@ nav{
 
 .about{
 	background: $aqua;
-	color: white;
+	color: $white;
 }
 
 .about h2{
@@ -373,11 +380,11 @@ nav{
 
 .news{
 	background: $lightgreen;
-	color: white;
+	color: $white;
 }
 
 .news h2 a{
-	color: white;
+	color: $white;
 	text-decoration: underline;
 }
 
@@ -401,7 +408,7 @@ nav{
 
 .reviews{
 	background: $green;
-	color: white;
+	color: $white;
 }
 
 .reviews h2{
@@ -491,14 +498,14 @@ nav{
 
 .contact{
 	background: $red;
-	color: white;
+	color: $white;
 	clear: both;
 }
 
 /* form styles */
 
 .contact form *{
-	color: white;
+	color: $white;
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
@@ -714,7 +721,7 @@ and (max-width : 480px) {
 		.show{
 			display: block;
 			margin: 0 auto;
-			background: white;
+			background: $white;
 			padding-top: 20px;
 		}
 
@@ -752,6 +759,15 @@ and (max-width : 480px) {
 			flavors: none;
 			width: auto;
 			min-height: 0px;
+		}
+
+		.contact .column{
+			float: none;
+			width: auto;
+		}
+
+		.form{
+			padding-bottom: 20px;
 		}
 
 	
