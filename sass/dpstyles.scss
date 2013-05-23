@@ -194,6 +194,18 @@ body{
 	box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
+.about .whiteBox{
+	box-shadow: 5px 5px 0px $darkaqua;
+}
+
+.reviews .whiteBox{
+	box-shadow: 5px 5px 0px $darkgreen;
+}
+
+.news .whiteBox{
+	box-shadow: 5px 5px 0px $green;
+}
+
 .show{
 	display: none;
 }
@@ -285,6 +297,7 @@ nav{
 
 .wholesaleDetails{
 	color: $red;
+	padding-top: 30px;
 }
 
 .wholesaleButton{
@@ -436,11 +449,11 @@ nav{
 
 /* vendor logo links section styles */
 
-.logoLinks{
+.logoLinks .wrapper{
+	text-align: center;
 }
 
 .logo{
-	float: left;
 	height: 60px;
 	margin-right: 39px;
 }
@@ -507,6 +520,7 @@ form {
 		font-family: Verdana, sans-serif;
 		border: 1px solid $darkred;
 		font-size: .9375em;
+		-webkit-appearance: none;
 		}
 	textarea{
 		background-color: $darkred;
@@ -517,11 +531,14 @@ form {
 		border: 1px solid $darkred;
 		font-size: .9375em;
 		padding: 5px;
+		-webkit-appearance: none;
 		}
 
 	input[type=submit] , #contact form input[type=reset]{
 		width: 88px;
-		margin-top: 16px;}
+		margin-top: 16px;
+		-webkit-appearance: none;
+}
 
 	input[type=submit]:active , .contact form input[type=reset]:active {
 		background: $lightgrey;
@@ -708,6 +725,38 @@ and (max-width : 480px) {
 		
 	}
 
+	@media screen and (max-width : 700px) {
+		nav{
+			text-align: center;
+		}
+
+		nav ul{
+			float: none;
+			padding: 20px 0 17px 0;
+		}
+
+		nav h6{
+			font-size: .9em;
+		}
+
+		nav li{
+			padding: 0 1%;
+		}
+
+		nav ul a{
+			padding: 0;
+		}
+
+		.flavor_module{
+			clear: both;
+			flavors: none;
+			width: auto;
+			min-height: 0px;
+		}
+
+	
+	}
+
 	@media screen and (max-width : 820px) {
 
 		.pieIcon{
@@ -717,6 +766,32 @@ and (max-width : 480px) {
 		nav ul a{
 			margin-left: .5em;
 			padding: 0;
+		}
+
+		.footer{
+			padding: 80px 10px 25px 10px;
+		}
+
+		.zindexContainer{
+			margin-bottom: 110px;
+		}
+	}
+
+	@media screen and (max-width: 940px) {
+
+		.flavor_module .subcopy{
+			text-align: left;
+		}
+
+		.pieIcon{
+			margin-top: 20px;
+		}
+
+		.reviews article{
+			float: none;
+			clear: both;
+			width: auto;
+			margin-bottom: 20px;
 		}
 	}
 
