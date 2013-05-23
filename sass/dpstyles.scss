@@ -99,7 +99,7 @@ h1.tagline {
 	width: 100%;
 	text-align: center;
 	letter-spacing: .0625em;
-	text-shadow: 0 4px 11px $darkgrey;
+	text-shadow: 0 4px 11px black;
 }
 
 h1 span{
@@ -129,7 +129,8 @@ h5 {
 	font-size: 1em;
 	font-family: "ITC Franklin Gothic Std";
 	font-weight: normal;
-	line-height: 1.5em; }
+	line-height: 1.5em; 
+}
 
 h6 {
 	font-size: 1em;
@@ -138,7 +139,7 @@ h6 {
 	line-height: 1.5em; }
 
 .bodycopy{
-	font-size: 1.25em;
+	font-size: 1.5em;
 	font-family: "Intro Light", sans-serif;
 	font-weight: normal;
 	letter-spacing: .0625em;
@@ -292,7 +293,7 @@ nav{
 /* introduction section styles */
 
 .introduction{
-	background: $red;
+	background: url('../images/redPattern.png') 628px 51px no-repeat $red;
 	color: $white;
 }
 
@@ -361,6 +362,10 @@ nav{
 	margin-bottom: 5em;
 }
 
+/* green section styles */
+
+
+
 
 /* news section styles */
 
@@ -379,7 +384,7 @@ nav{
 }
 
 .news{
-	background: $lightgreen;
+	background: url('../images/greenPattern.png') -200px 74px no-repeat $lightgreen;
 	color: $white;
 }
 
@@ -442,6 +447,7 @@ nav{
 
 .findUs h5{
 	text-align: center;
+	color: $darkgrey;
 }
 
 
@@ -461,8 +467,12 @@ nav{
 }
 
 .logo{
-	height: 60px;
-	margin-right: 39px;
+	height: 53px;
+	margin-right: 68px;
+}
+
+.logoLast{
+	margin-right: 0;
 }
 
 
