@@ -108,7 +108,7 @@ h1 span{
 
 h2 {
 	font-size: 3.4375em;
-	font-family: "Intro Light", sans-serif;
+	font-family: "Intro Book", sans-serif;
 	font-weight: normal;
 	line-height: 1.375em;
 	margin-bottom: 50px; }
@@ -140,7 +140,7 @@ h6 {
 
 .bodycopy{
 	font-size: 1.5em;
-	font-family: "Intro Light", sans-serif;
+	font-family: "Intro Book", sans-serif;
 	font-weight: normal;
 	letter-spacing: .0625em;
 	line-height: 1.875em;
@@ -462,13 +462,38 @@ nav{
 
 /* vendor logo links section styles */
 
-.logoLinks .wrapper{
-	text-align: center;
+.logoLinks{
+	height: 44px;	
 }
 
-.logo{
-	height: 53px;
+.wholeFoods{
 	margin-right: 68px;
+	height: 60px;
+	width: 75px;
+	display: block;
+	float: right;
+	text-align: left;
+	background: url('../images/wholefoods2.png') 0 0 no-repeat;
+	text-indent: -9999px;
+}
+
+.wholeFoods:hover{
+	background-position: -75px 0;
+}
+
+.ashland{
+	margin-right: 68px;
+	height: 60px;
+	width: 75px;
+	display: block;
+	float: right;
+	text-align: left;
+	background: url('../images/wholefoods2.png') 0 0 no-repeat;
+	text-indent: -9999px;
+}
+
+.ashland:hover{
+
 }
 
 .logoLast{
@@ -506,8 +531,8 @@ nav{
 
 /* contact information section styles */
 
-.contact{
-	background: $red;
+.contact{ 
+	background: url('../images/redPattern.png') 590px 70px no-repeat $red;
 	color: $white;
 	clear: both;
 }
