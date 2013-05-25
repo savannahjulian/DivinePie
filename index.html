@@ -7,7 +7,6 @@
 	<meta name="description" content="raw and whole food pies that are gluten and dairy free! located in in portland, OR" />
 	<meta name="keywords" content="raw food, raw pie, live pie, cacao, portland, living foods, super foods, gluten-free, gluten free, vegan" />
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-	</style>
 
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="Stylesheet" href="css/dpstyles.css" type="text/css" media="all" />
@@ -18,13 +17,21 @@
 	<script src="js/jquery.flexslider-min.js"></script>
 	<script src="js/waypoints.min.js"></script>
 	<script src="js/waypoints-sticky.min.js"></script>
-	 <?php
-	 $cache_expire = 60*60*24*365;
-	 header("Pragma: public");
-	 header("Cache-Control: max-age=".$cache_expire);
-	 header('Expires: ' . gmdate('tue, 01 Jun 2015 19:45:00', time()+$cache_expire) . ' GMT');
-	 ?>
-	<script src="//connect.facebook.net/en_US/all.js"></script>
+	<script>
+	$(document).ready(function() {
+	  $.ajaxSetup({ cache: true });
+	  $.getScript('//connect.facebook.net/en_US/all.js', function(){
+	    window.fbAsyncInit = function() {
+	      FB.init({
+	        appId: '508885032499486',
+	        channelUrl: '//barrettj.co/channel.html',
+	      });
+	      $('#loginbutton,#feedbutton').removeAttr('disabled');
+	      FB.getLoginStatus(updateStatusCallback);
+	    };
+	  });
+	});
+	</script>
 	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCGiP64G592ZO11tUsUJDJ2UpqeV83VVCc&sensor=true"></script>
 	<script type="text/javascript" src="js/google_map.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
@@ -61,8 +68,21 @@ h6 - Newsfeed titles (INTRO)
 
 <body>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=508885032499486";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 	<!-- FACEBOOK FEED SCRIPT -->
+
+<!--
+
 	<div id="fb-root"></div>
+
 	<script>
 		window.fbAsyncInit = function() {
 	    // init the FB JS SDK
@@ -70,7 +90,7 @@ h6 - Newsfeed titles (INTRO)
 	      appId      : '508885032499486',                        // App ID from the app dashboard
 	      channelUrl : '//barrettj.co/channel.html', // Channel file for x-domain comms
 	      status     : true,                                 // Check Facebook Login status
-	      xfbml      : true                                  // Look for social plugins on the page
+           cookie     : true, // enable cookies to allow the server to access the session	      xfbml      : true                                  // Look for social plugins on the page
 	    });(function(d, s, id) {
 		  var js, fjs = d.getElementsByTagName(s)[0];
 		  if (d.getElementById(id)) return;
@@ -81,6 +101,8 @@ h6 - Newsfeed titles (INTRO)
 	</script>
 
 
+
+-->
 		<div class="container">
 
 	<!-- SLIDESHOW -->
@@ -356,7 +378,7 @@ h6 - Newsfeed titles (INTRO)
 				<section class="news box">
 					<div class="wrapper">
 						<div class="column col-12">
-							<h2>Big things are happening for us!<br>To stay updated on the latest news, LIKE US on <a href="facebook.com/barrett.james1">facebook!</a></h2>
+							<h2>Big things are happening for us!<br>To stay updated on the latest news, LIKE US on <a href="https://www.facebook.com/pages/Divine-Pie/216484055084120">facebook!</a></h2>
 						</div>
 					</div>
 
@@ -368,8 +390,10 @@ h6 - Newsfeed titles (INTRO)
 
 						<section class="hide">
 							<div class="column col-5">
+								<div class="fb-wrapper">
 
-	<div class="fb-like-box" data-href="https://www.facebook.com/pages/Divine-Pie/216484055084120" data-width="292" data-show-faces="true" data-stream="true" data-show-border="false" data-header="false">FACEBOOK FEED - NEED APP ID FROM ALISSA</div>
+									<div class="fb-like-box" data-href="https://www.facebook.com/pages/Divine-Pie/216484055084120" data-width="600" data-show-faces="true" data-stream="true" data-show-border="false" data-header="false"></div>
+								</div>  <!-- CLOSE FB WRAPPER -->
 
 								<!--<article class="whiteBox">
 									<h6>yum! Brand New Flavor!</h6>
@@ -527,7 +551,7 @@ h6 - Newsfeed titles (INTRO)
 				<section class="map">
 					<div id="map-canvas"></div>
 				</section>
-			
+
 
 			<section class="logoLinks box hide">
 				<div class="wrapper clearfix">

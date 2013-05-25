@@ -129,7 +129,7 @@ h5 {
 	font-size: 1em;
 	font-family: "ITC Franklin Gothic Std";
 	font-weight: normal;
-	line-height: 1.5em; 
+	line-height: 1.5em;
 }
 
 h6 {
@@ -378,9 +378,18 @@ nav{
 	height: 320px;
 }
 
+/* This element holds injected scripts inside iframes that in some cases may stretch layouts */
+
+#fb-root {
+    display: none;
+}
+
 .fb-like-box {
-	height: 300px;
-	border: 1px solid fuchsia;
+	height: 600px;
+}
+
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    width: 100% !important;
 }
 
 .news{
@@ -456,14 +465,14 @@ nav{
 .map{
 	height: 500px;
 }
-	 
+
 #map-canvas { height: 100% }
 
 
 /* vendor logo links section styles */
 
 .logoLinks{
-	height: 44px;	
+	height: 44px;
 }
 
 .wholeFoods{
@@ -531,7 +540,7 @@ nav{
 
 /* contact information section styles */
 
-.contact{ 
+.contact{
 	background: url('../images/redPattern.png') 590px 70px no-repeat $red;
 	color: $white;
 	clear: both;
@@ -652,7 +661,7 @@ $gutterWidth:2%;
 		}
 
 		h3{
-	
+
 			font-size: 1.2em;
 		}
 
@@ -763,7 +772,7 @@ $gutterWidth:2%;
 			width: 100%;
 		}
 
-		
+
 	}
 
 
@@ -808,7 +817,7 @@ $gutterWidth:2%;
 		nav ul a{
 			padding: 0;
 		}
-		
+
 	}
 
 
@@ -820,7 +829,7 @@ $gutterWidth:2%;
 
 		nav ul{
 			float: none;
-	
+
 		}
 
 		nav li{
@@ -853,7 +862,7 @@ $gutterWidth:2%;
 			padding-bottom: 20px;
 		}
 
-	
+
 	}
 
 	@media screen and (max-width : 820px) {
@@ -862,7 +871,7 @@ $gutterWidth:2%;
 			margin-top: 20px;
 		}
 
-		
+
 
 		.footer{
 			padding: 80px 10px 25px 10px;
