@@ -346,7 +346,7 @@ nav ul a {
   text-align: center;
   padding: 15px 10px 10px 10px;
   color: #fefefa;
-  margin: 30px auto;
+  margin: 19px auto;
   width: 80%;
 }
 
@@ -792,107 +792,107 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
 }
 
 @media screen and (max-width: 480px) {
-  /* line 642, ../sass/dpstyles.scss */
+  /* line 641, ../sass/dpstyles.scss */
   .hide {
-    display: none !important;
+    display: none;
   }
 
-  /* line 646, ../sass/dpstyles.scss */
+  /* line 645, ../sass/dpstyles.scss */
   h2 {
     text-align: left;
     font-size: 2em;
   }
 
-  /* line 651, ../sass/dpstyles.scss */
+  /* line 650, ../sass/dpstyles.scss */
   .introduction h2 {
     margin-bottom: .6em;
   }
 
-  /* line 655, ../sass/dpstyles.scss */
+  /* line 654, ../sass/dpstyles.scss */
   h3 {
     font-size: 1.2em;
   }
 
-  /* line 660, ../sass/dpstyles.scss */
+  /* line 659, ../sass/dpstyles.scss */
   h5 {
     font-size: .9em;
   }
 
-  /* line 664, ../sass/dpstyles.scss */
+  /* line 663, ../sass/dpstyles.scss */
   .bodycopy {
     font-size: .9em;
   }
 
-  /* line 668, ../sass/dpstyles.scss */
+  /* line 667, ../sass/dpstyles.scss */
   .subcopy {
     font-size: .85em;
   }
 
-  /* line 672, ../sass/dpstyles.scss */
+  /* line 671, ../sass/dpstyles.scss */
   nav {
     text-align: center;
   }
 
-  /* line 676, ../sass/dpstyles.scss */
+  /* line 675, ../sass/dpstyles.scss */
   nav ul {
     float: none;
     padding: 20px 0 17px 0;
   }
 
-  /* line 681, ../sass/dpstyles.scss */
+  /* line 680, ../sass/dpstyles.scss */
   nav h6 {
-    font-size: .9em;
+    font-size: 1em;
   }
 
-  /* line 685, ../sass/dpstyles.scss */
+  /* line 684, ../sass/dpstyles.scss */
   nav li {
     padding: 0 1%;
   }
 
-  /* line 689, ../sass/dpstyles.scss */
+  /* line 688, ../sass/dpstyles.scss */
   nav ul a {
     padding: 0;
   }
 
-  /* line 693, ../sass/dpstyles.scss */
+  /* line 692, ../sass/dpstyles.scss */
   .box {
     padding: 50px 0;
   }
 
-  /* line 697, ../sass/dpstyles.scss */
+  /* line 696, ../sass/dpstyles.scss */
   .pieIcon {
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
   }
 
-  /* line 703, ../sass/dpstyles.scss */
+  /* line 702, ../sass/dpstyles.scss */
   .flavor_module h6 {
     padding-top: 12px;
     text-align: left;
   }
 
-  /* line 708, ../sass/dpstyles.scss */
+  /* line 707, ../sass/dpstyles.scss */
   .flavor_module {
     min-height: 0px;
   }
 
-  /* line 712, ../sass/dpstyles.scss */
+  /* line 711, ../sass/dpstyles.scss */
   .wholesaleButton {
     width: 92%;
   }
 
-  /* line 716, ../sass/dpstyles.scss */
+  /* line 715, ../sass/dpstyles.scss */
   .about h2 {
     margin-bottom: 37px;
   }
 
-  /* line 720, ../sass/dpstyles.scss */
+  /* line 719, ../sass/dpstyles.scss */
   .about {
     text-align: center;
   }
 
-  /* line 724, ../sass/dpstyles.scss */
+  /* line 723, ../sass/dpstyles.scss */
   .about .icon {
     float: none;
     clear: none;
@@ -901,37 +901,37 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
     margin-bottom: 2em;
   }
 
-  /* line 732, ../sass/dpstyles.scss */
+  /* line 731, ../sass/dpstyles.scss */
   .about .subcopy {
     text-align: left;
   }
 
-  /* line 736, ../sass/dpstyles.scss */
+  /* line 735, ../sass/dpstyles.scss */
   .logoLinks {
     display: none;
   }
 
-  /* line 740, ../sass/dpstyles.scss */
+  /* line 739, ../sass/dpstyles.scss */
   .marketRight {
     padding: 50px 0;
   }
 
-  /* line 744, ../sass/dpstyles.scss */
+  /* line 743, ../sass/dpstyles.scss */
   .form {
     padding-bottom: 20px;
   }
 
-  /* line 748, ../sass/dpstyles.scss */
+  /* line 747, ../sass/dpstyles.scss */
   .footer {
     padding: 80px 10px 25px 10px;
   }
 
-  /* line 752, ../sass/dpstyles.scss */
+  /* line 751, ../sass/dpstyles.scss */
   .zindexContainer {
     margin-bottom: 110px;
   }
 
-  /* line 756, ../sass/dpstyles.scss */
+  /* line 755, ../sass/dpstyles.scss */
   .show {
     display: block;
     margin: 0 auto;
@@ -939,39 +939,83 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
     padding-top: 20px;
   }
 
-  /* line 763, ../sass/dpstyles.scss */
+  /* line 762, ../sass/dpstyles.scss */
   .show img {
     width: 100%;
   }
 }
-@media screen and (max-width: 700px) {
-  /* line 771, ../sass/dpstyles.scss */
+@media screen and (max-width: 600px) {
+  /* line 772, ../sass/dpstyles.scss */
+  .flexslider {
+    display: none;
+  }
+
+  /* line 776, ../sass/dpstyles.scss */
+  .dp_logo {
+    display: none;
+  }
+
+  /* line 780, ../sass/dpstyles.scss */
+  .show {
+    display: block;
+    margin: 0 auto;
+    background: #fefefa;
+    padding-top: 20px;
+  }
+
+  /* line 787, ../sass/dpstyles.scss */
+  .show img {
+    width: 100%;
+  }
+
+  /* line 791, ../sass/dpstyles.scss */
   nav {
     text-align: center;
   }
 
-  /* line 775, ../sass/dpstyles.scss */
+  /* line 795, ../sass/dpstyles.scss */
   nav ul {
     float: none;
     padding: 20px 0 17px 0;
   }
 
-  /* line 780, ../sass/dpstyles.scss */
+  /* line 800, ../sass/dpstyles.scss */
   nav h6 {
-    font-size: .9em;
+    font-size: 1em;
   }
 
-  /* line 784, ../sass/dpstyles.scss */
+  /* line 804, ../sass/dpstyles.scss */
   nav li {
     padding: 0 1%;
   }
 
-  /* line 788, ../sass/dpstyles.scss */
+  /* line 808, ../sass/dpstyles.scss */
+  nav ul a {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  /* line 817, ../sass/dpstyles.scss */
+  nav {
+    text-align: center;
+  }
+
+  /* line 821, ../sass/dpstyles.scss */
+  nav ul {
+    float: none;
+  }
+
+  /* line 828, ../sass/dpstyles.scss */
+  nav li {
+    padding: 0 1%;
+  }
+
+  /* line 832, ../sass/dpstyles.scss */
   nav ul a {
     padding: 0;
   }
 
-  /* line 792, ../sass/dpstyles.scss */
+  /* line 836, ../sass/dpstyles.scss */
   .flavor_module {
     clear: both;
     flavors: none;
@@ -979,51 +1023,45 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
     min-height: 0px;
   }
 
-  /* line 799, ../sass/dpstyles.scss */
+  /* line 843, ../sass/dpstyles.scss */
   .contact .column {
     float: none;
     width: auto;
   }
 
-  /* line 804, ../sass/dpstyles.scss */
+  /* line 848, ../sass/dpstyles.scss */
   .form {
     padding-bottom: 20px;
   }
 }
 @media screen and (max-width: 820px) {
-  /* line 813, ../sass/dpstyles.scss */
+  /* line 857, ../sass/dpstyles.scss */
   .pieIcon {
     margin-top: 20px;
   }
 
-  /* line 817, ../sass/dpstyles.scss */
-  nav ul a {
-    margin-left: .5em;
-    padding: 0;
-  }
-
-  /* line 822, ../sass/dpstyles.scss */
+  /* line 863, ../sass/dpstyles.scss */
   .footer {
     padding: 80px 10px 25px 10px;
   }
 
-  /* line 826, ../sass/dpstyles.scss */
+  /* line 867, ../sass/dpstyles.scss */
   .zindexContainer {
     margin-bottom: 110px;
   }
 }
 @media screen and (max-width: 940px) {
-  /* line 833, ../sass/dpstyles.scss */
+  /* line 874, ../sass/dpstyles.scss */
   .flavor_module .subcopy {
     text-align: left;
   }
 
-  /* line 837, ../sass/dpstyles.scss */
+  /* line 878, ../sass/dpstyles.scss */
   .pieIcon {
     margin-top: 20px;
   }
 
-  /* line 841, ../sass/dpstyles.scss */
+  /* line 882, ../sass/dpstyles.scss */
   .reviews article {
     float: none;
     clear: both;
@@ -1031,20 +1069,20 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
     margin-bottom: 20px;
   }
 }
-/* line 851, ../sass/dpstyles.scss */
+/* line 892, ../sass/dpstyles.scss */
 .wrapper {
   margin: 0 auto;
   width: 80%;
   clear: both;
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
-  /* line 851, ../sass/dpstyles.scss */
+@media screen and (min-width: 320px) and (max-width: 940px) {
+  /* line 892, ../sass/dpstyles.scss */
   .wrapper {
-    width: 90%;
+    width: 95%;
   }
 }
 
-/* line 861, ../sass/dpstyles.scss */
+/* line 902, ../sass/dpstyles.scss */
 .clearfix:after {
   content: '';
   clear: both;
