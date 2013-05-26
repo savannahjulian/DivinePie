@@ -185,7 +185,8 @@ body{
 /* z-index container for revealing footer */
 
 .zindexContainer{
-	background: url('../images/debut_light.png') repeat 0 0;
+	background: $white;
+	/*background: url('../images/handmadepaper.png') repeat 0 0;*/
 	margin-bottom: 90px;
     position: relative;
     z-index: 3;
@@ -601,7 +602,8 @@ form {
 .footer{
 	text-align: center;
 	padding: 80px 0 30px 0;
-	background: url('../images/debut_light.png') repeat 0 0;
+	background: $white;
+	/*background: url('../images/handmadepaper.png') repeat 0 0;*/
 	position: fixed;
     bottom: 0;
     left: 0;
@@ -612,6 +614,10 @@ form {
 
 .footer a{
 	color: $darkgrey;
+}
+
+.footer a:hover{
+	color: $red;
 }
 
 
