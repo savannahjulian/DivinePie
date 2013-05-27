@@ -15,6 +15,8 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.cycle.all.latest.js"></script>
 	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/stellar.min.js"></script>
+	<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
 	<script src="js/waypoints.min.js"></script>
 	<script src="js/waypoints-sticky.min.js"></script>
 	<script>
@@ -110,26 +112,6 @@ h6 - Newsfeed titles (INTRO)
 			<section>
 
 
-	<!-- SLIDESHOW 1
-
-				<div id="slideshow">
-
-					<div class="hero-image" style="background-image:url('images/slide_1.jpg')">
-						<h1 class="tagline">+THIS PIE IS DELICIOUS</h1>
-					</div>
-					<div class="hero-image" style="background-image:url('images/slide_2.jpg')">
-						<h1 class="tagline">+RAW, VEGAN, GLUTEN-FREE</h1>
-					</div>
-					<div class="hero-image" style="background-image:url('images/slide_3.jpg')">
-						<h1 class="tagline">+2013 TRIUMPH DINING BEST OF GLUTEN-FREE NOMINEE</h1>
-					</div>
-					<div class="hero-image" style="background-image:url('images/slide_4.jpg')">
-						<h1 class="tagline">+A PURE INDULGENCE</h1>
-					</div>
-
-				</div>
-
-	-->
 
 	<!-- SLIDESHOW 2 -->
 
@@ -157,10 +139,10 @@ h6 - Newsfeed titles (INTRO)
 							<h1 class="tagline"><span>+</span>A PURE INDULGENCE</h1>
 						</li>
 						<li style="background-image:url('images/slide_2.jpg')">
-							<h1 class="tagline"><span>+</span>RAW, VEGAN, GLUTEN-FREE</h1>
+							<h1 class="tagline"><span>+</span>RAW, VEGAN, & GLUTEN-FREE</h1>
 						</li>
 						<li style="background-image:url('images/slide_3.jpg')">
-							<h1 class="tagline"><span>+</span>2013 TRIUMPH DINING BEST OF GLUTEN-FREE NOMINEE</h1>
+							<h1 class="tagline"><span>+</span>2013 TRIUMPH DINING BEST </br> OF GLUTEN-FREE NOMINEE</h1>
 						</li>
 						<li style="background-image:url('images/slide_4.jpg')">
 							<h1 class="tagline"><span>+</span>THIS PIE IS DELICIOUS</h1>
@@ -195,10 +177,10 @@ h6 - Newsfeed titles (INTRO)
 							<h1 class="dp_logo hide">Divine Pie</h1> <!-- Turned h1 for SEO purposes. Use bg image for logo. Text will be hidden. -->
 
 							<ul class="clearfix">
-								<li><h6><a href="#">FLAVORS</a></h6></li>
-								<li><h6><a href="#">ABOUT</a></h6></li>
-								<li><h6><a href="#">NEWS</a></h6></li>
-								<li><h6><a href="#">FIND US</a></h6></li>
+								<li><h6><a id="flavorsLink">FLAVORS</a></h6></li>
+								<li><h6><a id="aboutLink">ABOUT</a></h6></li>
+								<li><h6><a id="newsLink">NEWS</a></h6></li>
+								<li><h6><a id="findUsLink">FIND US</a></h6></li>
 							</ul>
 						</div>
 					</div>
@@ -227,7 +209,7 @@ h6 - Newsfeed titles (INTRO)
 						<h3 class="wholesaleDetails">THESE FLAVORS ARE CURRENTLY AVAILABLE AT LOCAL PORTLAND STORES!</h3>
 
 						<div>
-							<h3><a href="#" class="wholesaleButton">WHOLESALE</a></h3>
+							<h3><a class="wholesaleButton">WHOLESALE</a></h3>
 						</div>
 					</div>
 

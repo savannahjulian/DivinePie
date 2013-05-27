@@ -176,6 +176,7 @@ h6 {
 /* SPECIFIC STYLES */
 
 body{
+
 }
 
 .container{
@@ -313,6 +314,7 @@ nav{
 		a {
 			padding: 1em;
 			color: $red;
+			cursor: pointer;
 		}
 	}
 }
@@ -940,6 +942,10 @@ $gutterWidth:2%;
 		}
 
 		.dp_logo{
+			display: none;
+		}
+
+		.facebookFlag{
 			display: none;
 		}
 
