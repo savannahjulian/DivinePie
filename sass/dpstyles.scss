@@ -364,6 +364,19 @@ nav{
 	margin-bottom: 5em;
 }
 
+/*border after about */
+
+.borderBlue{
+	background: url('../images/triangleBlue.png') transparent 0 0 repeat;
+	height: 12px;
+}
+
+.seamTop{
+	margin-bottom: -12px;
+	position: relative;
+	z-index: 1;
+}
+
 /* green section styles */
 
 
@@ -446,10 +459,25 @@ nav{
 	color: $green;
 }
 
+/*border after reviews */
+
+.borderGreen{
+	background: url('../images/triangleWhite.png') transparent 0 0 repeat;
+	height: 12px;
+}
+
+.seamBottom{
+	margin-top: -12px;
+	position: relative;
+	z-index: 1;
+}
+
 
 
 
 /* find us section styles */
+
+
 
 .findUs h2{
 	text-align: center;
@@ -459,7 +487,7 @@ nav{
 
 .findUs h5{
 	text-align: center;
-	color: $darkgrey;
+	color: $pink;
 }
 
 
@@ -596,6 +624,19 @@ nav{
 
 .marketRight{
 	padding: 80px 0;
+}
+
+/* border after grey box */
+
+.borderGrey{
+	background: url('../images/triangleRed.png') transparent 0 0 repeat;
+	height: 12px;
+}
+
+.seamBottom{
+	margin-top: -12px;
+	position: relative;
+	z-index: 1;
 }
 
 /* contact information section styles */
