@@ -474,38 +474,95 @@ nav{
 
 /* vendor logo links section styles */
 
+.table{
+	display: table;
+}
+
+.table a{
+	display: table-cell;
+	vertical-align: middle;
+}
+
 .logoLinks{
-	height: 44px;
+	text-align: center;
+}
+
+.logoLinks a{
+	margin-right: 29px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: -9999px;
 }
 
 .wholeFoods{
-	margin-right: 68px;
-	height: 60px;
-	width: 75px;
-	display: block;
-	float: right;
-	text-align: left;
+	height: 70px;
+	width: 102px;
 	background: url('../images/wholefoods2.png') 0 0 no-repeat;
-	text-indent: -9999px;
 }
 
 .wholeFoods:hover{
-	background-position: -75px 0;
+	background-position: -102px 0;
+}
+
+.alberta{
+	height: 70px;
+	width: 108px;
+	background: url('../images/alberta.png') 0 0 no-repeat;
+}
+
+.alberta:hover{
+	background-position: -108px 0;
 }
 
 .ashland{
-	margin-right: 68px;
-	height: 60px;
-	width: 75px;
-	display: block;
-	float: right;
-	text-align: left;
-	background: url('../images/wholefoods2.png') 0 0 no-repeat;
-	text-indent: -9999px;
+	height: 71px;
+	width: 100px;
+	background: url('../images/ashland.png') 0 0 no-repeat;
 }
 
 .ashland:hover{
+	background-position: -100px 0;
+}
 
+.chucks{
+	height: 80px;
+	width: 80px;
+	background: url('../images/chucks.png') 0 0 no-repeat;
+}
+
+.chucks:hover{
+	background-position: -80px 0;
+}
+
+.foodfront{
+	height: 70px;
+	width: 120px;
+	background: url('../images/foodfront.png') 0 0 no-repeat;
+}
+
+.foodfront:hover{
+	background-position: -120px 0;
+}
+
+.peoples{
+	height: 38px;
+	width: 120px;
+	background: url('../images/peoples.png') 0 0 no-repeat;
+}
+
+.peoples:hover{
+	background-position: -120px 0;
+}
+
+.newSeasons{
+	height: 36px;
+	width: 150px;
+	background: url('../images/new_seasons.png') 0 0 no-repeat;
+}
+
+.newSeasons:hover{
+	background-position: -150px 0;
 }
 
 .logoLast{
