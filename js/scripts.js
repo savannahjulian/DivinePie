@@ -36,7 +36,11 @@ $(document).ready(function() {
 	    $('div.showhide,.aboutThree').hide();
 	    $('div.showhide,.aboutOne').show();
 
-	});	
+	});
+
+	/* FACEBOOK TOGGLE */
+
+	
    	
 });
 

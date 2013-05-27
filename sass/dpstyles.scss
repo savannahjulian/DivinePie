@@ -239,6 +239,39 @@ body{
 	height: 100%;
 }
 
+/* facebook flag styles */
+
+.facebookFlag{
+	text-align: right;
+	background: url('../images/facebook.png') 4px center no-repeat $red;
+	width: 47px;
+	display: block;
+	position: absolute;
+	top: 120px;
+	right: 0px;
+	font-family: Verdana, sans-serif;
+	-moz-transition: width 1s;
+    -webkit-transition: width 1s;
+    overflow: hidden;
+
+}
+
+.facebookFlag:hover{
+	right: 0;
+	width: 290px;
+}
+
+.facebookFlag span{
+	width: 230px;
+	white-space: nowrap;
+	display: block;
+	margin: 16px 0 18px 40px;
+	text-decoration: none;
+	color: $white;
+
+}
+
+
 /* navigation styles */
 
 header{
