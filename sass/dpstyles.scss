@@ -294,7 +294,8 @@ nav{
 /* introduction section styles */
 
 .introduction{
-	background: url('../images/redPattern.png') 628px 51px no-repeat $red;
+	background: url('../images/redPattern.svg') right bottom no-repeat $red;
+	background-size: 530px;
 	color: $white;
 }
 
@@ -394,7 +395,7 @@ nav{
 }
 
 .news{
-	background: url('../images/greenPattern.png') -200px 74px no-repeat $lightgreen;
+	background: $lightgreen;
 	color: $white;
 }
 
@@ -422,8 +423,9 @@ nav{
 /* reviews/praise section styles */
 
 .reviews{
-	background: $green;
+	background: url('../images/greenPattern.svg') left bottom no-repeat $green;
 	color: $white;
+	background-size: 686px;
 }
 
 .reviews h2{
@@ -542,7 +544,8 @@ nav{
 /* contact information section styles */
 
 .contact{
-	background: url('../images/redPattern.png') 590px 70px no-repeat $red;
+	background: url('../images/redPattern.svg') right bottom no-repeat $red;
+	background-size: 588px;
 	color: $white;
 	clear: both;
 }
@@ -822,6 +825,12 @@ $gutterWidth:2%;
 
 		nav ul a{
 			padding: 0;
+		}
+
+		.reviews{
+			background: url('../images/greenPattern.svg') left bottom no-repeat $green;
+			color: $white;
+			background-size: 550px;
 		}
 
 	}
