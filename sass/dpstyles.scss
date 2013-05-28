@@ -114,7 +114,7 @@ h2 {
 	margin-bottom: 50px; }
 
 h3 {
-	font-size: 1.36em;
+	font-size: 1.33em;
 	font-family: "Intro Bold", sans-serif;
 	font-weight: normal;
 	letter-spacing: .0625em;
@@ -474,7 +474,7 @@ nav{
 }
 
 .news{
-	background: $white;
+	background: $lightgrey;
 	color: $darkgrey;
 }
 
@@ -483,7 +483,7 @@ nav{
 }
 
 .news h2 a:hover{
-	color: $green;
+	color: $white;
 }
 
 .news article{

@@ -120,7 +120,7 @@ h2 {
 
 /* line 116, ../sass/dpstyles.scss */
 h3 {
-  font-size: 1.36em;
+  font-size: 1.33em;
   font-family: "Intro Bold", sans-serif;
   font-weight: normal;
   letter-spacing: .0625em;
@@ -513,7 +513,7 @@ nav ul a.selected {
 
 /* line 476, ../sass/dpstyles.scss */
 .news {
-  background: #fefefa;
+  background: #dedede;
   color: #58595b;
 }
 
@@ -524,7 +524,7 @@ nav ul a.selected {
 
 /* line 485, ../sass/dpstyles.scss */
 .news h2 a:hover {
-  color: #8fb43a;
+  color: #fefefa;
 }
 
 /* line 489, ../sass/dpstyles.scss */
