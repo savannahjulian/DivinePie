@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 /* MAIN SLIDESHOW */
- 	
+
  	$('.flexslider').flexslider({
     	animation: "slide"
     });
@@ -62,10 +62,19 @@ $(document).ready(function() {
 
 	});
 
-	/* FACEBOOK TOGGLE */
+/* FACEBOOK TOGGLE */
 
-	
-   	
+/* LOVE US SECTION CAROUSEL */
+
+	$('.carousel').cycle({
+		fx: 'scrollRight',
+		speed: 1000,
+		timeout: 0,
+		prev: '.prev',
+		next: '.next',
+		fit: true
+	});
+
 });
 
 function slideshowSetup(){
