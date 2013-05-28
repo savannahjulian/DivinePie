@@ -307,6 +307,7 @@ nav{
 	ul{
 		float: right;
 		padding: 1.6em 0 0 0;
+		letter-spacing: 1px;
 		li {
 			display: inline-block;
 		}
@@ -315,6 +316,10 @@ nav{
 			padding: 1em;
 			color: $red;
 			cursor: pointer;
+		}
+
+		a.selected{
+			color: $green;
 		}
 	}
 }
@@ -781,7 +786,7 @@ form {
 //	Columns
 
 $numColumns:12;
-$gutterWidth:2%;
+$gutterWidth:3%;
 
 @for $column from 1 through $numColumns {
 	.col-#{$column} {
@@ -935,7 +940,7 @@ $gutterWidth:2%;
 	}
 
 
-	@media screen and (max-width : 600px) {
+	@media screen and (max-width : 647px) {
 
 		.flexslider{
 			display: none;
@@ -991,7 +996,7 @@ $gutterWidth:2%;
 
 
 
-	@media screen and (max-width : 700px) {
+	@media screen and (max-width : 735px) {
 		nav{
 			text-align: center;
 		}
