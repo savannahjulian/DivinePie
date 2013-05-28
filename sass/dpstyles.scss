@@ -496,8 +496,52 @@ nav{
 	background: url('../images/greenPattern.svg') left bottom no-repeat $green;
 	color: $white;
 	background-size: 686px;
+	position: relative;
 }
+.controls {
+	width: 100%;
+	height: 54px;
+	position: absolute;
+	z-index: 100;
+	left: 0;
+	top: 300px;
+}
+.prev{
+	height: 54px;
+	width: 31px;
+	opacity: .5;
+	float: left;
+	margin: 0 0 0 30px;
 
+	:hover{
+		cursor: pointer;
+		color: #333;
+		opacity: .75;
+	}
+}
+.prev .arrow{
+	height: 54px;
+	width: 31px;
+	background: transparent url('../images/arrows.png') no-repeat 0 0;
+}
+.next{
+	height: 54px;
+	width: 31px;
+	opacity: .5;
+	float: right;
+	margin: 0 30px 0 0;
+
+	:hover{
+		cursor: pointer;
+		opacity: .75;
+		color: #333;
+	}
+}
+.next .arrow{
+	height: 54px;
+	width: 31px;
+	background: transparent url('../images/arrows.png') no-repeat -31px 0;
+}
 .reviews h2{
 	text-align: center;
 }
