@@ -14,7 +14,6 @@ $(document).ready(function() {
 	$('header').waypoint('sticky');
 
 /* scroll to function */
-	$(window).stellar();
 
 	$('#flavorsLink').click(function(){
 		$(window).scrollTo('.wholesaleFlavors' , 800 , {offset:{top:-75}});
