@@ -864,19 +864,14 @@ $gutterWidth:3%;
 
 @media screen and (max-width : 320px) {
 
-	.pieIcon{
-			float: none;
-			margin-bottom: 20px;
-			clear: both;
-		}
 
-		.flavor_module h6{
-			text-align: center;
-		}
+	nav ul li h6{
+			font-size: .8em;
+	}
 
-		.flavor_module{
-			min-height: 0px;
-		}
+	footer .subcopy{
+		font-size: .75em;
+	}
 
 }
 
@@ -937,20 +932,7 @@ $gutterWidth:3%;
 			padding: 50px 0;
 		}
 
-		.pieIcon{
-			float:left;
-			margin-right: 20px;
-			margin-bottom: 20px;
-		}
-
-		.flavor_module h6{
-			padding-top: 12px;
-			text-align: left;
-		}
-
-		.flavor_module{
-			min-height: 0px;
-		}
+		
 
 		.wholesaleButton{
 			width: 92%;
@@ -1161,20 +1143,20 @@ $gutterWidth:3%;
 		}
 	}
 
-@media screen and (max-width : 882px) {
-	.flavorsHide{
-		display: none;
+	@media screen and (max-width : 882px) {
+		.flavorsHide{
+			display: none;
+		}
+
+		.flavorsShow{
+			display: block;
+		}
+
+		.flavorsShow h3{
+			margin-bottom: 20px;
+		} 
+
 	}
-
-	.flavorsShow{
-		display: block;
-	}
-
-	.flavorsShow h3{
-		margin-bottom: 20px;
-	} 
-
-}
 
 
 
