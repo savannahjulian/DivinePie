@@ -513,29 +513,33 @@ nav ul a.selected {
 
 /* line 476, ../sass/dpstyles.scss */
 .news {
-  background: #a3c750;
-  color: #fefefa;
+  background: #fefefa;
+  color: #58595b;
 }
 
 /* line 481, ../sass/dpstyles.scss */
 .news h2 a {
-  color: #fefefa;
-  text-decoration: underline;
+  color: #58595b;
 }
 
-/* line 486, ../sass/dpstyles.scss */
+/* line 485, ../sass/dpstyles.scss */
+.news h2 a:hover {
+  color: #8fb43a;
+}
+
+/* line 489, ../sass/dpstyles.scss */
 .news article {
   color: #58595b;
   margin-bottom: 20px;
 }
 
-/* line 491, ../sass/dpstyles.scss */
+/* line 494, ../sass/dpstyles.scss */
 .news h6 {
   text-transform: uppercase;
   color: #8fb43a;
 }
 
-/* line 496, ../sass/dpstyles.scss */
+/* line 499, ../sass/dpstyles.scss */
 .news .subcopy a {
   text-transform: uppercase;
   text-decoration: underline;
@@ -543,7 +547,7 @@ nav ul a.selected {
 }
 
 /* reviews/praise section styles */
-/* line 504, ../sass/dpstyles.scss */
+/* line 507, ../sass/dpstyles.scss */
 .reviews {
   background: url("../images/greenPattern.svg") left bottom no-repeat #8fb43a;
   color: #fefefa;
@@ -551,7 +555,7 @@ nav ul a.selected {
   position: relative;
 }
 
-/* line 510, ../sass/dpstyles.scss */
+/* line 513, ../sass/dpstyles.scss */
 .controls {
   width: 100%;
   height: 54px;
@@ -561,7 +565,7 @@ nav ul a.selected {
   top: 300px;
 }
 
-/* line 518, ../sass/dpstyles.scss */
+/* line 521, ../sass/dpstyles.scss */
 .prev {
   height: 54px;
   width: 31px;
@@ -569,21 +573,21 @@ nav ul a.selected {
   float: left;
   margin: 0 0 0 30px;
 }
-/* line 525, ../sass/dpstyles.scss */
+/* line 528, ../sass/dpstyles.scss */
 .prev :hover {
   cursor: pointer;
   color: #333;
   opacity: .75;
 }
 
-/* line 531, ../sass/dpstyles.scss */
+/* line 534, ../sass/dpstyles.scss */
 .prev .arrow {
   height: 54px;
   width: 31px;
   background: transparent url("../images/arrows.png") no-repeat 0 0;
 }
 
-/* line 536, ../sass/dpstyles.scss */
+/* line 539, ../sass/dpstyles.scss */
 .next {
   height: 54px;
   width: 31px;
@@ -591,50 +595,50 @@ nav ul a.selected {
   float: right;
   margin: 0 30px 0 0;
 }
-/* line 543, ../sass/dpstyles.scss */
+/* line 546, ../sass/dpstyles.scss */
 .next :hover {
   cursor: pointer;
   opacity: .75;
   color: #333;
 }
 
-/* line 549, ../sass/dpstyles.scss */
+/* line 552, ../sass/dpstyles.scss */
 .next .arrow {
   height: 54px;
   width: 31px;
   background: transparent url("../images/arrows.png") no-repeat -31px 0;
 }
 
-/* line 554, ../sass/dpstyles.scss */
+/* line 557, ../sass/dpstyles.scss */
 .reviews h2 {
   text-align: center;
 }
 
-/* line 558, ../sass/dpstyles.scss */
+/* line 561, ../sass/dpstyles.scss */
 .reviews span {
   color: #8fb43a;
   font-family: "Intro Bold", sans-serif;
   font-size: 1.5em;
 }
 
-/* line 564, ../sass/dpstyles.scss */
+/* line 567, ../sass/dpstyles.scss */
 .reviews .subcopy {
   margin-bottom: 1.5em;
 }
 
-/* line 568, ../sass/dpstyles.scss */
+/* line 571, ../sass/dpstyles.scss */
 .author {
   color: #8fb43a;
 }
 
 /*border after reviews */
-/* line 574, ../sass/dpstyles.scss */
+/* line 577, ../sass/dpstyles.scss */
 .borderGreen {
   background: url("../images/triangleWhite.png") transparent 0 0 repeat;
   height: 12px;
 }
 
-/* line 579, ../sass/dpstyles.scss */
+/* line 582, ../sass/dpstyles.scss */
 .seamBottom {
   margin-top: -12px;
   position: relative;
@@ -642,48 +646,48 @@ nav ul a.selected {
 }
 
 /* find us section styles */
-/* line 592, ../sass/dpstyles.scss */
+/* line 595, ../sass/dpstyles.scss */
 .findUs h2 {
   text-align: center;
   margin-bottom: 0px;
-  color: #ec008c;
+  color: #58595b;
 }
 
-/* line 598, ../sass/dpstyles.scss */
+/* line 601, ../sass/dpstyles.scss */
 .findUs h5 {
   text-align: center;
-  color: #ec008c;
+  color: #58595b;
 }
 
 /* map styles */
-/* line 606, ../sass/dpstyles.scss */
+/* line 609, ../sass/dpstyles.scss */
 .map {
   height: 500px;
 }
 
-/* line 610, ../sass/dpstyles.scss */
+/* line 613, ../sass/dpstyles.scss */
 #map-canvas {
   height: 100%;
 }
 
 /* vendor logo links section styles */
-/* line 615, ../sass/dpstyles.scss */
+/* line 618, ../sass/dpstyles.scss */
 .table {
   display: table;
 }
 
-/* line 619, ../sass/dpstyles.scss */
+/* line 622, ../sass/dpstyles.scss */
 .table a {
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 624, ../sass/dpstyles.scss */
+/* line 627, ../sass/dpstyles.scss */
 .logoLinks {
   text-align: center;
 }
 
-/* line 628, ../sass/dpstyles.scss */
+/* line 631, ../sass/dpstyles.scss */
 .logoLinks a {
   margin-right: 26px;
   display: inline-block;
@@ -692,110 +696,110 @@ nav ul a.selected {
   text-indent: -9999px;
 }
 
-/* line 636, ../sass/dpstyles.scss */
+/* line 639, ../sass/dpstyles.scss */
 .wholeFoods {
   height: 70px;
   width: 102px;
   background: url("../images/wholefoods2.png") 0 0 no-repeat;
 }
 
-/* line 642, ../sass/dpstyles.scss */
+/* line 645, ../sass/dpstyles.scss */
 .wholeFoods:hover {
   background-position: -102px 0;
 }
 
-/* line 646, ../sass/dpstyles.scss */
+/* line 649, ../sass/dpstyles.scss */
 .alberta {
   height: 70px;
   width: 108px;
   background: url("../images/alberta.png") 0 0 no-repeat;
 }
 
-/* line 652, ../sass/dpstyles.scss */
+/* line 655, ../sass/dpstyles.scss */
 .alberta:hover {
   background-position: -108px 0;
 }
 
-/* line 656, ../sass/dpstyles.scss */
+/* line 659, ../sass/dpstyles.scss */
 .ashland {
   height: 71px;
   width: 100px;
   background: url("../images/ashland.png") 0 0 no-repeat;
 }
 
-/* line 662, ../sass/dpstyles.scss */
+/* line 665, ../sass/dpstyles.scss */
 .ashland:hover {
   background-position: -100px 0;
 }
 
-/* line 666, ../sass/dpstyles.scss */
+/* line 669, ../sass/dpstyles.scss */
 .chucks {
   height: 80px;
   width: 80px;
   background: url("../images/chucks.png") 0 0 no-repeat;
 }
 
-/* line 672, ../sass/dpstyles.scss */
+/* line 675, ../sass/dpstyles.scss */
 .chucks:hover {
   background-position: -80px 0;
 }
 
-/* line 676, ../sass/dpstyles.scss */
+/* line 679, ../sass/dpstyles.scss */
 .foodfront {
   height: 70px;
   width: 120px;
   background: url("../images/foodfront.png") 0 0 no-repeat;
 }
 
-/* line 682, ../sass/dpstyles.scss */
+/* line 685, ../sass/dpstyles.scss */
 .foodfront:hover {
   background-position: -120px 0;
 }
 
-/* line 686, ../sass/dpstyles.scss */
+/* line 689, ../sass/dpstyles.scss */
 .peoples {
   height: 38px;
   width: 120px;
   background: url("../images/peoples.png") 0 0 no-repeat;
 }
 
-/* line 692, ../sass/dpstyles.scss */
+/* line 695, ../sass/dpstyles.scss */
 .peoples:hover {
   background-position: -120px 0;
 }
 
-/* line 696, ../sass/dpstyles.scss */
+/* line 699, ../sass/dpstyles.scss */
 .newSeasons {
   height: 36px;
   width: 150px;
   background: url("../images/new_seasons.png") 0 0 no-repeat;
 }
 
-/* line 702, ../sass/dpstyles.scss */
+/* line 705, ../sass/dpstyles.scss */
 .newSeasons:hover {
   background-position: -150px 0;
 }
 
-/* line 706, ../sass/dpstyles.scss */
+/* line 709, ../sass/dpstyles.scss */
 .logoLast {
   margin-right: 0;
 }
 
 /* farmers market information section styles */
-/* line 714, ../sass/dpstyles.scss */
+/* line 717, ../sass/dpstyles.scss */
 .farmersMarket {
   background: #dedede;
   color: #58595b;
   position: relative;
 }
 
-/* line 720, ../sass/dpstyles.scss */
+/* line 723, ../sass/dpstyles.scss */
 .farmersMarket a {
   text-decoration: underline;
   color: #58595b;
 }
 
-/* line 726, ../sass/dpstyles.scss */
+/* line 729, ../sass/dpstyles.scss */
 .marketPhoto {
   background: url("../images/market_2.jpg") no-repeat right 0;
   width: 44%;
@@ -805,19 +809,19 @@ nav ul a.selected {
   background-size: cover;
 }
 
-/* line 735, ../sass/dpstyles.scss */
+/* line 738, ../sass/dpstyles.scss */
 .marketRight {
   padding: 80px 0;
 }
 
 /* border after grey box */
-/* line 741, ../sass/dpstyles.scss */
+/* line 744, ../sass/dpstyles.scss */
 .borderGrey {
   background: url("../images/triangleRed.png") transparent 0 0 repeat;
   height: 12px;
 }
 
-/* line 746, ../sass/dpstyles.scss */
+/* line 749, ../sass/dpstyles.scss */
 .seamBottom {
   margin-top: -12px;
   position: relative;
@@ -825,7 +829,7 @@ nav ul a.selected {
 }
 
 /* contact information section styles */
-/* line 754, ../sass/dpstyles.scss */
+/* line 757, ../sass/dpstyles.scss */
 .contact {
   background: url("../images/redPattern.svg") right bottom no-repeat #e31f2d;
   background-size: 588px;
@@ -834,7 +838,7 @@ nav ul a.selected {
 }
 
 /* form styles */
-/* line 763, ../sass/dpstyles.scss */
+/* line 766, ../sass/dpstyles.scss */
 .contact form * {
   color: #fefefa;
   -webkit-box-sizing: border-box;
@@ -845,17 +849,17 @@ nav ul a.selected {
   /* Opera/IE 8+ */
 }
 
-/* line 770, ../sass/dpstyles.scss */
+/* line 773, ../sass/dpstyles.scss */
 form {
   font-size: .8125em;
   max-width: 100%;
 }
-/* line 775, ../sass/dpstyles.scss */
+/* line 778, ../sass/dpstyles.scss */
 form .form-top {
   position: relative;
   margin: 7px 0 16px 0;
 }
-/* line 779, ../sass/dpstyles.scss */
+/* line 782, ../sass/dpstyles.scss */
 form input {
   background-color: #c11824;
   padding: 5px;
@@ -865,7 +869,7 @@ form input {
   font-size: .9375em;
   -webkit-appearance: none;
 }
-/* line 788, ../sass/dpstyles.scss */
+/* line 791, ../sass/dpstyles.scss */
 form textarea {
   background-color: #c11824;
   width: 100%;
@@ -877,20 +881,20 @@ form textarea {
   padding: 5px;
   -webkit-appearance: none;
 }
-/* line 800, ../sass/dpstyles.scss */
+/* line 803, ../sass/dpstyles.scss */
 form input[type=submit], form #contact form input[type=reset] {
   width: 88px;
   margin-top: 16px;
   -webkit-appearance: none;
 }
-/* line 806, ../sass/dpstyles.scss */
+/* line 809, ../sass/dpstyles.scss */
 form input[type=submit]:active, form .contact form input[type=reset]:active {
   background: #dedede;
   color: #58595b;
 }
 
 /* footer styles */
-/* line 813, ../sass/dpstyles.scss */
+/* line 816, ../sass/dpstyles.scss */
 .footer {
   text-align: center;
   padding: 80px 0 30px 0;
@@ -904,12 +908,12 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
   color: #58595b;
 }
 
-/* line 826, ../sass/dpstyles.scss */
+/* line 829, ../sass/dpstyles.scss */
 .footer a {
   color: #58595b;
 }
 
-/* line 830, ../sass/dpstyles.scss */
+/* line 833, ../sass/dpstyles.scss */
 .footer a:hover {
   color: #e31f2d;
 }
@@ -917,133 +921,133 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
 /*
 	Layout
 */
-/* line 845, ../sass/dpstyles.scss */
+/* line 848, ../sass/dpstyles.scss */
 .col-1 {
   width: 5.33333%;
 }
 
-/* line 849, ../sass/dpstyles.scss */
+/* line 852, ../sass/dpstyles.scss */
 .push-1 {
   margin-left: 8.33333%;
 }
 
-/* line 845, ../sass/dpstyles.scss */
+/* line 848, ../sass/dpstyles.scss */
 .col-2 {
   width: 13.66667%;
 }
 
-/* line 849, ../sass/dpstyles.scss */
+/* line 852, ../sass/dpstyles.scss */
 .push-2 {
   margin-left: 16.66667%;
 }
 
-/* line 845, ../sass/dpstyles.scss */
+/* line 848, ../sass/dpstyles.scss */
 .col-3 {
   width: 22%;
 }
 
-/* line 849, ../sass/dpstyles.scss */
+/* line 852, ../sass/dpstyles.scss */
 .push-3 {
   margin-left: 25%;
 }
 
-/* line 845, ../sass/dpstyles.scss */
+/* line 848, ../sass/dpstyles.scss */
 .col-4 {
   width: 30.33333%;
 }
 
-/* line 849, ../sass/dpstyles.scss */
+/* line 852, ../sass/dpstyles.scss */
 .push-4 {
   margin-left: 33.33333%;
 }
 
-/* line 845, ../sass/dpstyles.scss */
+/* line 848, ../sass/dpstyles.scss */
 .col-5 {
   width: 38.66667%;
 }
 
-/* line 849, ../sass/dpstyles.scss */
+/* line 852, ../sass/dpstyles.scss */
 .push-5 {
   margin-left: 41.66667%;
 }
 
-/* line 845, ../sass/dpstyles.scss */
+/* line 848, ../sass/dpstyles.scss */
 .col-6 {
   width: 47%;
 }
 
-/* line 849, ../sass/dpstyles.scss */
+/* line 852, ../sass/dpstyles.scss */
 .push-6 {
   margin-left: 50%;
 }
 
-/* line 845, ../sass/dpstyles.scss */
+/* line 848, ../sass/dpstyles.scss */
 .col-7 {
   width: 55.33333%;
 }
 
-/* line 849, ../sass/dpstyles.scss */
+/* line 852, ../sass/dpstyles.scss */
 .push-7 {
   margin-left: 58.33333%;
 }
 
-/* line 845, ../sass/dpstyles.scss */
+/* line 848, ../sass/dpstyles.scss */
 .col-8 {
   width: 63.66667%;
 }
 
-/* line 849, ../sass/dpstyles.scss */
+/* line 852, ../sass/dpstyles.scss */
 .push-8 {
   margin-left: 66.66667%;
 }
 
-/* line 845, ../sass/dpstyles.scss */
+/* line 848, ../sass/dpstyles.scss */
 .col-9 {
   width: 72%;
 }
 
-/* line 849, ../sass/dpstyles.scss */
+/* line 852, ../sass/dpstyles.scss */
 .push-9 {
   margin-left: 75%;
 }
 
-/* line 845, ../sass/dpstyles.scss */
+/* line 848, ../sass/dpstyles.scss */
 .col-10 {
   width: 80.33333%;
 }
 
-/* line 849, ../sass/dpstyles.scss */
+/* line 852, ../sass/dpstyles.scss */
 .push-10 {
   margin-left: 83.33333%;
 }
 
-/* line 845, ../sass/dpstyles.scss */
+/* line 848, ../sass/dpstyles.scss */
 .col-11 {
   width: 88.66667%;
 }
 
-/* line 849, ../sass/dpstyles.scss */
+/* line 852, ../sass/dpstyles.scss */
 .push-11 {
   margin-left: 91.66667%;
 }
 
-/* line 845, ../sass/dpstyles.scss */
+/* line 848, ../sass/dpstyles.scss */
 .col-12 {
   width: 97%;
 }
 
-/* line 849, ../sass/dpstyles.scss */
+/* line 852, ../sass/dpstyles.scss */
 .push-12 {
   margin-left: 100%;
 }
 
-/* line 854, ../sass/dpstyles.scss */
+/* line 857, ../sass/dpstyles.scss */
 .column {
   margin: 0 1.5%;
   float: left;
 }
 @media screen and (max-width: 480px) {
-  /* line 854, ../sass/dpstyles.scss */
+  /* line 857, ../sass/dpstyles.scss */
   .column {
     clear: both;
     width: auto;
@@ -1052,100 +1056,100 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
 }
 
 @media screen and (max-width: 320px) {
-  /* line 868, ../sass/dpstyles.scss */
+  /* line 871, ../sass/dpstyles.scss */
   nav ul li h6 {
     font-size: .8em;
   }
 
-  /* line 872, ../sass/dpstyles.scss */
+  /* line 875, ../sass/dpstyles.scss */
   footer .subcopy {
     font-size: .75em;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 880, ../sass/dpstyles.scss */
+  /* line 883, ../sass/dpstyles.scss */
   .hide {
     display: none;
   }
 
-  /* line 884, ../sass/dpstyles.scss */
+  /* line 887, ../sass/dpstyles.scss */
   h2 {
     text-align: left;
     font-size: 2em;
   }
 
-  /* line 889, ../sass/dpstyles.scss */
+  /* line 892, ../sass/dpstyles.scss */
   .introduction h2 {
     margin-bottom: .6em;
   }
 
-  /* line 893, ../sass/dpstyles.scss */
+  /* line 896, ../sass/dpstyles.scss */
   h3 {
     font-size: 1.2em;
   }
 
-  /* line 898, ../sass/dpstyles.scss */
+  /* line 901, ../sass/dpstyles.scss */
   h5 {
     font-size: .9em;
   }
 
-  /* line 902, ../sass/dpstyles.scss */
+  /* line 905, ../sass/dpstyles.scss */
   .bodycopy {
     font-size: .9em;
   }
 
-  /* line 906, ../sass/dpstyles.scss */
+  /* line 909, ../sass/dpstyles.scss */
   .subcopy {
     font-size: .85em;
   }
 
-  /* line 910, ../sass/dpstyles.scss */
+  /* line 913, ../sass/dpstyles.scss */
   nav {
     text-align: center;
   }
 
-  /* line 914, ../sass/dpstyles.scss */
+  /* line 917, ../sass/dpstyles.scss */
   nav ul {
     float: none;
     padding: 20px 0 17px 0;
   }
 
-  /* line 919, ../sass/dpstyles.scss */
+  /* line 922, ../sass/dpstyles.scss */
   nav h6 {
     font-size: 1em;
   }
 
-  /* line 923, ../sass/dpstyles.scss */
+  /* line 926, ../sass/dpstyles.scss */
   nav li {
     padding: 0 1%;
   }
 
-  /* line 927, ../sass/dpstyles.scss */
+  /* line 930, ../sass/dpstyles.scss */
   nav ul a {
     padding: 0;
   }
 
-  /* line 931, ../sass/dpstyles.scss */
+  /* line 934, ../sass/dpstyles.scss */
   .box {
     padding: 50px 0;
   }
 
-  /* line 937, ../sass/dpstyles.scss */
+  /* line 940, ../sass/dpstyles.scss */
   .wholesaleButton {
     width: 92%;
   }
 
-  /* line 941, ../sass/dpstyles.scss */
+  /* line 944, ../sass/dpstyles.scss */
   .about h2 {
     margin-bottom: 37px;
   }
 
-  /* line 945, ../sass/dpstyles.scss */
+  /* line 948, ../sass/dpstyles.scss */
   .about {
     text-align: center;
   }
 
-  /* line 949, ../sass/dpstyles.scss */
+  /* line 952, ../sass/dpstyles.scss */
   .about .icon {
     float: none;
     clear: none;
@@ -1154,47 +1158,47 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
     margin-bottom: 2em;
   }
 
-  /* line 957, ../sass/dpstyles.scss */
+  /* line 960, ../sass/dpstyles.scss */
   .about .subcopy {
     text-align: left;
   }
 
-  /* line 961, ../sass/dpstyles.scss */
+  /* line 964, ../sass/dpstyles.scss */
   .aboutHide {
     display: none;
   }
 
-  /* line 965, ../sass/dpstyles.scss */
+  /* line 968, ../sass/dpstyles.scss */
   .aboutShow {
     display: block;
   }
 
-  /* line 969, ../sass/dpstyles.scss */
+  /* line 972, ../sass/dpstyles.scss */
   .logoLinks {
     display: none;
   }
 
-  /* line 973, ../sass/dpstyles.scss */
+  /* line 976, ../sass/dpstyles.scss */
   .marketRight {
     padding: 50px 0;
   }
 
-  /* line 977, ../sass/dpstyles.scss */
+  /* line 980, ../sass/dpstyles.scss */
   .form {
     padding-bottom: 20px;
   }
 
-  /* line 981, ../sass/dpstyles.scss */
+  /* line 984, ../sass/dpstyles.scss */
   .footer {
     padding: 80px 10px 25px 10px;
   }
 
-  /* line 985, ../sass/dpstyles.scss */
+  /* line 988, ../sass/dpstyles.scss */
   .zindexContainer {
     margin-bottom: 110px;
   }
 
-  /* line 989, ../sass/dpstyles.scss */
+  /* line 992, ../sass/dpstyles.scss */
   .show {
     display: block;
     margin: 0 auto;
@@ -1202,34 +1206,34 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
     padding-top: 20px;
   }
 
-  /* line 996, ../sass/dpstyles.scss */
+  /* line 999, ../sass/dpstyles.scss */
   .show img {
     width: 100%;
   }
 }
 @media screen and (max-width: 523px) {
-  /* line 1004, ../sass/dpstyles.scss */
+  /* line 1007, ../sass/dpstyles.scss */
   .about h3 {
     display: none;
   }
 }
 @media screen and (max-width: 675px) {
-  /* line 1012, ../sass/dpstyles.scss */
+  /* line 1015, ../sass/dpstyles.scss */
   .flexslider {
     display: none;
   }
 
-  /* line 1016, ../sass/dpstyles.scss */
+  /* line 1019, ../sass/dpstyles.scss */
   .dp_logo {
     display: none;
   }
 
-  /* line 1020, ../sass/dpstyles.scss */
+  /* line 1023, ../sass/dpstyles.scss */
   .facebookFlag {
     display: none;
   }
 
-  /* line 1024, ../sass/dpstyles.scss */
+  /* line 1027, ../sass/dpstyles.scss */
   .show {
     display: block;
     margin: 0 auto;
@@ -1237,38 +1241,38 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
     padding-top: 20px;
   }
 
-  /* line 1031, ../sass/dpstyles.scss */
+  /* line 1034, ../sass/dpstyles.scss */
   .show img {
     width: 100%;
   }
 
-  /* line 1035, ../sass/dpstyles.scss */
+  /* line 1038, ../sass/dpstyles.scss */
   nav {
     text-align: center;
   }
 
-  /* line 1039, ../sass/dpstyles.scss */
+  /* line 1042, ../sass/dpstyles.scss */
   nav ul {
     float: none;
     padding: 20px 0 17px 0;
   }
 
-  /* line 1044, ../sass/dpstyles.scss */
+  /* line 1047, ../sass/dpstyles.scss */
   nav h6 {
     font-size: 1em;
   }
 
-  /* line 1048, ../sass/dpstyles.scss */
+  /* line 1051, ../sass/dpstyles.scss */
   nav li {
     padding: 0 1%;
   }
 
-  /* line 1052, ../sass/dpstyles.scss */
+  /* line 1055, ../sass/dpstyles.scss */
   nav ul a {
     padding: 0;
   }
 
-  /* line 1056, ../sass/dpstyles.scss */
+  /* line 1059, ../sass/dpstyles.scss */
   .reviews {
     background: url("../images/greenPattern.svg") left bottom no-repeat #8fb43a;
     color: #fefefa;
@@ -1276,7 +1280,7 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
   }
 }
 @media screen and (max-width: 735px) {
-  /* line 1067, ../sass/dpstyles.scss */
+  /* line 1070, ../sass/dpstyles.scss */
   .flavor_module {
     clear: both;
     flavors: none;
@@ -1284,72 +1288,72 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
     min-height: 0px;
   }
 
-  /* line 1075, ../sass/dpstyles.scss */
+  /* line 1078, ../sass/dpstyles.scss */
   .wholesaleFlavors .column {
     float: none;
     margin: 0 auto;
   }
 
-  /* line 1080, ../sass/dpstyles.scss */
+  /* line 1083, ../sass/dpstyles.scss */
   .contact .column {
     float: none;
     width: auto;
   }
 
-  /* line 1085, ../sass/dpstyles.scss */
+  /* line 1088, ../sass/dpstyles.scss */
   .form {
     padding-bottom: 20px;
   }
 }
 @media screen and (max-width: 780px) {
-  /* line 1093, ../sass/dpstyles.scss */
+  /* line 1096, ../sass/dpstyles.scss */
   nav {
     text-align: center;
   }
 
-  /* line 1097, ../sass/dpstyles.scss */
+  /* line 1100, ../sass/dpstyles.scss */
   nav ul {
     float: none;
   }
 
-  /* line 1102, ../sass/dpstyles.scss */
+  /* line 1105, ../sass/dpstyles.scss */
   nav li {
     padding: 0 1%;
   }
 
-  /* line 1106, ../sass/dpstyles.scss */
+  /* line 1109, ../sass/dpstyles.scss */
   nav ul a {
     padding: 0;
   }
 }
 @media screen and (max-width: 820px) {
-  /* line 1113, ../sass/dpstyles.scss */
+  /* line 1116, ../sass/dpstyles.scss */
   .pieIcon {
     margin-top: 20px;
   }
 
-  /* line 1119, ../sass/dpstyles.scss */
+  /* line 1122, ../sass/dpstyles.scss */
   .footer {
     padding: 80px 10px 25px 10px;
   }
 
-  /* line 1123, ../sass/dpstyles.scss */
+  /* line 1126, ../sass/dpstyles.scss */
   .zindexContainer {
     margin-bottom: 110px;
   }
 }
 @media screen and (max-width: 940px) {
-  /* line 1130, ../sass/dpstyles.scss */
+  /* line 1133, ../sass/dpstyles.scss */
   .flavor_module .subcopy {
     text-align: left;
   }
 
-  /* line 1134, ../sass/dpstyles.scss */
+  /* line 1137, ../sass/dpstyles.scss */
   .pieIcon {
     margin-top: 20px;
   }
 
-  /* line 1138, ../sass/dpstyles.scss */
+  /* line 1141, ../sass/dpstyles.scss */
   .reviews article {
     float: none;
     clear: both;
@@ -1358,35 +1362,35 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
   }
 }
 @media screen and (max-width: 882px) {
-  /* line 1147, ../sass/dpstyles.scss */
+  /* line 1150, ../sass/dpstyles.scss */
   .flavorsHide {
     display: none;
   }
 
-  /* line 1151, ../sass/dpstyles.scss */
+  /* line 1154, ../sass/dpstyles.scss */
   .flavorsShow {
     display: block;
   }
 
-  /* line 1155, ../sass/dpstyles.scss */
+  /* line 1158, ../sass/dpstyles.scss */
   .flavorsShow h3 {
     margin-bottom: 20px;
   }
 }
-/* line 1163, ../sass/dpstyles.scss */
+/* line 1166, ../sass/dpstyles.scss */
 .wrapper {
   margin: 0 auto;
   width: 80%;
   clear: both;
 }
 @media screen and (min-width: 320px) and (max-width: 940px) {
-  /* line 1163, ../sass/dpstyles.scss */
+  /* line 1166, ../sass/dpstyles.scss */
   .wrapper {
     width: 93%;
   }
 }
 
-/* line 1173, ../sass/dpstyles.scss */
+/* line 1176, ../sass/dpstyles.scss */
 .clearfix:after {
   content: '';
   clear: both;
