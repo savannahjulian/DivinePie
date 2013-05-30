@@ -51,6 +51,10 @@ $(document).ready(function() {
 	$('.aboutThree').hide();
 
   	$('.ingredients').click(function(){
+
+  		$('.story,.benfits').removeClass('active');
+  		$(this).addClass('active');
+
 	    $('div.showhide,.aboutOne').hide();
 	    $('div.showhide,.aboutThree').hide();
 	    $('div.showhide,.aboutTwo').show();
@@ -58,6 +62,10 @@ $(document).ready(function() {
 	});
 
 	$('.benefits').click(function(){
+
+		$('.story,.ingredients').removeClass('active');
+  		$(this).addClass('active');
+
 	    $('div.showhide,.aboutTwo').hide();
 	    $('div.showhide,.aboutOne').hide();
 	    $('div.showhide,.aboutThree').show();
@@ -65,6 +73,10 @@ $(document).ready(function() {
 	});
 
 	$('.story').click(function(){
+
+		$('.benefits,.ingredients').removeClass('active');
+  		$(this).addClass('active');
+
 	    $('div.showhide,.aboutTwo').hide();
 	    $('div.showhide,.aboutThree').hide();
 	    $('div.showhide,.aboutOne').show();

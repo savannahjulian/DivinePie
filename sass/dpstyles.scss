@@ -117,7 +117,7 @@ h3 {
 	font-size: 1.33em;
 	font-family: "Intro Bold", sans-serif;
 	font-weight: normal;
-	letter-spacing: .1em;
+	letter-spacing: .09em;
 	line-height: 1.5em; 
 	margin-bottom: .6em;
 }
@@ -385,6 +385,10 @@ nav{
 	min-height: 19em;
 }
 
+.flavor_module h6{
+	letter-spacing: 0;
+}
+
 .flavor_module:nth-of-type(4){
 	clear: left;
 }
@@ -432,21 +436,46 @@ nav{
 	text-align:center;
 }
 
-.about .icon{
+
+
+.about .column{
+	float: left;
+}
+
+.icon{
 	display: block;
 	height: 70px;
 	text-align: center;
 	cursor: pointer;
-	margin-bottom: 2em;
-	float: none;
+	margin: 0 auto 4em auto;
+
 }
 
-.aboutShow{
-	display: none;
+.story.active{
+	background-position: -52px;
 }
 
-.aboutHide{
-	display: block;
+.ingredients.active{
+	background-position: -63px;
+}
+
+.benefits.active{
+	background-position: -67px;
+}
+
+.story{
+	background: url('../images/book.png') no-repeat;
+	width: 51px;
+}
+
+.ingredients{
+	background: url('../images/cup.png') no-repeat;
+	width: 62px;
+}
+
+.benefits{
+	background: url('../images/heart.png') no-repeat;
+	width: 67px;
 }
 
 /*border after about */
@@ -603,7 +632,7 @@ nav{
 }
 
 .seamBottom{
-	margin-top: -12px;
+	margin-top: -11px;
 	position: relative;
 	z-index: 1;
 }
@@ -929,7 +958,7 @@ $gutterWidth:3%;
 		}
 
 		.bodycopy{
-			font-size: .9em;
+			font-size: 1em;
 		}
 
 		.subcopy{
@@ -963,35 +992,23 @@ $gutterWidth:3%;
 		
 		.wholesaleButton{
 			width: 92%;
+			margin: 27px auto;
+		}
+
+		.icon{
+			display: block;
+			height: 70px;
+			text-align: center;
+			cursor: pointer;
+			margin: 0 auto 4em auto;
+
 		}
 
 		.about h2{
 			margin-bottom: 37px;
-		}
-
-		.about{
 			text-align: center;
 		}
 
-		.about .icon{
-			float: none;
-			clear: none;
-			height: 70px;
-			display: inline-block;
-			margin-bottom: 2em;
-		}
-
-		.about .subcopy{
-			text-align: left;
-		}
-
-		.aboutHide{
-			display: none;
-		}
-
-		.aboutShow{
-			display: block;
-		}
 
 		.logoLinks{
 			display: none;
