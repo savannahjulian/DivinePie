@@ -35,6 +35,16 @@ $(document).ready(function() {
 
 	});
 
+	$('.dp_logo').click(function(){
+		$(window).scrollTo('.container' , 800 );
+
+	});
+
+	$('.wholesaleButton').click(function(){
+		$(window).scrollTo('.contact' , 800 , {offset:{top:-75}});
+
+	});
+
 /* ABOUT SECTION */
 
 	$('.aboutTwo').hide();
