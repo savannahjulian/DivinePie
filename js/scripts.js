@@ -87,14 +87,9 @@ $(document).ready(function() {
 
 /* LOVE US SECTION CAROUSEL */
 
-	$('.carousel').cycle({
-		fx: 'scrollRight',
-		speed: 1000,
-		timeout: 0,
-		prev: '.prev',
-		next: '.next',
-		fit: true
-	});
+
+	$('.next').click(function(){
+		$(".carousel_wrapper").animate({left:'-=300'}, 800 );});
 
 });
 
