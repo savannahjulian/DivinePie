@@ -118,7 +118,7 @@ h3 {
 	font-family: "Intro Bold", sans-serif;
 	font-weight: normal;
 	letter-spacing: .09em;
-	line-height: 1.5em; 
+	line-height: 1.5em;
 	margin-bottom: .6em;
 }
 
@@ -138,7 +138,7 @@ h6 {
 	font-size: 1.04em;
 	font-family: "Intro Bold", sans-serif;
 	font-weight: normal;
-	line-height: 1.5em; 
+	line-height: 1.5em;
 	letter-spacing: .11em;
 }
 
@@ -204,7 +204,7 @@ body{
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
-	
+
 }
 
 
@@ -527,7 +527,7 @@ nav{
 }
 
 .news h2{
-	color: $green; 
+	color: $green;
 	margin-bottom: 50px;
 }
 
@@ -562,6 +562,26 @@ nav{
 	margin-top: -26px;
 
 }
+.view_target{
+	overflow: hidden;
+	position: relative;
+	height: 400px;
+
+	ul{
+		background-color: transparent;
+		width: 1000px;
+	}
+
+	li{
+		position: relative;
+		background-color: $white;
+	}
+
+	.column {
+		width: 300px;
+		float: left;
+	}
+}
 
 .controls {
 	width: 100%;
@@ -575,7 +595,9 @@ nav{
 	height: 54px;
 	width: 31px;
 	opacity: .5;
-	float: left;
+	left: -100px;
+	position: absolute;
+	z-index: 100;
 	margin: 0 0 0 30px;
 
 	:hover{
@@ -593,8 +615,10 @@ nav{
 	height: 54px;
 	width: 31px;
 	opacity: .5;
-	float: right;
 	margin: 0 30px 0 0;
+	position: absolute;
+	right: 0;
+	z-index: 100;
 
 	:hover{
 		cursor: pointer;
@@ -989,7 +1013,7 @@ $gutterWidth:3%;
 		.box{
 			padding: 50px 0;
 		}
-		
+
 		.wholesaleButton{
 			width: 92%;
 			margin: 27px auto;
@@ -1216,7 +1240,7 @@ $gutterWidth:3%;
 
 		.flavorsShow h3{
 			margin-bottom: 20px;
-		} 
+		}
 
 	}
 

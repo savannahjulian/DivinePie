@@ -21,7 +21,7 @@ var map = new google.maps.Map(document.getElementById('map-canvas'),
 var kmlUrl = 'https://maps.google.com/maps/ms?authuser=0&vps=2&ie=UTF8&msa=0&output=kml&msid=210692632242224686637.0004dd882a0fba0154878';
 
 var kmlOptions = {
-	suppressInfoWindows: true,
+	suppressInfoWindows: false,
 	preserveViewport: true,
 	map: map
 	};
@@ -30,6 +30,8 @@ var kmlLayer = new google.maps.KmlLayer(kmlUrl, kmlOptions);
 
 kmlLayer.setMap(map);
 
+
+/*
 google.maps.event.addListener(kmlLayer, 'click', function(kmlEvent)
      {
          showInContentWindow(kmlEvent.latLng, kmlEvent.Description );
@@ -44,6 +46,7 @@ google.maps.event.addListener(kmlLayer, 'click', function(kmlEvent)
         })
         infowindow.open(map);
     }
+*/
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
