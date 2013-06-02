@@ -87,12 +87,16 @@ $(document).ready(function() {
 
 /* LOVE US SECTION CAROUSEL */
 
+	$('.carousel_wrapper').waypoint(function() {
+	  notify('Basic example callback triggered.');
+	});
 
 	$('.next').click(function(){
 		$(".carousel_wrapper").animate({left:'-=340'}, 800 );});
 
 	$('.prev').click(function(){
 		$(".carousel_wrapper").animate({left:'+=340'}, 800 );});
+
 
 });
 
