@@ -89,7 +89,10 @@ $(document).ready(function() {
 
 
 	$('.next').click(function(){
-		$(".carousel_wrapper").animate({left:'-=300'}, 800 );});
+		$(".carousel_wrapper").animate({left:'-=340'}, 800 );});
+
+	$('.prev').click(function(){
+		$(".carousel_wrapper").animate({left:'+=340'}, 800 );});
 
 });
 
