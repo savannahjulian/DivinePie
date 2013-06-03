@@ -79,6 +79,13 @@ $lightblue: rgb(48,74,148);
 $blue: adjust-lightness($lightblue,-8);
 $darkblue: adjust-lightness($blue,-8);
 $white: #FEFEFA;
+@mixin border_box {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+
 
 /* GENERAL STYLES */
 
@@ -118,7 +125,7 @@ h3 {
 	font-family: "Intro Bold", sans-serif;
 	font-weight: normal;
 	letter-spacing: .09em;
-	line-height: 1.5em; 
+	line-height: 1.5em;
 	margin-bottom: .6em;
 }
 
@@ -138,7 +145,7 @@ h6 {
 	font-size: 1.04em;
 	font-family: "Intro Bold", sans-serif;
 	font-weight: normal;
-	line-height: 1.5em; 
+	line-height: 1.5em;
 	letter-spacing: .11em;
 }
 
@@ -204,7 +211,7 @@ body{
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
-	
+
 }
 
 
@@ -566,21 +573,53 @@ nav{
 	margin-top: -26px;
 
 }
+.view_target{
+	@include border_box;
+	position: relative;
+	overflow: hidden;
+	height: 400px;
+	margin: 0 auto;
+	width: 100%;
 
+	.carousel_wrapper {
+		position: absolute;
+		left:-1026px;
+		height: 400px;
+		width: 3060px;
+	}
+
+	ul{
+		background-color: transparent;
+	}
+
+	li{
+		float: left;
+		width: 320px;
+		min-height: 250px;
+		margin: 0 10px;
+		background-color: $white;
+	}
+
+	.column {
+	}
+}
+
+	.post_one{
+	}
 .controls {
 	width: 100%;
 	height: 54px;
 	position: absolute;
 	z-index: 100;
 	left: 0;
-	top: 300px;
+	top: 100px;
 }
 .prev{
 	height: 54px;
 	width: 31px;
 	opacity: .5;
-	float: left;
-	margin: 0 0 0 30px;
+	left: 3%;
+	position: absolute;
 
 	:hover{
 		cursor: pointer;
@@ -597,8 +636,8 @@ nav{
 	height: 54px;
 	width: 31px;
 	opacity: .5;
-	float: right;
-	margin: 0 30px 0 0;
+	position: absolute;
+	right: 3%;
 
 	:hover{
 		cursor: pointer;
@@ -993,7 +1032,7 @@ $gutterWidth:3%;
 		.box{
 			padding: 50px 0;
 		}
-		
+
 		.wholesaleButton{
 			width: 92%;
 			margin: 27px auto;
@@ -1220,7 +1259,7 @@ $gutterWidth:3%;
 
 		.flavorsShow h3{
 			margin-bottom: 20px;
-		} 
+		}
 
 	}
 
