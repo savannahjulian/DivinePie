@@ -111,7 +111,7 @@ h2 {
 	font-family: "Intro Book", sans-serif;
 	font-weight: normal;
 	line-height: 1.375em;
-	margin-bottom: 50px; }
+	margin-bottom: 80px; }
 
 h3 {
 	font-size: 1.33em;
@@ -173,7 +173,7 @@ h6 {
 /* large color section styles */
 
 .box{
-	padding: 80px 0;
+	padding: 100px 0;
 }
 
 
@@ -347,15 +347,20 @@ nav{
 	margin-top: -10px;
 }
 
-.wholesaleDetails{
-	color: $red;
-	padding-top: 30px;
+.wholesaleFlavors h2{
+	color: $darkgrey;
+	text-align: center;
+}
 
+.wholesaleInformation{
+	color: $darkgrey;
+	text-transform: uppercase;
+	margin-top: 70px;
 }
 
 .wholesaleButton{
 	display: block;
-	background: $lightgrey;
+	background: $darkgrey;
 	text-align: center;
 	padding: 15px 10px 10px 10px;
 	color: $white;
@@ -434,48 +439,47 @@ nav{
 
 .about h2{
 	text-align:center;
+	margin-bottom: 60px;
 }
 
 
 
 .about .column{
-	float: left;
 }
 
 .icon{
 	display: block;
-	height: 70px;
-	text-align: center;
+	height: 93px;
 	cursor: pointer;
 	margin: 0 auto 4em auto;
 
 }
 
 .story.active{
-	background-position: -52px;
+	background-position: -93px;
 }
 
 .ingredients.active{
-	background-position: -63px;
+	background-position: -93px;
 }
 
 .benefits.active{
-	background-position: -67px;
+	background-position: -93px;
 }
 
 .story{
 	background: url('../images/book.png') no-repeat;
-	width: 51px;
+	width: 93px;
 }
 
 .ingredients{
 	background: url('../images/cup.png') no-repeat;
-	width: 62px;
+	width: 93px;
 }
 
 .benefits{
 	background: url('../images/heart.png') no-repeat;
-	width: 67px;
+	width: 93px;
 }
 
 /*border after about */
@@ -527,8 +531,8 @@ nav{
 }
 
 .news h2{
-	color: $green; 
-	margin-bottom: 50px;
+	color: $darkgrey; 
+	text-align: center;
 }
 
 .news h2 a{
