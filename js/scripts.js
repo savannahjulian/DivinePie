@@ -52,7 +52,7 @@ $(document).ready(function() {
 
   	$('.ingredients').click(function(){
 
-  		$('.story,.benfits').removeClass('active');
+  		$('.story,.benefits').removeClass('active');
   		$(this).addClass('active');
 
 	    $('div.showhide,.aboutOne').hide();
