@@ -495,7 +495,18 @@ nav ul a.selected {
   margin-bottom: 60px;
 }
 
+/* line 481, ../sass/dpstyles.scss */
+.about a {
+  color: #35a7a2;
+  margin-right: 20px;
+}
+
 /* line 486, ../sass/dpstyles.scss */
+.about a:hover {
+  color: #fefefa;
+}
+
+/* line 490, ../sass/dpstyles.scss */
 .icon {
   display: block;
   height: 93px;
@@ -503,54 +514,53 @@ nav ul a.selected {
   margin: 0 auto 4em auto;
 }
 
-/* line 494, ../sass/dpstyles.scss */
+/* line 498, ../sass/dpstyles.scss */
 .story.active {
   background-position: -93px;
 }
 
-/* line 498, ../sass/dpstyles.scss */
+/* line 502, ../sass/dpstyles.scss */
 .ingredients.active {
   background-position: -93px;
 }
 
-/* line 502, ../sass/dpstyles.scss */
+/* line 506, ../sass/dpstyles.scss */
 .benefits.active {
   background-position: -93px;
 }
 
-/* line 506, ../sass/dpstyles.scss */
+/* line 510, ../sass/dpstyles.scss */
 .story {
   background: url("../images/book.png") no-repeat;
   width: 93px;
 }
 
-/* line 511, ../sass/dpstyles.scss */
+/* line 515, ../sass/dpstyles.scss */
 .ingredients {
   background: url("../images/cup.png") no-repeat;
   width: 93px;
 }
 
-/* line 516, ../sass/dpstyles.scss */
+/* line 520, ../sass/dpstyles.scss */
 .benefits {
   background: url("../images/heart.png") no-repeat;
   width: 93px;
 }
 
 /*border after about */
-/* line 523, ../sass/dpstyles.scss */
+/* line 527, ../sass/dpstyles.scss */
 .borderBlue {
   background: url("../images/triangleBlue.png") transparent 0 0 repeat;
   height: 12px;
 }
 
-/* line 528, ../sass/dpstyles.scss */
+/* line 532, ../sass/dpstyles.scss */
 .seamTop {
   margin-bottom: -12px;
   position: relative;
   z-index: 1;
 }
 
-/* green section styles */
 /* news section styles */
 /* line 541, ../sass/dpstyles.scss */
 .video {

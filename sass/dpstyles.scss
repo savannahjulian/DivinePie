@@ -478,9 +478,13 @@ nav{
 	margin-bottom: 60px;
 }
 
+.about a{
+	color: $darkaqua;
+	margin-right: 20px;
+}
 
-
-.about .column{
+.about a:hover{
+	color: $white;
 }
 
 .icon{
@@ -530,10 +534,6 @@ nav{
 	position: relative;
 	z-index: 1;
 }
-
-/* green section styles */
-
-
 
 
 /* news section styles */
