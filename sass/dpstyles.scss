@@ -493,6 +493,10 @@ nav{
 
 }
 
+.iconsShow{
+	display: none;
+}
+
 .story.active{
 	background-position: -93px;
 }
@@ -1047,7 +1051,7 @@ $gutterWidth:3%;
 		}
 
 		.subcopy{
-			font-size: .9em;
+			font-size: .84em;
 		}
 
 		nav{
@@ -1086,6 +1090,16 @@ $gutterWidth:3%;
 
 		.flavorsShow h3{
 			margin-bottom: 0px;
+		}
+
+		.iconsShow .column{
+			float: left;
+			clear: none;
+			margin: .23em;
+		}
+
+		.icon{
+			margin-bottom: .5em;
 		}
 
 		.map{
@@ -1215,6 +1229,14 @@ $gutterWidth:3%;
 
 		.form{
 			padding-bottom: 20px;
+		}
+
+		.iconsHide{
+			display: none;
+		}
+
+		.iconsShow{
+			display: block;
 		}
 
 
