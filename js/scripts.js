@@ -87,18 +87,30 @@ $(document).ready(function() {
 
 /* LOVE US SECTION CAROUSEL */
 
-	$('.carousel_wrapper').waypoint(function() {
-	  notify('Basic example callback triggered.');
-	});
+	var qty = $('.praise_module').length;
+
+	var width = (qty * 340) + 'px';
+
+	var start_pos = 4;
+
+	var start = document.getElementsByClassName("praise_module");
+
+	var i;
+
+	$('.carousel_wrapper').css({'width': width});
 
 	$('.next').click(function(){
-		$(".carousel_wrapper").animate({left:'-=340'}, 800 );});
 
-	$('.prev').click(function(){
-		$(".carousel_wrapper").animate({left:'+=340'}, 800 );});
-
+		if (var i <= qty) {
+			$('.carousel_wrapper').animate({left:'-=340px'}, 800 );
+		} else {
+			$('.carousel_wrapper').animate({right: '0px'},800);
+		}
+	});
 
 });
+
+
 
 function slideshowSetup(){
 	$('.slides').height( $(window).height() - $('.navBar').height());
