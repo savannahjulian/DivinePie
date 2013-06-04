@@ -179,11 +179,10 @@ h6 {
 }
 
 .bodycopy{
-	font-size: 1.5em;
+	font-size: 1.3em;
 	font-family: "Intro Book", sans-serif;
 	font-weight: normal;
-	letter-spacing: .0625em;
-	line-height: 1.7em;
+	line-height: 1.6em;
 }
 
 .subcopy {
@@ -480,7 +479,6 @@ nav{
 
 .about a{
 	color: $darkaqua;
-	margin-right: 20px;
 }
 
 .about a:hover{
@@ -722,7 +720,7 @@ nav{
 .findUs h2{
 	text-align: center;
 	margin-bottom: 0px;
-	color: $pink;
+	color: $darkgrey;
 }
 
 .findUs h5{
@@ -1034,7 +1032,7 @@ $gutterWidth:3%;
 		}
 
 		.subcopy{
-			font-size: .85em;
+			font-size: .9em;
 		}
 
 		nav{
@@ -1067,24 +1065,9 @@ $gutterWidth:3%;
 			margin: 27px auto;
 		}
 
-		.icon{
-			display: block;
-			height: 70px;
-			text-align: center;
-			cursor: pointer;
-			margin: 0 auto 4em auto;
-
+		.map{
+			height: 180px;
 		}
-
-		.about .column{
-			float: left;
-		}
-
-		.about h2{
-			margin-bottom: 37px;
-			text-align: center;
-		}
-
 
 		.logoLinks{
 			display: none;
@@ -1122,9 +1105,7 @@ $gutterWidth:3%;
 	}
 
 	@media screen and (max-width: 523px) {
-		.about h3{
-			display: none;
-		}
+		
 	}
 
 
