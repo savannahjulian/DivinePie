@@ -20,6 +20,7 @@ $mail_status = mail($mail_to, $subject, $body_message, $headers);
 if ($mail_status) { ?>
 	<script language="javascript" type="text/javascript">
 		alert('Thanks! Your message has been sent.');
+		window.location = 'index.html';
 	</script>
 <?php
 }
