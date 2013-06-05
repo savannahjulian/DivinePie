@@ -89,28 +89,41 @@ $(document).ready(function() {
 
 	var qty = $('.praise_module').length;
 
-	var width = (qty * 340) + 'px';
-
-	var start_pos = 4;
-
-	var start = document.getElementsByClassName("praise_module");
-
-	var i;
+	var width = (qty * 320) + 'px';
+	var scroll_reset = (qty * 320) - win_width + 20;
+	var pos = 6;
 
 	$('.carousel_wrapper').css({'width': width});
 
 	$('.next').click(function(){
-
-		if (var i <= qty) {
-			$('.carousel_wrapper').animate({left:'-=340px'}, 800 );
+		if (pos > qty - 1) {
+			$('.carousel_wrapper').animate( {left: '0'}, 800);
+			$('.prev').hide();
+			pos = 3;
 		} else {
-			$('.carousel_wrapper').animate({right: '0px'},800);
-		}
+			$('.carousel_wrapper').animate( {left:'-=320'}, 800);
+			$('.prev').show();
+			pos += 1;
+
+		};
+	});
+
+	$('.prev').click(function(){
+		if (pos == 3) {
+			$('.carousel_wrapper').animate( {left: -scroll_reset}, 800);
+			$('.next').hide();
+			pos = qty;
+		} else {
+			$('.carousel_wrapper').animate( {left:'+=320'}, 800);
+			$('.next').show();
+			pos -= 1;
+		};
 	});
 
 });
 
 
+var win_width = $(window).width();
 
 function slideshowSetup(){
 	$('.slides').height( $(window).height() - $('.navBar').height());

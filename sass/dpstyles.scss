@@ -638,7 +638,7 @@ nav{
 
 	.carousel_wrapper {
 		position: absolute;
-		left:-1020px;
+		left:-936px;
 		height: 400px;
 	}
 
@@ -648,10 +648,11 @@ nav{
 
 	li{
 		@include box-sizing(border-box);
+		position: relative;
 		float: left;
 		/*min-height: 250px;*/
 		margin: 0 10px;
-		width: 320px;
+		width: 300px;
 		background-color: $white;
 	}
 
