@@ -134,6 +134,11 @@ h1.tagline {
 	text-shadow: 0 4px 11px rgba(0,0,0,.3);
 }
 
+h1.tagline a{
+	text-decoration: none;
+	color: $white;
+}
+
 h1 span{
 	color: $red;
 }
