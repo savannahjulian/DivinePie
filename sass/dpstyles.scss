@@ -238,8 +238,6 @@ body{
 
 }
 
-
-
 .show{
 	display: none;
 }
@@ -264,6 +262,10 @@ body{
 	background-size: cover;
 	background-position: center center;
 	height: 100%;
+}
+
+.slides > img{
+	width: 50%;
 }
 
 /* facebook flag styles */
