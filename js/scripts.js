@@ -15,7 +15,7 @@ $(document).ready(function() {
 /*  STICKY HEADER/NAV CODE  */
 
 	slideshowSetup();
-	window.addEventListener('resize',slideshowSetup);
+	$(window).resize(slideshowSetup);
 
 	$('header').waypoint('sticky');
 
@@ -124,6 +124,27 @@ $(document).ready(function() {
 			$('.next').show();
 			pos -= 1;
 		};
+	});
+
+/* FORM STYLES FOR IE */
+	$('.nameInput').bind('focus',function(){
+		if($(this).val()=='Name'){
+			$(this).val('');
+		}
+	}).bind('blur',function(){
+		if($(this).val()==''){
+			$(this).val('Name');
+		}
+	});
+
+	$('.emailInput').bind('focus',function(){
+		if($(this).val()=='E-mail'){
+			$(this).val('');
+		}
+	}).bind('blur',function(){
+		if($(this).val()==''){
+			$(this).val('E-mail');
+		}
 	});
 
 });
