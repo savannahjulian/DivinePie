@@ -6,6 +6,12 @@ $(document).ready(function() {
     	animation: "slide"
     });
 
+/* LIGHTBOX */
+
+	$(".boxer").boxer({
+    fixed: true
+	});
+
 /*  STICKY HEADER/NAV CODE  */
 
 	slideshowSetup();

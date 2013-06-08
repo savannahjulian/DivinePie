@@ -11,6 +11,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 	<link rel="Stylesheet" href="css/dpstyles.css" type="text/css" media="all" />
 	<link rel="Stylesheet" href="css/flexslider.css" type="text/css" media="all" />
+	<link rel="Stylesheet" href="css/jquery.fs.boxer.css" type="text/css" media="all" />
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.cycle.all.latest.js"></script>
@@ -18,6 +19,7 @@
 	<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
 	<script src="js/waypoints.min.js"></script>
 	<script src="js/waypoints-sticky.min.js"></script>
+	<script src="js/jquery.fs.boxer.min.js"></script>
 	<script>
 	$(document).ready(function() {
 	  $.ajaxSetup({ cache: true });
@@ -225,7 +227,7 @@ h6 - Newsfeed titles (INTRO)
 			</section>
 
 			<div class="downArrow">
-				<img src="images/downTriangleWhite.png">
+				<img src="images/downTriangleWhite.png" />
 			</div>
 
 			<section class="marketFlavors box">
@@ -459,7 +461,11 @@ h6 - Newsfeed titles (INTRO)
 						<section>
 							<div class="column col-6">
 								<div class="video">
-									<iframe src="http://www.youtube.com/embed/CEc34nuiuEM" allowfullscreen></iframe>
+									<!--<iframe src="http://www.youtube.com/embed/CEc34nuiuEM" allowfullscreen></iframe>-->
+
+									<a href="http://www.youtube.com/embed/CEc34nuiuEM" rel="videos" class="boxer">
+										<img src="images/video.jpg" />
+									</a>
 								</div>
 
 								<h3>DIVINE PIE ON THE COOKING CHANNEL!</h3>
