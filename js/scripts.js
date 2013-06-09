@@ -102,24 +102,37 @@ $(document).ready(function() {
 	$('.carousel_wrapper').css({'width': width});
 
 	$('.next').click(function(){
-		if (pos > qty - 1) {
+		if (pos == qty) {
 			$('.carousel_wrapper').animate( {left: '0'}, 800);
 			$('.prev').hide();
-			pos = 3;
+			pos = 4;
+
+		} else if (pos == qty - 1) {
+
+			$('.carousel_wrapper').animate( {left: -scroll_reset}, 800);
+			pos += 1;
+
 		} else {
+
 			$('.carousel_wrapper').animate( {left:'-=320'}, 800);
 			$('.prev').show();
 			pos += 1;
-
 		};
 	});
 
 	$('.prev').click(function(){
-		if (pos == 3) {
+
+		if (pos == 5){
+			$('.carousel_wrapper').animate( {left: '0'}, 800);
+			pos -= 1;
+
+		} else if (pos == 4) {
 			$('.carousel_wrapper').animate( {left: -scroll_reset}, 800);
 			$('.next').hide();
 			pos = qty;
+
 		} else {
+
 			$('.carousel_wrapper').animate( {left:'+=320'}, 800);
 			$('.next').show();
 			pos -= 1;

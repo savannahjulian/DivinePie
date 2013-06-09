@@ -707,6 +707,7 @@ nav ul a.selected {
 /* line 654, ../sass/dpstyles.scss */
 .view_target .carousel_wrapper {
   position: absolute;
+  left: -484px;
   height: 500px;
 }
 /* line 660, ../sass/dpstyles.scss */
