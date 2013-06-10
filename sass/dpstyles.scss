@@ -617,10 +617,11 @@ nav{
 
 .reviews a{
 	color: $green;
+	text-decoration: underline;
 }
 
 .reviews a:hover{
-	color: $darkgrey;
+	color: $darkgreen;
 }
 
 .reviews h2{
@@ -643,6 +644,7 @@ nav{
 .author{
 	color: $green;
 }
+
 
 .view_target{
 	position: relative;
@@ -789,6 +791,10 @@ nav{
 	vertical-align: middle;
 	text-align: left;
 	text-indent: -9999px;
+}
+
+.logoLinks.box{
+	padding: 60px 0px 50px 0;
 }
 
 .wholeFoods{
@@ -1112,6 +1118,14 @@ $gutterWidth:3%;
 
 		.icon{
 			margin-bottom: .5em;
+		}
+
+		.about h2{
+			margin-bottom: 40px;
+		}
+
+		.news h2{
+			margin-bottom: 40px;
 		}
 
 		.map{
