@@ -770,8 +770,15 @@ nav{
 	height: 500px;
 }
 
-#map-canvas { height: 100% }
+#map-canvas { height: 100%;
 
+	> div {
+		line-height: 1.4em;
+		overflow: auto;
+		min-height: 500px;
+	}
+
+}
 
 /* vendor logo links section styles */
 
