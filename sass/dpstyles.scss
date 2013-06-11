@@ -774,8 +774,18 @@ nav{
 
 	> div {
 		line-height: 1.4em;
+		min-width: 300px !important;
 		overflow: auto;
-		min-height: 500px;
+	}
+
+	> div a {
+		font-family: "Intro bold", sans-serif !important;
+		font-weight: normal !important;
+		color: $darkred;
+	}
+
+	> div a:hover {
+		text-decoration: underline;
 	}
 
 }
