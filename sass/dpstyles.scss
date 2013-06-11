@@ -114,6 +114,10 @@ $white: #FEFEFA;
 
 /* GENERAL STYLES */
 
+*{
+	-webkit-tap-highlight-color: transparent;
+}
+
 a{
 	text-decoration: none;
 	outline: none;
