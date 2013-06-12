@@ -250,33 +250,13 @@ body{
 .show{
 	display: none;
 }
-
 /* slideshow styles */
-
-#slideshow{
-	position: relative;
-  	height: 600px; /* arbritary height to give form!!!! */
-	width: 100%;
-	overflow: hidden;
-}
-
-#slideshow > div{
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100%;
-	width: 100%;
-}
 
 .flexslider .slides > li{
 	background-size: cover;
 	background-position: center center;
 	height: 100%;
 }
-
-.slides > img{
-	width: 50%;
-}
-
 /* facebook flag styles */
 
 .facebookFlag{
