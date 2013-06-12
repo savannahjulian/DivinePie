@@ -97,17 +97,17 @@ $(document).ready(function() {
 
 	var width = (qty * 320) + 'px';
 	var scroll_reset = (qty * 320) - win_width + 20;
-	var pos = 6;
+	var pos = 3;
 
 	$('.carousel_wrapper').css({'width': width});
 
 	$('.next').click(function(){
-		if (pos == qty) {
+		if (pos == qty - 2) {
 			$('.carousel_wrapper').animate( {left: '0'}, 800);
 			$('.prev').hide();
-			pos = 4;
+			pos = 0;
 
-		} else if (pos == qty - 1) {
+		} else if (pos == qty - 3) {
 
 			$('.carousel_wrapper').animate( {left: -scroll_reset}, 800);
 			pos += 1;
