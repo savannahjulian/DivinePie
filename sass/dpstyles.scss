@@ -638,7 +638,6 @@ nav{
 	margin: 0 auto;
 	width: 100%;
 	-webkit-transform: translate3d(0,0,0);
-
 	.carousel_wrapper {
 		position: absolute;
 		left: -484px;
@@ -673,7 +672,6 @@ nav{
 	left: 0;
 	top: 100px;
 }
-
 .prev{
 	height: 54px;
 	width: 31px;
@@ -687,13 +685,11 @@ nav{
 		opacity: .75;
 	}
 }
-
 .prev .arrow{
 	height: 54px;
 	width: 31px;
 	background: transparent url('../images/arrows.png') no-repeat 0 0;
 }
-
 .next{
 	height: 54px;
 	width: 31px;
@@ -707,12 +703,12 @@ nav{
 		color: #333;
 	}
 }
-
 .next .arrow{
 	height: 54px;
 	width: 31px;
 	background: transparent url('../images/arrows.png') no-repeat -31px 0;
 }
+
 
 /*border after reviews */
 
@@ -1034,50 +1030,270 @@ $gutterWidth:3%;
 
 }
 
-@media screen and (max-width: 1024px) {
-	.view_target{
-		.carousel_wrapper {
-			left: -616px;
-			}
-	}
-}
+@media screen and (max-width : 320px) {
 
-@media screen and (max-width: 940px) {
 
-	.flavor_module .subcopy{
-		text-align: left;
+	nav ul li h6{
+			font-size: .8em;
 	}
 
-	.pieIcon{
-		margin-top: 20px;
-	}
-
-	/*.reviews article{
-		float: none;
-		clear: both;
-		width: auto;
-		margin-bottom: 20px;
-	}*/
-}
-
-@media screen and (max-width : 882px) {
-
-	.flavorsIntro{
-		width: 97%;
-		margin-bottom: 1em;
-	}
-
-	.spacer{
-		display: none;
-	}
-
-	.flavors{
-		width: 47%;
+	footer .subcopy{
+		font-size: .75em;
 	}
 
 }
 
-@media screen and (max-width : 828px) {
+@media screen and (max-width : 480px) {
+
+		.hide{
+			display: none;
+		}
+
+		h2{
+			font-size: 2em;
+		}
+
+		.introduction h2{
+			margin-bottom: .6em;
+		}
+
+		h3{
+
+			font-size: 1.2em;
+		}
+
+
+		h5{
+			font-size: .9em;
+		}
+
+		.bodycopy{
+			font-size: 1em;
+		}
+
+		.subcopy{
+			font-size: .84em;
+		}
+
+		nav{
+			text-align: center;
+		}
+
+		nav ul{
+			float: none;
+			padding: 20px 0 17px 0;
+		}
+
+		nav h6{
+			font-size: 1em;
+		}
+
+		nav li{
+			padding: 0 1%;
+		}
+
+		nav ul a{
+			padding: 0;
+		}
+
+		.box{
+			padding: 50px 0;
+		}
+
+		.wholesaleFlavors h2{
+			margin-bottom: 20px;
+		}
+
+		.wholesaleButton{
+			width: 92%;
+			margin: 27px auto;
+		}
+
+
+		.iconsShow .column{
+			float: left;
+			clear: none;
+			width: 30%;
+		}
+
+		.icon{
+			margin-bottom: .5em;
+		}
+
+		.about h2{
+			margin-bottom: 40px;
+		}
+
+		.news h2{
+			margin-bottom: 40px;
+		}
+
+		.map{
+			height: 180px;
+		}
+
+		.logoLinks{
+			display: none;
+		}
+
+		.marketRight{
+			padding: 50px 0;
+		}
+
+		.form{
+			padding-bottom: 20px;
+		}
+
+		.footer{
+			padding: 80px 10px 25px 10px;
+		}
+
+		.zindexContainer{
+			margin-bottom: 110px;
+		}
+
+		.show{
+			display: block;
+			margin: 0 auto;
+			background: $white;
+			padding-top: 20px;
+		}
+
+		.show img{
+			width: 100%;
+		}
+
+
+
+	}
+
+	@media screen and (max-width: 523px) {
+
+	}
+
+
+	@media screen and (max-width : 675px) {
+
+		.flexslider{
+			display: none;
+		}
+
+		.dp_logo{
+			display: none;
+		}
+
+		.facebookFlag{
+			display: none;
+		}
+
+		.show{
+			display: block;
+			margin: 0 auto;
+			background: $white;
+			padding-top: 20px;
+		}
+
+		.show img{
+			width: 100%;
+		}
+
+		.logoLarge{
+			background: url('../images/beige_paper.png');
+			position: relative;
+			z-index: 200;
+		}
+
+		nav{
+			text-align: center;
+		}
+
+		nav ul{
+			float: none;
+			padding: 20px 0 17px 0;
+		}
+
+		nav h6{
+			font-size: 1em;
+		}
+
+		nav li{
+			padding: 0 1%;
+		}
+
+		nav ul a{
+			padding: 0;
+		}
+
+		.reviews{
+			background: url('../images/greenPattern.svg') left bottom no-repeat $green;
+			color: $white;
+			background-size: 550px;
+		}
+
+	}
+
+
+	@media screen and (max-width : 735px) {
+
+		.flavor_module{
+			clear: both;
+			flavors: none;
+			width: 75%;
+			min-height: 0px;
+
+		}
+
+		.wholesaleFlavors .column{
+			float: none;
+			margin: 0 auto;
+		}
+
+		.contact .column{
+			float: none;
+			width: auto;
+		}
+
+		.form{
+			padding-bottom: 20px;
+		}
+
+		.iconsHide{
+			display: none;
+		}
+
+		.iconsShow{
+			display: block;
+		}
+
+
+	}
+
+	@media screen and (max-width : 780px ) {
+		nav{
+			text-align: center;
+		}
+
+		nav ul{
+			float: none;
+
+		}
+
+		nav li{
+			padding: 0 1%;
+		}
+
+		nav ul a{
+			padding: 0;
+		}
+	}
+
+	@media screen and (max-width: 800px){
+		h1.tagline.long{
+			top: 33%;
+		}
+	}
+
+	@media screen and (max-width : 828px) {
 
 		.pieIcon{
 			margin-top: 20px;
@@ -1092,278 +1308,51 @@ $gutterWidth:3%;
 		}
 	}
 
-@media screen and (max-width: 800px){
-	h1.tagline.long{
-		top: 33%;
-	}
 
-	.view_target{
-		.carousel_wrapper {
-			left: -888px;
-			}
-	}
-}
+	@media screen and (max-width: 940px) {
 
-@media screen and (max-width : 780px ) {
-	nav{
-		text-align: center;
-	}
-
-	nav ul{
-		float: none;
-
-	}
-
-	nav li{
-		padding: 0 1%;
-	}
-
-	nav ul a{
-		padding: 0;
-	}
-}
-
-@media screen and (max-width : 735px) {
-
-	.flavor_module{
-		clear: both;
-		flavors: none;
-		width: 75%;
-		min-height: 0px;
-	}
-
-	.wholesaleFlavors .column{
-		float: none;
-		margin: 0 auto;
-	}
-
-	.contact .column{
-		float: none;
-		width: auto;
-	}
-
-	.form{
-		padding-bottom: 20px;
-	}
-
-	.iconsHide{
-		display: none;
-	}
-
-	.iconsShow{
-		display: block;
-	}
-}
-
-@media screen and (max-width : 675px) {
-
-	.flexslider{
-		display: none;
-	}
-
-	.dp_logo{
-		display: none;
-	}
-
-	.facebookFlag{
-		display: none;
-	}
-
-	.show{
-		display: block;
-		margin: 0 auto;
-		background: $white;
-		padding-top: 20px;
-	}
-
-	.show img{
-		width: 100%;
-	}
-
-	.logoLarge{
-		background: url('../images/beige_paper.png');
-		position: relative;
-		z-index: 200;
-	}
-
-	nav{
-		text-align: center;
-	}
-
-	nav ul{
-		float: none;
-		padding: 20px 0 17px 0;
-	}
-
-	nav h6{
-		font-size: 1em;
-	}
-
-	nav li{
-		padding: 0 1%;
-	}
-
-	nav ul a{
-		padding: 0;
-	}
-
-	.reviews{
-		background: url('../images/greenPattern.svg') left bottom no-repeat $green;
-		color: $white;
-		background-size: 550px;
-	}
-
-	.view_target{
-		.carousel_wrapper {
-			left: -968px;
-			}
-	}
-}
-
-@media screen and (max-width: 523px) {}
-
-@media screen and (max-width : 480px) {
-
-	.hide{
-		display: none;
-	}
-
-	h2{
-		font-size: 2em;
-	}
-
-	.introduction h2{
-		margin-bottom: .6em;
-	}
-
-	h3{
-
-		font-size: 1.2em;
-	}
-
-	h5{
-		font-size: .9em;
-	}
-
-	.bodycopy{
-		font-size: 1em;
-	}
-
-	.subcopy{
-		font-size: .84em;
-	}
-
-	nav{
-		text-align: center;
-	}
-
-	nav ul{
-		float: none;
-		padding: 20px 0 17px 0;
-	}
-
-	nav h6{
-		font-size: 1em;
-	}
-
-	nav li{
-		padding: 0 1%;
-	}
-
-	nav ul a{
-		padding: 0;
-	}
-
-	.box{
-		padding: 50px 0;
-	}
-
-	.wholesaleFlavors h2{
-		margin-bottom: 20px;
-	}
-
-	.wholesaleButton{
-		width: 92%;
-		margin: 27px auto;
-	}
-
-	.iconsShow .column{
-		float: left;
-		clear: none;
-		width: 30%;
-	}
-
-	.icon{
-		margin-bottom: .5em;
-	}
-
-	.about h2{
-		margin-bottom: 40px;
-	}
-
-	.news h2{
-		margin-bottom: 40px;
-	}
-
-	.map{
-		height: 180px;
-	}
-
-	.logoLinks{
-		display: none;
-	}
-
-	.marketRight{
-		padding: 50px 0;
-	}
-
-	.form{
-		padding-bottom: 20px;
-	}
-
-	.footer{
-		padding: 80px 10px 25px 10px;
-	}
-
-	.zindexContainer{
-		margin-bottom: 110px;
-	}
-
-	.show{
-		display: block;
-		margin: 0 auto;
-		background: $white;
-		padding-top: 20px;
-	}
-
-	.show img{
-		width: 100%;
-	}
-}
-
-@media screen and ( min-width: 320px ) and ( max-width: 940px ) {
-
-	.wrapper {
-		margin: 0 auto;
-		width: 80%;
-		clear: both;
-		width: 93%;
+		.flavor_module .subcopy{
+			text-align: left;
 		}
-}
 
-@media screen and (max-width : 320px) {
+		.pieIcon{
+			margin-top: 20px;
+		}
 
-	nav ul li h6{
-			font-size: .8em;
+		/*.reviews article{
+			float: none;
+			clear: both;
+			width: auto;
+			margin-bottom: 20px;
+		}*/
 	}
 
-	footer .subcopy{
-		font-size: .75em;
+	@media screen and (max-width : 882px) {
+
+		.flavorsIntro{
+			width: 97%;
+			margin-bottom: 1em;
+		}
+
+		.spacer{
+			display: none;
+		}
+
+		.flavors{
+			width: 47%;
+		}
+
 	}
-	.view_target{
-		.carousel_wrapper {
-			left: -1306px;
-			}
+
+
+
+.wrapper {
+	margin: 0 auto;
+	width: 80%;
+	clear: both;
+
+	@media screen and ( min-width: 320px ) and ( max-width: 940px ) {
+		width: 93%;
 	}
 }
 
