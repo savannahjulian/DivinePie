@@ -91,42 +91,79 @@ $(document).ready(function() {
 
 /* LOVE US SECTION CAROUSEL */
 
+	var module_width = $('.praise_module').width();
 	var qty = $('.praise_module').length;
-
-	var width = (qty * 320) + 'px';
-	var scroll_reset = (qty * 320) - win_width + 20;
+	var width = (qty * 334) + 'px';
+	var scroll_reset = (qty * 334) - win_width + 20;
 	var pos = 3;
-	var next_reset = 0 + (win_width / 2) - 170;
-	var prev_reset = (qty * 320) - (win_width / 2 + 160);
+	var next_reset = 0 + (win_width / 2) - 168;
+	var prev_reset = (qty * 334) - (win_width / 2 + 276);
 
 	$('.carousel_wrapper').css({'width': width});
 
 	$('.next').click(function(){
-		if (pos == qty - 2 ) {
-			$('.carousel_wrapper').animate( {left: next_reset}, 800);
-			$('.prev').hide();
-			pos = 0;
+		if (module_width > 240) {
+
+			if (pos == qty - 1) {
+				$('.carousel_wrapper').animate( {left: next_reset}, 800);
+				$('.prev').hide();
+				pos = 0;
+
+			} else {
+
+				$('.carousel_wrapper').animate( {left:'-=318'}, 800);
+				$('.prev').show();
+				pos += 1;
+
+			}
 
 		} else {
 
-			$('.carousel_wrapper').animate( {left:'-=320'}, 800);
-			$('.prev').show();
-			pos += 1;
-		};
+			if (pos == qty) {
+
+				$('.carousel_wrapper').animate( {left: next_reset}, 800);
+				$('.prev').hide();
+				pos = 0;
+
+			} else {
+
+				$('.carousel_wrapper').animate( {left:'-=336'}, 800);
+				$('.prev').show();
+				pos += 1;
+			}
+		}
 	});
 
 	$('.prev').click(function(){
 
-		if (pos == 0) {
-			$('.carousel_wrapper').animate( {left: -prev_reset}, 800);
-			$('.next').hide();
-			pos = qty - 2;
+		if (module_width > 240) {
+
+			if (pos == 0) {
+				$('.carousel_wrapper').animate( {left: -prev_reset}, 800);
+				$('.next').hide();
+				pos = qty - 1;
+
+			} else {
+
+				$('.carousel_wrapper').animate( {left:'+=318'}, 800);
+				$('.next').show();
+				pos -= 1;
+			};
 
 		} else {
 
-			$('.carousel_wrapper').animate( {left:'+=320'}, 800);
-			$('.next').show();
-			pos -= 1;
+			if (pos == 1) {
+
+				$('.carousel_wrapper').animate( {left: -prev_reset}, 800);
+				$('.next').hide();
+				pos = qty;
+
+			} else {
+
+				$('.carousel_wrapper').animate( {left:'+=335'}, 800);
+				$('.next').show();
+				pos -= 1;
+			};
 		};
 	});
 

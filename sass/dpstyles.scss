@@ -667,12 +667,11 @@ nav{
 		vertical-align:top;
 		// float: left;
 		/*min-height: 250px;*/
-		margin: 0 10px;
-		width: 300px;
 		background-color: $white;
 	}
-
-	.column {
+	.praise_module{
+		margin: 0 10px;
+		width: 300px;
 	}
 }
 
@@ -1393,7 +1392,11 @@ $gutterWidth:3%;
 	}
 	.view_target{
 		.carousel_wrapper {
-			left: -1306px;
+			left: -682px;
+			}
+		.praise_module {
+			width: 280px;
+			margin: 0 25px;
 			}
 	}
 }
