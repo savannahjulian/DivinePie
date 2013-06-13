@@ -1546,58 +1546,68 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
   }
 
   /* line 1323, ../sass/dpstyles.scss */
+  .flavorsIntro {
+    margin-bottom: 0px;
+  }
+
+  /* line 1327, ../sass/dpstyles.scss */
+  .flavorsIntro h3 {
+    margin-bottom: 0px;
+  }
+
+  /* line 1331, ../sass/dpstyles.scss */
   .iconsShow .column {
     float: left;
     clear: none;
     width: 30%;
   }
 
-  /* line 1329, ../sass/dpstyles.scss */
+  /* line 1337, ../sass/dpstyles.scss */
   .icon {
     margin-bottom: .5em;
   }
 
-  /* line 1333, ../sass/dpstyles.scss */
+  /* line 1341, ../sass/dpstyles.scss */
   .about h2 {
     margin-bottom: 40px;
   }
 
-  /* line 1337, ../sass/dpstyles.scss */
+  /* line 1345, ../sass/dpstyles.scss */
   .news h2 {
     margin-bottom: 40px;
   }
 
-  /* line 1341, ../sass/dpstyles.scss */
+  /* line 1349, ../sass/dpstyles.scss */
   .map {
     height: 180px;
   }
 
-  /* line 1345, ../sass/dpstyles.scss */
+  /* line 1353, ../sass/dpstyles.scss */
   .logoLinks {
     display: none;
   }
 
-  /* line 1349, ../sass/dpstyles.scss */
+  /* line 1357, ../sass/dpstyles.scss */
   .marketRight {
     padding: 50px 0;
   }
 
-  /* line 1353, ../sass/dpstyles.scss */
+  /* line 1361, ../sass/dpstyles.scss */
   .form {
     padding-bottom: 20px;
   }
 
-  /* line 1357, ../sass/dpstyles.scss */
+  /* line 1365, ../sass/dpstyles.scss */
   .footer {
     padding: 80px 10px 25px 10px;
   }
 
-  /* line 1361, ../sass/dpstyles.scss */
+  /* line 1369, ../sass/dpstyles.scss */
   .zindexContainer {
     margin-bottom: 110px;
   }
 
-  /* line 1365, ../sass/dpstyles.scss */
+  /* line 1373, ../sass/dpstyles.scss */
   .show {
     display: block;
     margin: 0 auto;
@@ -1605,28 +1615,28 @@ form input[type=submit]:active, form .contact form input[type=reset]:active {
     padding-top: 20px;
   }
 
-  /* line 1372, ../sass/dpstyles.scss */
+  /* line 1380, ../sass/dpstyles.scss */
   .show img {
     width: 100%;
   }
 }
 @media screen and (max-width: 320px) {
-  /* line 1379, ../sass/dpstyles.scss */
+  /* line 1387, ../sass/dpstyles.scss */
   nav ul li h6 {
     font-size: .8em;
   }
 
-  /* line 1383, ../sass/dpstyles.scss */
+  /* line 1391, ../sass/dpstyles.scss */
   footer .subcopy {
     font-size: .75em;
   }
 
-  /* line 1387, ../sass/dpstyles.scss */
+  /* line 1395, ../sass/dpstyles.scss */
   .view_target .carousel_wrapper {
     left: -1306px;
   }
 }
-/* line 1395, ../sass/dpstyles.scss */
+/* line 1403, ../sass/dpstyles.scss */
 .clearfix:after {
   content: '';
   clear: both;
