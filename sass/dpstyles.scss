@@ -965,15 +965,31 @@ form {
 		-webkit-appearance: none;
 		}
 
+	textarea::-webkit-input-placeholder { /* WebKit browsers */
+	    color:$white;
+	}
+	textarea:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	    color:$white;
+	}
+	textarea::-moz-placeholder { /* Mozilla Firefox 19+ */
+	    color:$white;
+	}
+	textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
+	    color:$white;
+	}
+
 	input[type=submit] , #contact form input[type=reset]{
 		width: 88px;
 		margin-top: 16px;
 		-webkit-appearance: none;
-}
+		cursor: pointer;
+	}
 
 	input[type=submit]:active , .contact form input[type=reset]:active {
 		background: $lightgrey;
-		color: $darkgrey;}
+		color: $darkgrey;
+
+	}
 }
 
 /* footer styles */
