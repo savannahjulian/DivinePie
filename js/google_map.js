@@ -18,7 +18,7 @@ var mapOptions = {
 var map = new google.maps.Map(document.getElementById('map-canvas'),
     mapOptions);
 
-var kmlUrl = 'https://sites.google.com/site/dpvendorskml/kml-files/DPvendors.kml?attredirects=0&d=1';
+var kmlUrl = 'http://sites.google.com/site/dpvendorskml/kml-files/kml_network_link.kml?attredirects=0&d=1';
 
 var kmlOptions = {
 	suppressInfoWindows: false,
@@ -29,14 +29,6 @@ var kmlOptions = {
 var kmlLayer = new google.maps.KmlLayer(kmlUrl, kmlOptions);
 
 kmlLayer.setMap(map);
-
-/*
- google.maps.event.addListener(kmlLayer, 'click', function(event) {
-    var content = event.featureData.infoWindowHtml;
-    var testimonial = document.getElementById('content-window');
-    testimonial.innerHTML = content;
-  });
-*/
 
 }
 
