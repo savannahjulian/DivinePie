@@ -18,7 +18,7 @@ var mapOptions = {
 var map = new google.maps.Map(document.getElementById('map-canvas'),
     mapOptions);
 
-var kmlUrl = 'http://sites.google.com/site/dpvendorskml/kml-files/kml_network_link.kml?attredirects=0&d=1';
+var kmlUrl = 'https://sites.google.com/site/dpvendorskml/kml-files/kml_network_link.kml?'+"?dummy="+(new Date()).getTime();
 
 var kmlOptions = {
 	suppressInfoWindows: false,

@@ -1135,7 +1135,7 @@ $gutterWidth:3%;
 
 	.view_target{
 		.carousel_wrapper {
-			left: -888px;
+			left: -722px;
 			}
 	}
 }
@@ -1256,7 +1256,17 @@ $gutterWidth:3%;
 	}
 }
 
-@media screen and (max-width: 523px) {}
+@media screen and (max-width: 640px) {
+
+	.reviews h2{
+			margin-bottom: 50px;
+		}
+	.view_target{
+		.carousel_wrapper {
+			left: -810px;
+		}
+	}
+}
 
 @media screen and (max-width : 480px) {
 
@@ -1394,9 +1404,21 @@ $gutterWidth:3%;
 	footer .subcopy{
 		font-size: .75em;
 	}
+
+	.controls{
+		top: 48px;
+
+		.prev{
+			left: 3px;
+		}
+		.next{
+			right: 3px;
+		}
+	}
+
 	.view_target{
 		.carousel_wrapper {
-			left: -682px;
+			left: -1016px;
 			}
 		.praise_module {
 			width: 280px;

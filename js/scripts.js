@@ -97,7 +97,9 @@ $(document).ready(function() {
 	var scroll_reset = (qty * 334) - win_width + 20;
 	var pos = 3;
 	var next_reset = 0 + (win_width / 2) - 168;
+	var dev_next_reset = 0 + (win_width / 2) - 172;
 	var prev_reset = (qty * 334) - (win_width / 2 + 276);
+	var dev_prev_reset = (qty * 334) - (win_width / 2 + 156);
 
 	$('.carousel_wrapper').css({'width': width});
 
@@ -119,15 +121,15 @@ $(document).ready(function() {
 
 		} else {
 
-			if (pos == qty) {
+			if (pos == qty - 1) {
 
-				$('.carousel_wrapper').animate( {left: next_reset}, 800);
+				$('.carousel_wrapper').animate( {left: dev_next_reset}, 800);
 				$('.prev').hide();
 				pos = 0;
 
 			} else {
 
-				$('.carousel_wrapper').animate( {left:'-=336'}, 800);
+				$('.carousel_wrapper').animate( {left:'-=334'}, 800);
 				$('.prev').show();
 				pos += 1;
 			}
@@ -152,15 +154,15 @@ $(document).ready(function() {
 
 		} else {
 
-			if (pos == 1) {
+			if (pos == 0) {
 
-				$('.carousel_wrapper').animate( {left: -prev_reset}, 800);
+				$('.carousel_wrapper').animate( {left: -dev_prev_reset}, 800);
 				$('.next').hide();
-				pos = qty;
+				pos = qty - 1;
 
 			} else {
 
-				$('.carousel_wrapper').animate( {left:'+=335'}, 800);
+				$('.carousel_wrapper').animate( {left:'+=334'}, 800);
 				$('.next').show();
 				pos -= 1;
 			};
