@@ -19,7 +19,7 @@ $(document).ready(function() {
 
 	$('header').waypoint('sticky');
 
-/* scroll to function */
+/* scrollTo function */
 
 	$('#flavorsLink').click(function(){
 		$(window).scrollTo('.wholesaleFlavors' , 800 , {offset:{top:-75}});
@@ -89,8 +89,6 @@ $(document).ready(function() {
 
 	});
 
-/* FACEBOOK TOGGLE */
-
 /* LOVE US SECTION CAROUSEL */
 
 	var qty = $('.praise_module').length;
@@ -98,19 +96,16 @@ $(document).ready(function() {
 	var width = (qty * 320) + 'px';
 	var scroll_reset = (qty * 320) - win_width + 20;
 	var pos = 3;
+	var next_reset = 0 + (win_width / 2) - 170;
+	var prev_reset = (qty * 320) - (win_width / 2 + 160);
 
 	$('.carousel_wrapper').css({'width': width});
 
 	$('.next').click(function(){
-		if (pos == qty - 2) {
-			$('.carousel_wrapper').animate( {left: '0'}, 800);
+		if (pos == qty - 2 ) {
+			$('.carousel_wrapper').animate( {left: next_reset}, 800);
 			$('.prev').hide();
 			pos = 0;
-
-		} else if (pos == qty - 3) {
-
-			$('.carousel_wrapper').animate( {left: -scroll_reset}, 800);
-			pos += 1;
 
 		} else {
 
@@ -122,14 +117,10 @@ $(document).ready(function() {
 
 	$('.prev').click(function(){
 
-		if (pos == 5){
-			$('.carousel_wrapper').animate( {left: '0'}, 800);
-			pos -= 1;
-
-		} else if (pos == 4) {
-			$('.carousel_wrapper').animate( {left: -scroll_reset}, 800);
+		if (pos == 0) {
+			$('.carousel_wrapper').animate( {left: -prev_reset}, 800);
 			$('.next').hide();
-			pos = qty;
+			pos = qty - 2;
 
 		} else {
 
@@ -162,12 +153,8 @@ $(document).ready(function() {
 
 });
 
-
 var win_width = $(window).width();
 
 function slideshowSetup(){
 	$('.slides').height( $(window).height() - $('.navBar').height());
 }
-
-
-
