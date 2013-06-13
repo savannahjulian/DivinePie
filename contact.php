@@ -4,7 +4,7 @@ $field_email = $_POST['cf_email'];
 $field_phone = $_POST['cf_phone'];
 $field_message = $_POST['cf_message'];
 
-$mail_to = 'savannah.julian@gmail.com';
+$mail_to = 'divinepiepdx@yahoo.com';
 $subject = '[Web Contact] '.$field_name;
 
 $body_message = 'From: '.$field_name."\n";
