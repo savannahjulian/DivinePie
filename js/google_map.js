@@ -1,3 +1,6 @@
+google.maps.visualRefresh = true;
+var map;
+
 function initialize() {
 
 var styles = [
@@ -15,10 +18,9 @@ var mapOptions = {
 	styles: styles
     };
 
-var map = new google.maps.Map(document.getElementById('map-canvas'),
-    mapOptions);
+    map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
-var kmlUrl = 'https://sites.google.com/site/dpvendorskml/kml-files/kml_network_link.kml?'+"?dummy="+(new Date()).getTime();
+var kmlUrl = 'https://sites.google.com/site/dpvendorskml/kml-files/kml_network_link.kml?v=' + Math.round(Math.random() * 10000000000);
 
 var kmlOptions = {
 	suppressInfoWindows: false,
@@ -26,10 +28,32 @@ var kmlOptions = {
 	map: map
 	};
 
-var kmlLayer = new google.maps.KmlLayer(kmlUrl, kmlOptions);
+var kmlLayer = new google.maps.KmlLayer('https://sites.google.com/site/dpvendorskml/kml-files/kml_network_link.kml?v=' + Math.round(Math.random() * 10000000000),
+  ({suppressInfoWindows : false,
+	preserveViewport : true,
+	map : map}));
 
 kmlLayer.setMap(map);
 
+setInterval(refresh, 20000, kmlLayer);
 }
+
+function refresh(kmlLayer) {
+
+var newKmlLayer = new google.maps.KmlLayer('https://sites.google.com/site/dpvendorskml/kml-files/kml_network_link.kml?v=' + Math.round(Math.random() * 10000000000),
+  ({suppressInfoWindows : false,
+	preserveViewport : true,
+	map : map}));
+
+	kmlLayer.setMap(null);
+
+	newKmlLayer.setMap(map);
+}
+
+/*
+var kmlLayer = new google.maps.KmlLayer(kmlUrl, kmlOptions);
+
+kmlLayer.setMap(map);
+*/
 
 google.maps.event.addDomListener(window, 'load', initialize);
