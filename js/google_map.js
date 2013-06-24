@@ -1,4 +1,5 @@
 google.maps.visualRefresh = true;
+
 var map;
 
 function initialize() {
@@ -18,15 +19,7 @@ var mapOptions = {
 	styles: styles
     };
 
-    map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
-var kmlUrl = 'https://sites.google.com/site/dpvendorskml/kml-files/kml_network_link.kml?v=' + Math.round(Math.random() * 10000000000);
-
-var kmlOptions = {
-	suppressInfoWindows: false,
-	preserveViewport: true,
-	map: map
-	};
+map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
 var kmlLayer = new google.maps.KmlLayer('https://sites.google.com/site/dpvendorskml/kml-files/kml_network_link.kml?v=' + Math.round(Math.random() * 10000000000),
   ({suppressInfoWindows : false,
@@ -49,11 +42,5 @@ var newKmlLayer = new google.maps.KmlLayer('https://sites.google.com/site/dpvend
 
 	newKmlLayer.setMap(map);
 }
-
-/*
-var kmlLayer = new google.maps.KmlLayer(kmlUrl, kmlOptions);
-
-kmlLayer.setMap(map);
-*/
 
 google.maps.event.addDomListener(window, 'load', initialize);
